@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>yuogc</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'img/logo.png' %}">
+</head>
+
+<body>
+
+<header>
+    <nav class="main_block">
+        <a class="logo-button">
+            <img src="{% static 'img/logo.png' %}" class="logo">
+        </a>
+        <ul class="ul-top">
+            {% if request.path == '/' %}
+            <li class="choice">{% else %}
+            <li>{% endif %}
+                <a href="/">YouGC</a>
+            </li>
+            {% if request.path == '/shop' %}
+            <li class="choice">{% else %}
+            <li>{% endif %}
+                <a href="/shop">Магазин</a>
+            </li>
+            {% if request.path == '/donate' %}
+            <li class="choice">{% else %}
+            <li>{% endif %}
+                <a href="/donate">Донат</a>
+            </li>
+            {% if request.path == '/1' %}
+            <li class="choice">{% else %}
+            <li>{% endif %}
+                <a href="#">Discord</a>
+            </li>
+            {% if request.path == '/1' %}
+            <li class="choice">{% else %}
+            <li>{% endif %}
+                <a href="#">Сервера</a>
+            </li>
+            {% if request.path == '/1' %}
+            <li class="choice">{% else %}
+            <li>{% endif %}
+                <a href="#">Правила</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<!-- основной блок --->
+
+<main role="main">
+    {% block content %}
+    <div class="up-block main_block">
+        {% include "patterns/slide_show.html" %}
+    </div>
+    <div class="left-block main_block">
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+        <!-- VK Widget -->
+        <div id="vk_groups"></div>
+        <script type="text/javascript">
+            VK.Widgets.Group("vk_groups", {mode: 4, no_cover: 1, height: "400", width: "auto", color1: '000000', color2: 'FFFFFF', color3: '096249'}, 202950114);
+
+        </script>
+    </div>
+    <div class="right-block main_block">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/server_table.css' %}">
+        <table class="server-table">
+            <thead>
+            <tr class="head">
+                <th>Сервер</th>
+                <th>Статус</th>
+                <th>Онлайн</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for server in servers %}
+            <tr class="server {{server.class_status}}" onclick="javascript:location.href='/servers/{{server.name}}';">
+                <td class="label">{{server.label}}</td>
+                <td class="status">{{server.status}}</td>
+                <td class="online">{% if server.on %}{{server.online}}{% else %}-{% endif %}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endblock %}
+</main>
+<footer class="main_block">
+    <div class="footer-raw">
+        <ul>
+            <li><a href="#">что-то</a></li>
+            <li><a href="#">нтересное</a></li>
+            <li><a href="#">лол</a></li>
+            <li><a href="#">почта@gmail.com</a></li>
+            <li><a href="#">+7-966-666-66-66</a></li>
+            <li><a href="https://www.instagram.com/a_yanochkin/?hl=ru">YaAlex</a></li>
+        </ul>
+    </div>
+    <div class="social">
+        <ul class="social-icons">
+            <li><a class="social-icon-twitter" href="#" title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-fb" href="#" title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-vk" href="https://vk.com/yougc" title="..." target="_blank" rel="noopener"></a>
+            </li>
+            <li><a class="social-icon-telegram" href="#" title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-youtube" href="https://www.youtube.com/channel/UCC45vBQ6Zpx0fN_5gFxN-3w/videos"
+                   title="..." target="_blank" rel="noopener"></a></li>
+        </ul>
+    </div>
+
+</footer>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="{% static 'scripts/panorama.js' %}"></script>

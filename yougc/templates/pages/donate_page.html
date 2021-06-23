@@ -1,0 +1,62 @@
+{% extends 'patterns/main_page.html' %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/card.css' %}">
+
+<div class="label"><h1><span>ROLEPLAY</span> - проходки</h1></div>
+<div class="card-container">
+    <div class="card">
+        <h1>1</h1>
+        <h2>месяц</h2>
+        <h3 id="coast1">75₽</h3>
+        <button onclick="" id="1"><span>купить</span></button>
+    </div>
+    <div class="card">
+        <div class="sale" id="sale2"></div>
+        <h1>3</h1>
+        <h2>месяца</h2>
+        <h3 id="coast2">200₽</h3>
+        <button onclick="" id="2"><span>купить</span></button>
+    </div>
+    <div class="card">
+        <div class="sale" id="sale3"></div>
+        <h1>ДО</h1>
+        <h2>конца сезона</h2>
+        <h3 id="coast3">400₽</h3>
+        <button onclick="" id="3"><span>купить</span></button>
+    </div>
+
+</div>
+<div class="label"><h1><span>ANARCHY</span> - артефакты</h1></div>
+<div class="card-container">
+    <div class="card">
+        <h1>1</h1>
+        <h2>месяц</h2>
+        <h3 id="coast4">100₽</h3>
+        <button onclick="" id="4"><span>купить</span></button>
+    </div>
+    <div class="card">
+        <div class="sale" id="sale5"></div>
+        <h1>3</h1>
+        <h2>месяца</h2>
+        <h3 id="coast5">200₽</h3>
+        <button onclick="" id="5"><span>купить</span></button>
+    </div>
+    <div class="card">
+        <div class="sale" id="sale6"></div>
+        <h1>5</h1>
+        <h2>месяцев</h2>
+        <h3 id="coast6">500₽</h3>
+        <button onclick="" id="6"><span>купить</span></button>
+    </div>
+    <div class="card">
+        <div class="sale" id="sale7"></div>
+        <h1>ДО</h1>
+        <h2>конца сезона</h2>
+        <h3 id="coast7">999₽</h3>
+        <button onclick="" id="7"><span>купить</span></button>
+    </div>
+
+</div>
+{% endblock %}
