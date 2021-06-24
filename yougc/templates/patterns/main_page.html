@@ -12,7 +12,7 @@
 <body>
 
 <header>
-    <nav class="main_block">
+    <nav class="nav main_block">
         <a class="logo-button">
             <img src="{% static 'img/logo.png' %}" class="logo">
         </a>
@@ -48,6 +48,15 @@
                 <a href="#">Правила</a>
             </li>
         </ul>
+        {% if not request.user.is_authenticated %}
+        <a class="login-button" href="/login">
+            Войти
+        </a>
+        {% else %}
+        <a class="login-button" href="/profile">
+            {{ request.user.username }}
+        </a>
+        {% endif %}
     </nav>
 </header>
 <!-- основной блок --->
@@ -63,7 +72,6 @@
         <div id="vk_groups"></div>
         <script type="text/javascript">
             VK.Widgets.Group("vk_groups", {mode: 4, no_cover: 1, height: "400", width: "auto", color1: '000000', color2: 'FFFFFF', color3: '096249'}, 202950114);
-
         </script>
     </div>
     <div class="right-block main_block">
@@ -87,13 +95,14 @@
             </tbody>
         </table>
     </div>
+
     {% endblock %}
 </main>
 <footer class="main_block">
     <div class="footer-raw">
         <ul>
             <li><a href="#">что-то</a></li>
-            <li><a href="#">нтересное</a></li>
+            <li><a href="#">интересное</a></li>
             <li><a href="#">лол</a></li>
             <li><a href="#">почта@gmail.com</a></li>
             <li><a href="#">+7-966-666-66-66</a></li>

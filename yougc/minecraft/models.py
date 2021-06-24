@@ -1,4 +1,25 @@
+from hashlib import sha256
+
 from django.db import models
+
+
+class AuthmeManager(models.Manager):
+    @staticmethod
+    def check_password(user, password):
+        def sha(_password: str):
+            return sha256(_password.encode()).hexdigest()
+
+        try:
+            code, salt, _hash = user.password.split('$')[1:]
+        except:
+            return False
+        return sha(sha(password) + salt) == _hash
+
+    def getuser(self, username):  # not beautiful
+        try:
+            return self.get(realname=username)
+        except:
+            return None
 
 
 class Authme(models.Model):
@@ -21,6 +42,8 @@ class Authme(models.Model):
     totp = models.CharField(max_length=32, blank=True, null=True)
     yaw = models.FloatField(blank=True, null=True)
     pitch = models.FloatField(blank=True, null=True)
+
+    objects = AuthmeManager()
 
     class Meta:
         managed = False

@@ -1,0 +1,22 @@
+{% extends 'patterns/main_page.html' %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+<div class="up-block main_block" style="padding: 10px">
+    <form action="/login" method="post" class="login">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <p><input type="submit" value="Войти"/></p>
+        <p><a href="/">Забыли пароль?</a></p>
+    </form>
+
+    {# Assumes you setup the password_reset view in your URLconf #}
+
+    <span>{{f}}</span>
+
+</div>
+{% endblock %}

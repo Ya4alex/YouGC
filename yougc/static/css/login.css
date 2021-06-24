@@ -1,0 +1,72 @@
+.login {
+}
+
+.login .fieldWrapper label {
+    margin: 5px;
+}
+
+.login .fieldWrapper input {
+    margin: 5px;
+}
+
+.login ul {
+    font-size: 90%;
+    list-style-type: none;
+}
+
+.login li {
+}
+
+.login table {
+    width: 100%;
+}
+
+.login tr {
+}
+
+.login th {
+    text-decoration: none;
+    text-align: end;
+    padding-right: 3px;
+    width: 50%;
+}
+
+.login th label {
+}
+
+.login td {
+    margin-left: 5px;
+    text-align: justify;
+}
+
+.login td input {
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 1px;
+}
+
+.login p {
+}
+
+.login p input {
+    border: none;
+    padding: 4px;
+    width: calc(100% - 10px);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.login p a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 15px black;
+    font-size: 90%;
+    margin-left: 5px;
+    transition: 0.15s;
+}
+
+.login p a:hover {
+    color: #4eeec1;
+    transition: 0.15s;
+}

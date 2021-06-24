@@ -3,9 +3,9 @@ from .models import Authme, KonlineOnline
 
 
 # Register your models here.
-class AuthmeUseItDumbassAdminModel(admin.ModelAdmin):
+class AuthmeAdminModel(admin.ModelAdmin):
     list_display = ['realname', 'ip', 'is_superuser', 'email', 'password']
-    search_list = ['realname', 'ip', 'email']
+    search_list = ('realname', 'ip', 'email', )
 
     class Meta:
         model = Authme
@@ -18,5 +18,5 @@ class KonlineOnlineAdminModel(admin.ModelAdmin):
         model = KonlineOnline
 
 
-admin.site.register(Authme, AuthmeUseItDumbassAdminModel)
+admin.site.register(Authme, AuthmeAdminModel)
 admin.site.register(KonlineOnline, KonlineOnlineAdminModel)
