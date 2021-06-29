@@ -1,5 +1,49 @@
 {% extends 'patterns/main_page.html' %}
+{% load static%}
 
+{% block css%}
+<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}">
+{%endblock%}
 {% block content %}
-    {{ f }}
+<div class="main_block shop-navbar">
+    <ul>
+        {% for list_category in categories %}
+        <li class="{{list_category.css_class}}">
+            <a href="/shop/{{list_category.name}}">{{ list_category.long_name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="#" class="balance">
+        100 баллов
+    </a>
+</div>
+<div class="shop-container">
+    <div class="shop-left-side" id="border">
+        <div class="shop-slide-show">
+            {% include "patterns/slide_show.html" %}
+        </div>
+        <div class="sort-container">
+            <label>
+                <select onchange="window.location.href = this.options[this.selectedIndex].value">
+                    {% for item in sort_list %}
+                    <option {{item.selected}} value="/shop/{{category}}?sort={{item.tag}}">{{item.name}}</option>
+                    {% endfor %}
+                </select>
+            </label>
+        </div>
+    </div>
+    <div class="shop-items-container crop-block" id="crop">
+        {% for product in category %}
+        <div class="shop-item">
+            <h1>{{product.long_name}}</h1>
+            <img src="/static/img/shop/{{category}}/{{product.img}}">
+            <span>{{product.price}} баллов</span>
+            <a href="/shop/{{category}}/{{product}}/buy">Купить</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'scripts/crop.js' %}"></script>
 {% endblock %}

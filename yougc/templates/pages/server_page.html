@@ -1,0 +1,79 @@
+{% extends 'patterns/main_page.html' %}
+
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/server_status.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/server.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/list_table.css' %}">
+{% endblock %}
+{% block content %}
+<div class="main_block up-block server-block">
+    <div class="server-label">
+        <span class="server-label-big">{{server.label}}</span>
+        <span class="server-label-small">- это приватный сервер ориентированный на дружескую атмосферу и РП отыгрыш.</span>
+    </div>
+</div>
+<div class="left-block main_block server-slide-block" id="border">
+    {% include "patterns/slide_show.html" %}
+</div>
+<div class="right-block main_block server-players-block">
+    <div class="server-label">
+            <span class="server-label-small">Статус - <span
+                    class="{{server.class_status}}">{{server.status}}</span></span>
+    </div>
+</div>
+<div class="right-block main_block server-players-block">
+    <div class="server-label">
+        <span class="server-label-count">Игроков онлайн: {{server.online}}</span>
+    </div>
+</div>
+<div class="right-block main_block server-players-block crop-block" id="crop">
+    <table class="list-table">
+        <thead>
+        <tr class="head">
+            <th>Ник</th>
+            <th>Время игры</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for player in server.players %}
+        <tr onclick="javascript:location.href='/servers/{{server.name}}';">
+            <td class="label">{{player.name}}</td>
+            <td class="status">{{player.b_time}}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="center-block main_block server-text-block">
+    <span class="server-label-big">О Сервере</span>
+    <section>
+        <h1>Добро пожаловать!</h1>
+        <p>-Ты попал в «Твой игровой уголок» (YouGC)</p>
+        <p>-Что это за сервер?</p>
+        <p>-Сейчас объясню OwO</p>
+
+        <h1>[Проходка]</h1>
+        <p>
+            На сервер можно попасть совершенно бесплатно!
+            Для этого вам нужно написать в личные сообщения группы, где вам всё объяснят.
+        </p>
+
+        <h1>[Направление сервера]</h1>
+        <p>О чём этот сервер и каков он внутри?</p>
+        <p>Скажу сразу, мы не пытаемся идти в какое-то жёсткое рп, но, всё же, тесно с ним связаны.
+            Фокус направлен на обретение новых знакомств, отдых после тяжёлого дня и банальное веселье без излишней
+            токсичности.</p>
+
+        <p>Мы стараемся стать местом, от куда не захочется уходить, где любой сможет продвигать свои идеи и развиваться
+            творчески.</p>
+
+        <p>Это сервер, где всё зависит от вас!</p>
+    </section>
+</div>
+<div class="center-block main_block server-text-block">
+
+</div>
+
+{% endblock %}

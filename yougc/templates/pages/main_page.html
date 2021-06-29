@@ -1,0 +1,46 @@
+{% extends 'patterns/main_page.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/list_table.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/server_status.css' %}">
+{% endblock %}
+{% block content %}
+<div class="main_block  up-block">
+    {% include "patterns/slide_show.html" %}
+</div>
+<div class="left-block main_block">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+    <!-- VK Widget -->
+    <div id="border">
+        <div id="vk_groups"></div>
+    </div>
+    <script type="text/javascript" src="{% static 'scripts/vk.js' %}"></script>
+</div>
+<div class="right-block main_block">
+    <table class="list-table">
+        <thead>
+        <tr class="head">
+            <th>Сервер</th>
+            <th>Статус</th>
+            <th>Онлайн</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for server in servers %}
+        <tr class="{{server.class_status}}" onclick="javascript:location.href='/servers/{{server.name}}';">
+            <td class="label">{{server.label}}</td>
+            <td class="status">{{server.status}}</td>
+            <td class="online">{% if server.on %}{{server.online}}{% else %}-{% endif %}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="right-block main_block crop-block" id="crop">
+    {% include "patterns/leader_board.html" %}
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'scripts/crop.js' %}"></script>
+{% endblock %}

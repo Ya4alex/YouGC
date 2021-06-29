@@ -1,0 +1,18 @@
+<table class="list-table">
+    <thead>
+    <tr class="head">
+        <th>Рейтинг</th>
+        <th>Ник</th>
+        <th>Баллы</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for player in leader_board %}
+    <tr class="place-{{player.class_status}}" onclick="javascript:location.href='/servers/{{server.name}}';">
+        <td class="label">{{player.place}}</td>
+        <td class="status">{{player.name}}</td>
+        <td class="online">{{player.scores}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

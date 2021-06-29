@@ -1,9 +1,10 @@
 {% extends 'patterns/main_page.html' %}
+{% load static %}
+{% block css%}
+<link rel="stylesheet" type="text/css" href="{% static 'css/card.css' %}">
+{%endblock%}
 
 {% block content %}
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/card.css' %}">
-
 <div class="label"><h1><span>ROLEPLAY</span> - проходки</h1></div>
 <div class="card-container">
     <div class="card">

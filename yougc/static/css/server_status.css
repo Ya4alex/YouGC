@@ -1,0 +1,15 @@
+.server-maintenance {
+    color: #a6af00;
+}
+
+.server-on {
+    color: #1ba750;
+}
+
+.server-finish {
+    color: #0058c2;
+}
+
+.server-off {
+    color: #b20000;
+}

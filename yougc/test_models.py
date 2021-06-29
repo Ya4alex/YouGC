@@ -8,73 +8,34 @@
 from django.db import models
 
 
-class AuthGroup(models.Model):
-    name = models.CharField(unique=True, max_length=150)
+class Punishmenthistory(models.Model):
+    name = models.CharField(max_length=16, blank=True, null=True)
+    uuid = models.CharField(max_length=35, blank=True, null=True)
+    reason = models.CharField(max_length=100, blank=True, null=True)
+    operator = models.CharField(max_length=16, blank=True, null=True)
+    punishmenttype = models.CharField(db_column='punishmentType', max_length=16, blank=True, null=True)  # Field name made lowercase.
+    start = models.TextField(blank=True, null=True)
+    end = models.TextField(blank=True, null=True)
+    calculation = models.CharField(max_length=50, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'auth_group'
+        db_table = 'PunishmentHistory'
 
 
-class AuthGroupPermissions(models.Model):
-    id = models.BigAutoField(primary_key=True)
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
-    permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_group_permissions'
-        unique_together = (('group', 'permission'),)
-
-
-class AuthPermission(models.Model):
-    name = models.CharField(max_length=255)
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING)
-    codename = models.CharField(max_length=100)
+class Punishments(models.Model):
+    name = models.CharField(max_length=16, blank=True, null=True)
+    uuid = models.CharField(max_length=35, blank=True, null=True)
+    reason = models.CharField(max_length=100, blank=True, null=True)
+    operator = models.CharField(max_length=16, blank=True, null=True)
+    punishmenttype = models.CharField(db_column='punishmentType', max_length=16, blank=True, null=True)  # Field name made lowercase.
+    start = models.TextField(blank=True, null=True)
+    end = models.TextField(blank=True, null=True)
+    calculation = models.CharField(max_length=50, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'auth_permission'
-        unique_together = (('content_type', 'codename'),)
-
-
-class AuthUser(models.Model):
-    password = models.CharField(max_length=128)
-    last_login = models.DateTimeField(blank=True, null=True)
-    is_superuser = models.IntegerField()
-    username = models.CharField(unique=True, max_length=150)
-    first_name = models.CharField(max_length=150)
-    last_name = models.CharField(max_length=150)
-    email = models.CharField(max_length=254)
-    is_staff = models.IntegerField()
-    is_active = models.IntegerField()
-    date_joined = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user'
-
-
-class AuthUserGroups(models.Model):
-    id = models.BigAutoField(primary_key=True)
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-    group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user_groups'
-        unique_together = (('user', 'group'),)
-
-
-class AuthUserUserPermissions(models.Model):
-    id = models.BigAutoField(primary_key=True)
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
-    permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'auth_user_user_permissions'
-        unique_together = (('user', 'permission'),)
+        db_table = 'Punishments'
 
 
 class Authme(models.Model):
@@ -103,49 +64,15 @@ class Authme(models.Model):
         db_table = 'authme'
 
 
-class DjangoAdminLog(models.Model):
-    action_time = models.DateTimeField()
-    object_id = models.TextField(blank=True, null=True)
-    object_repr = models.CharField(max_length=200)
-    action_flag = models.PositiveSmallIntegerField()
-    change_message = models.TextField()
-    content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING, blank=True, null=True)
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING)
+class KactivityLeaderboard(models.Model):
+    place = models.IntegerField()
+    name = models.CharField(max_length=45)
+    balance = models.IntegerField()
+    gotbalance = models.IntegerField()
 
     class Meta:
         managed = False
-        db_table = 'django_admin_log'
-
-
-class DjangoContentType(models.Model):
-    app_label = models.CharField(max_length=100)
-    model = models.CharField(max_length=100)
-
-    class Meta:
-        managed = False
-        db_table = 'django_content_type'
-        unique_together = (('app_label', 'model'),)
-
-
-class DjangoMigrations(models.Model):
-    id = models.BigAutoField(primary_key=True)
-    app = models.CharField(max_length=255)
-    name = models.CharField(max_length=255)
-    applied = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_migrations'
-
-
-class DjangoSession(models.Model):
-    session_key = models.CharField(primary_key=True, max_length=40)
-    session_data = models.TextField()
-    expire_date = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'django_session'
+        db_table = 'kactivity_leaderboard'
 
 
 class KactivityList(models.Model):
@@ -288,14 +215,6 @@ class KpasswordsMessages(models.Model):
         db_table = 'kpasswords_messages'
 
 
-class MinecraftMypermissionsmixin(models.Model):
-    id = models.BigAutoField(primary_key=True)
-
-    class Meta:
-        managed = False
-        db_table = 'minecraft_mypermissionsmixin'
-
-
 class RoleplayInput(models.Model):
     message = models.TextField()
 
@@ -312,10 +231,35 @@ class RoleplayOutput(models.Model):
         db_table = 'roleplay_output'
 
 
+class SiteProduct(models.Model):
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=45)
+    long_name = models.CharField(max_length=45)
+    description = models.TextField(blank=True, null=True)
+    price = models.IntegerField()
+    category = models.ForeignKey('SiteProductCategory', models.DO_NOTHING, db_column='category')
+    buyers_count = models.IntegerField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'site_product'
+
+
+class SiteProductCategory(models.Model):
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=45, blank=True, null=True)
+    long_name = models.CharField(max_length=128, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'site_product_category'
+
+
 class SiteProductQueue(models.Model):
     name = models.CharField(max_length=45)
-    product = models.TextField()
+    product_text = models.TextField()
     server = models.CharField(max_length=45)
+    product = models.ForeignKey(SiteProduct, models.DO_NOTHING, db_column='product')
 
     class Meta:
         managed = False

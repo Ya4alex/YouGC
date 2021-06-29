@@ -1,0 +1,30 @@
+.list-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 0;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.list-table thead {
+    box-shadow: 0 4px 3px rgb(0 0 0 / 50%);
+}
+
+.list-table td {
+    padding: 5px;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+}
+
+.list-table th {
+    padding: 5px;
+}
+.place-1{
+    color: #b20000;
+}
+.place-2{
+    color: #a6af00;
+}
+.place-3{
+    color: #1ba750;
+}

@@ -1,60 +1,48 @@
 .login {
+    width: 300px;
+    margin: 12px auto;
+}
+
+.login .fieldWrapper {
+    margin-top: 5px;
 }
 
 .login .fieldWrapper label {
-    margin: 5px;
+    width: 100%;
+    font-size: 120%;
 }
 
 .login .fieldWrapper input {
-    margin: 5px;
+    width: -webkit-fill-available;
+    margin: 5px 0px;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
 }
 
 .login ul {
-    font-size: 90%;
     list-style-type: none;
 }
 
 .login li {
-}
-
-.login table {
-    width: 100%;
-}
-
-.login tr {
-}
-
-.login th {
-    text-decoration: none;
-    text-align: end;
-    padding-right: 3px;
-    width: 50%;
-}
-
-.login th label {
-}
-
-.login td {
-    margin-left: 5px;
-    text-align: justify;
-}
-
-.login td input {
-    border-radius: 5px;
-    border: none;
-    padding: 3px;
-    margin: 1px;
+    color: red;
 }
 
 .login p {
 }
 
+.login .none {
+    display: none;
+}
+
 .login p input {
     border: none;
     padding: 4px;
-    width: calc(100% - 10px);
-    margin: 5px;
+    width: 100%;
     border-radius: 5px;
+    background: #1ba750;
+    color: white;
+    margin: auto;
 }
 
 .login p a {
@@ -69,4 +57,21 @@
 .login p a:hover {
     color: #4eeec1;
     transition: 0.15s;
+}
+.login-info{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.login-info h1 {
+    text-decoration: underline;
+}
+.login-info span {
+}
+
+.login-info a{
+    color: #1ba750
+}
+.login-info a:hover{
+    text-decoration: underline;
 }

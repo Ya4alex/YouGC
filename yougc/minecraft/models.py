@@ -48,6 +48,21 @@ class Authme(models.Model):
     class Meta:
         managed = False
         db_table = 'authme'
+        verbose_name = 'Игрок'
+        verbose_name_plural = 'Игроки'
+
+
+class KactivityLeaderboard(models.Model):
+    place = models.IntegerField()
+    name = models.CharField(max_length=45)
+    balance = models.IntegerField()
+    gotbalance = models.IntegerField()
+
+    class Meta:
+        managed = False
+        db_table = 'kactivity_leaderboard'
+        verbose_name = 'Игрок'
+        verbose_name_plural = 'Рейтинг игроков'
 
 
 class KactivityList(models.Model):
@@ -62,100 +77,8 @@ class KactivityList(models.Model):
     class Meta:
         managed = False
         db_table = 'kactivity_list'
-
-
-class KactivityQueue(models.Model):
-    name = models.CharField(max_length=45)
-    action = models.CharField(max_length=45)
-    balance = models.IntegerField()
-    gotbalance = models.IntegerField()
-    server = models.CharField(max_length=45)
-
-    class Meta:
-        managed = False
-        db_table = 'kactivity_queue'
-
-
-class KactivityRoles(models.Model):
-    roles = models.CharField(max_length=45)
-    points = models.IntegerField()
-
-    class Meta:
-        managed = False
-        db_table = 'kactivity_roles'
-
-
-class KactivityToday(models.Model):
-    name = models.CharField(max_length=45)
-    total = models.TextField()
-    server = models.CharField(max_length=45)
-    got = models.IntegerField()
-
-    class Meta:
-        managed = False
-        db_table = 'kactivity_today'
-
-
-class KbankAccounts(models.Model):
-    name = models.CharField(max_length=45)
-    balance = models.IntegerField()
-    password = models.CharField(max_length=45)
-    verif = models.IntegerField()
-    discord = models.CharField(max_length=45)
-
-    class Meta:
-        managed = False
-        db_table = 'kbank_accounts'
-
-
-class KbankCodes(models.Model):
-    name = models.CharField(max_length=45)
-    code = models.CharField(max_length=45)
-    date = models.TextField()
-
-    class Meta:
-        managed = False
-        db_table = 'kbank_codes'
-
-
-class KbankHistory(models.Model):
-    accountfrom = models.CharField(db_column='accountFROM', max_length=45)  # Field name made lowercase.
-    accountto = models.CharField(db_column='accountTO', max_length=45)  # Field name made lowercase.
-    money = models.IntegerField()
-    action = models.CharField(max_length=45)
-    banker = models.CharField(max_length=45)
-
-    class Meta:
-        managed = False
-        db_table = 'kbank_history'
-
-
-class KbankLastId(models.Model):
-    last_post = models.IntegerField()
-
-    class Meta:
-        managed = False
-        db_table = 'kbank_last_id'
-
-
-class KbankQueue(models.Model):
-    accountfrom = models.CharField(db_column='accountFROM', max_length=45)  # Field name made lowercase.
-    accountto = models.CharField(db_column='accountTO', max_length=45)  # Field name made lowercase.
-    money = models.IntegerField()
-    action = models.CharField(max_length=45)
-    verif = models.IntegerField()
-
-    class Meta:
-        managed = False
-        db_table = 'kbank_queue'
-
-
-class KnewsKnews(models.Model):
-    last_post = models.IntegerField()
-
-    class Meta:
-        managed = False
-        db_table = 'knews_knews'
+        verbose_name = 'Игрок'
+        verbose_name_plural = 'Игроки'
 
 
 class KonlineList(models.Model):
@@ -166,6 +89,8 @@ class KonlineList(models.Model):
     class Meta:
         managed = False
         db_table = 'konline_list'
+        verbose_name = 'Онлайн игрок'
+        verbose_name_plural = 'Игроки Онлайн'
 
 
 class KonlineOnline(models.Model):
@@ -179,46 +104,52 @@ class KonlineOnline(models.Model):
     class Meta:
         managed = False
         db_table = 'konline_online'
+        verbose_name = 'Сервер'
+        verbose_name_plural = 'Сервера'
 
 
-class KpasswordsMessages(models.Model):
-    player = models.CharField(max_length=45)
-    message = models.CharField(max_length=255)
-
-    class Meta:
-        managed = False
-        db_table = 'kpasswords_messages'
-
-
-class MinecraftMypermissionsmixin(models.Model):
-    id = models.BigAutoField(primary_key=True)
-
-    class Meta:
-        managed = False
-        db_table = 'minecraft_mypermissionsmixin'
-
-
-class RoleplayInput(models.Model):
-    message = models.TextField()
+class SiteProduct(models.Model):
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=45)
+    long_name = models.CharField(max_length=45)
+    description = models.TextField(blank=True, null=True)
+    price = models.IntegerField()
+    category = models.ForeignKey('SiteProductCategory', models.DO_NOTHING, db_column='category')
+    buyers_count = models.IntegerField(blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'roleplay_input'
+        db_table = 'site_product'
+        verbose_name = 'продукт'
+        verbose_name_plural = 'Продукты'
+
+    def __str__(self):
+        return self.name
 
 
-class RoleplayOutput(models.Model):
-    message = models.TextField()
+class SiteProductCategory(models.Model):
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=45, blank=True, null=True)
+    long_name = models.CharField(max_length=128, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'roleplay_output'
+        db_table = 'site_product_category'
+        verbose_name = 'категория'
+        verbose_name_plural = 'Категории'
+
+    def __str__(self):
+        return self.name
 
 
 class SiteProductQueue(models.Model):
     name = models.CharField(max_length=45)
-    product = models.TextField()
+    product_text = models.TextField()
     server = models.CharField(max_length=45)
+    product = models.ForeignKey(SiteProduct, models.DO_NOTHING, db_column='product')
 
     class Meta:
         managed = False
         db_table = 'site_product_queue'
+        verbose_name = 'очердь'
+        verbose_name_plural = 'Очередь'

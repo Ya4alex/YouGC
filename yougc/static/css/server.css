@@ -1,0 +1,43 @@
+.server-label {display: flex;align-items: center;}
+
+.server-label-big {
+    color: white;
+    text-shadow: 0 0 22px black;
+    font-size: 250%;
+    padding: 5px 5px 5px 15px;
+}
+
+.server-label-small {
+    color: white;
+    text-shadow: 0 0 22px black;
+    padding: 5px;
+    font-size: 110%;
+}
+
+.server-label-count {padding: 5px;}
+
+.server-slide-block {
+    width: 70%;
+}
+
+.server-players-block {
+    width: 28.5%;
+}
+.server-players-block::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+.server-block {
+    padding-bottom: 7px;
+}
+.server-text-block{}
+.server-text-block section{
+    padding: 5px 20px 15px 20px;
+}
+.server-text-block h1{
+}
+.server-text-block p{
+    text-indent: 20px;
+    padding-left: 5px;
+}
