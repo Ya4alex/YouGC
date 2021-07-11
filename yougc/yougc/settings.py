@@ -15,6 +15,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SITE_LINK = 'http://127.0.0.1:8000'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -24,7 +25,7 @@ SECRET_KEY = 'django-insecure--_-%aufj_ps22n9m+4dq+1#dn^!@@az)ny1ug(nj(5gr603c-7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -81,9 +82,11 @@ DATABASES = {
     'yougc': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'krovinka_main',
-        'USER': 'krovinka_main',
-        'PASSWORD': 'WFk4z5%5',
-        'HOST': 'krovinka.beget.tech',
+        # 'USER': 'krovinka_main',
+        'USER': 'django',
+        # 'PASSWORD': 'WFk4z5%5',
+        'PASSWORD': '0427Sasha',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
@@ -117,6 +120,9 @@ EMAIL_USE_SSL = False
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
+EMAIL_DELTA_TIME = 900.  # unix (float)
+EMAIL_SEND_PAUSE = 300
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -142,3 +148,10 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# urls:
+LOGIN_URL = '/login'
+
+# const
+DEFAULT_SERVER = 'roleplay'
+DEFAULT_CATEGORY = 'elytras'

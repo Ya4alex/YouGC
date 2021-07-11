@@ -1,0 +1,11 @@
+{% extends 'patterns/main_page.html' %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+<div class="up-block main_block" style="padding: 10px">
+    <div>
+        <span style="font-size: 404%">404 </span><small>{{message}}</small>
+    </div>
+</div>
+{% endblock %}

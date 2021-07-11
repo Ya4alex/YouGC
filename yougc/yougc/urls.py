@@ -20,3 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('minecraft.urls'))
 ]
+
+handler404 = 'minecraft.views.custom_404'

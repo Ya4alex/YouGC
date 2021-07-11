@@ -1,5 +1,11 @@
+import secrets
+import uuid
+import time
+from datetime import datetime
 from hashlib import sha256
 
+from django.conf import settings
+from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -51,6 +57,13 @@ class Authme(models.Model):
         verbose_name = 'Игрок'
         verbose_name_plural = 'Игроки'
 
+    def set_password(self, raw_password):
+        def sha(_password: str):
+            return sha256(_password.encode()).hexdigest()
+
+        salt = secrets.token_hex(8)
+        self.password = f"$SHA${salt}${sha(sha(raw_password) + salt)}"
+
 
 class KactivityLeaderboard(models.Model):
     place = models.IntegerField()
@@ -100,6 +113,7 @@ class KonlineOnline(models.Model):
     status = models.CharField(max_length=45)
     date = models.TextField()
     send = models.IntegerField()
+    long_name = models.CharField(max_length=45, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -110,12 +124,14 @@ class KonlineOnline(models.Model):
 
 class SiteProduct(models.Model):
     id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=45)
+    name = models.CharField(unique=True, max_length=45)
     long_name = models.CharField(max_length=45)
     description = models.TextField(blank=True, null=True)
     price = models.IntegerField()
     category = models.ForeignKey('SiteProductCategory', models.DO_NOTHING, db_column='category')
     buyers_count = models.IntegerField(blank=True, null=True)
+    servers = models.ManyToManyField(KonlineOnline, through='SiteProductKonlineOnline',
+                                     through_fields=('site_product', 'konline_online'))
 
     class Meta:
         managed = False
@@ -123,13 +139,25 @@ class SiteProduct(models.Model):
         verbose_name = 'продукт'
         verbose_name_plural = 'Продукты'
 
+    def get_picture(self):
+        return f"{self.name}.png"
+
     def __str__(self):
         return self.name
 
 
+class SiteProductKonlineOnline(models.Model):
+    site_product = models.ForeignKey(SiteProduct, models.DO_NOTHING, db_column='site_product')
+    konline_online = models.ForeignKey(KonlineOnline, models.DO_NOTHING, db_column='konline_online')
+
+    class Meta:
+        managed = False
+        db_table = 'site_product_konline_online'
+
+
 class SiteProductCategory(models.Model):
     id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=45, blank=True, null=True)
+    name = models.CharField(max_length=45, blank=True, unique=True)
     long_name = models.CharField(max_length=128, blank=True, null=True)
 
     class Meta:
@@ -153,3 +181,57 @@ class SiteProductQueue(models.Model):
         db_table = 'site_product_queue'
         verbose_name = 'очердь'
         verbose_name_plural = 'Очередь'
+
+
+class EmailConfirmManager(models.Manager):
+    @staticmethod
+    def _generate_uid_token():
+        return uuid.uuid4().hex, secrets.token_urlsafe()
+
+    def find_by_user(self, user):
+        return self.filter(user=user).first()
+
+    def create(self, user: User, url_prefix='confirm_email'):
+        obj = self.filter(user=user).first()
+        if obj:
+            obj.delete()
+        _uid, _token = self._generate_uid_token()
+        obj = self.model(user=user, uid=_uid, token=_token)
+        obj.save()
+        return f"{settings.SITE_LINK}/{url_prefix}/{_uid}/{_token}"
+
+    def only_check_uid_token(self, _uid, _token):
+        obj = self.filter(uid=_uid, token=_token).first()
+        if not obj or time.time() - settings.EMAIL_DELTA_TIME > obj.date:
+            return None
+        return obj
+
+    def check_uid_token_user(self, _uid, _token):
+        obj = self.filter(uid=_uid, token=_token).first()
+        if not obj or time.time() - settings.EMAIL_DELTA_TIME > obj.date:
+            return None
+        user = obj.user
+        obj.delete()
+        user.is_active = True
+        user.save()
+        return user
+
+
+class EmailConfirm(models.Model):
+    user = models.ForeignKey(User, models.CASCADE)
+    uid = models.CharField(max_length=32, null=False)
+    token = models.CharField(max_length=43, null=False)
+    date = models.FloatField(default=time.time())
+
+    objects = EmailConfirmManager()
+
+    class Meta:
+        db_table = 'email_confirm'
+        verbose_name = 'Подтверждение почты'
+        verbose_name_plural = 'Подтверждение почты'
+
+    def can_send_again(self):
+        return time.time() - settings.EMAIL_SEND_PAUSE > self.date
+
+    def wait_time(self):
+        return datetime.utcfromtimestamp(time.time() - settings.EMAIL_SEND_PAUSE - self.date).strftime('%M:%S')

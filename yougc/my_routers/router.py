@@ -6,7 +6,7 @@ class YougcRouter:
               'kactivity_today',
               'kbank_accounts', 'kbank_codes', 'kbank_history', 'kbank_last_id', 'kbank_queue', 'knews_knews',
               'konline_list', 'konline_online', 'kpasswords_messages', 'roleplay_input', 'roleplay_output',
-              'site_product_queue', 'site_product', 'site_product_category'}
+              'site_product_queue', 'site_product', 'site_product_category', 'site_product_konline_online'}
 
     def db_for_read(self, model, **hints):
         if model._meta.db_table in self.tables:

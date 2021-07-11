@@ -151,7 +151,7 @@ a {
     /* chrome based */
     width: 0px;
     /* ширина scrollbar'a */
-    background: transparent;
+    background-color: #ffffff00;
     /* опционально */
 }
 

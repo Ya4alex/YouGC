@@ -66,8 +66,7 @@
 .login-info h1 {
     text-decoration: underline;
 }
-.login-info span {
-}
+.login-info span {display: block;margin-top: 6px;}
 
 .login-info a{
     color: #1ba750

@@ -8,36 +8,6 @@
 from django.db import models
 
 
-class Punishmenthistory(models.Model):
-    name = models.CharField(max_length=16, blank=True, null=True)
-    uuid = models.CharField(max_length=35, blank=True, null=True)
-    reason = models.CharField(max_length=100, blank=True, null=True)
-    operator = models.CharField(max_length=16, blank=True, null=True)
-    punishmenttype = models.CharField(db_column='punishmentType', max_length=16, blank=True, null=True)  # Field name made lowercase.
-    start = models.TextField(blank=True, null=True)
-    end = models.TextField(blank=True, null=True)
-    calculation = models.CharField(max_length=50, blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'PunishmentHistory'
-
-
-class Punishments(models.Model):
-    name = models.CharField(max_length=16, blank=True, null=True)
-    uuid = models.CharField(max_length=35, blank=True, null=True)
-    reason = models.CharField(max_length=100, blank=True, null=True)
-    operator = models.CharField(max_length=16, blank=True, null=True)
-    punishmenttype = models.CharField(db_column='punishmentType', max_length=16, blank=True, null=True)  # Field name made lowercase.
-    start = models.TextField(blank=True, null=True)
-    end = models.TextField(blank=True, null=True)
-    calculation = models.CharField(max_length=50, blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'Punishments'
-
-
 class Authme(models.Model):
     username = models.CharField(unique=True, max_length=255)
     realname = models.CharField(unique=True, max_length=255)
@@ -200,6 +170,7 @@ class KonlineOnline(models.Model):
     status = models.CharField(max_length=45)
     date = models.TextField()
     send = models.IntegerField()
+    long_name = models.CharField(max_length=45, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -213,6 +184,36 @@ class KpasswordsMessages(models.Model):
     class Meta:
         managed = False
         db_table = 'kpasswords_messages'
+
+
+class Punishmenthistory(models.Model):
+    name = models.CharField(max_length=16, blank=True, null=True)
+    uuid = models.CharField(max_length=35, blank=True, null=True)
+    reason = models.CharField(max_length=100, blank=True, null=True)
+    operator = models.CharField(max_length=16, blank=True, null=True)
+    punishmenttype = models.CharField(db_column='punishmentType', max_length=16, blank=True, null=True)  # Field name made lowercase.
+    start = models.TextField(blank=True, null=True)
+    end = models.TextField(blank=True, null=True)
+    calculation = models.CharField(max_length=50, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'punishmenthistory'
+
+
+class Punishments(models.Model):
+    name = models.CharField(max_length=16, blank=True, null=True)
+    uuid = models.CharField(max_length=35, blank=True, null=True)
+    reason = models.CharField(max_length=100, blank=True, null=True)
+    operator = models.CharField(max_length=16, blank=True, null=True)
+    punishmenttype = models.CharField(db_column='punishmentType', max_length=16, blank=True, null=True)  # Field name made lowercase.
+    start = models.TextField(blank=True, null=True)
+    end = models.TextField(blank=True, null=True)
+    calculation = models.CharField(max_length=50, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'punishments'
 
 
 class RoleplayInput(models.Model):
@@ -233,7 +234,7 @@ class RoleplayOutput(models.Model):
 
 class SiteProduct(models.Model):
     id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=45)
+    name = models.CharField(unique=True, max_length=45)
     long_name = models.CharField(max_length=45)
     description = models.TextField(blank=True, null=True)
     price = models.IntegerField()
@@ -247,12 +248,21 @@ class SiteProduct(models.Model):
 
 class SiteProductCategory(models.Model):
     id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=45, blank=True, null=True)
+    name = models.CharField(unique=True, max_length=45)
     long_name = models.CharField(max_length=128, blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'site_product_category'
+
+
+class SiteProductKonlineOnline(models.Model):
+    site_product = models.ForeignKey(SiteProduct, models.DO_NOTHING, db_column='site_product')
+    konline_online = models.ForeignKey(KonlineOnline, models.DO_NOTHING, db_column='konline_online')
+
+    class Meta:
+        managed = False
+        db_table = 'site_product_konline_online'
 
 
 class SiteProductQueue(models.Model):

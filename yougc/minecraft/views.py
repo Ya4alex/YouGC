@@ -1,16 +1,27 @@
+from django.conf import settings
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
-from django.core.mail import send_mail
-from django.shortcuts import render, redirect
+from django.shortcuts import redirect
 from django.views.generic import TemplateView
-from .models import Authme
-from .data.my_methods import (get_servers_info, refresh_or_load_user, get_server, SlideShow, LeaderBoard, Category,
-                              load_categories, get_sort_list)
-from .forms import LoginForm, SortForm
+
+from .data.user_methods import send_recovery_email
+from .models import Authme, EmailConfirm
+from .data import *
+from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm
+
+
+def custom_404(request, message='', *args, **kwargs):
+    if not message:
+        message = 'страница не найдена'
+    response = render(request, 'patterns/404_page.html', {'message': message})
+    response.status_code = 404
+    return response
 
 
 class MainPage(TemplateView):  # /
-    template_name = 'pages/main_page.html'
+    template_name = 'pages/main/main_page.html'
 
     def get(self, request, *args, **kwargs):
         return render(request, self.template_name,
@@ -21,51 +32,77 @@ class MainPage(TemplateView):  # /
                       })
 
 
+# ---------------------------------------------------------------------------------------------------------------SHOP---
+def shop_page(request, str_server=settings.DEFAULT_SERVER, str_category=settings.DEFAULT_CATEGORY, *args, **kwargs):
+    return redirect(f"/shop/{str_server}/{str_category}")
+
+
 class ShopPage(TemplateView):  # /shop
-    def get(self, request, *args, **kwargs):
-        return redirect('/shop/elytras')
+    template_name = 'pages/shop/shop_page.html'
 
-
-class ShopCategoryPage(TemplateView):  # /shop
-    template_name = 'pages/shop_page.html'
-
-    def get(self, request, category='', *args, **kwargs):
-        category = Category(category)
+    def get(self, request, str_server=settings.DEFAULT_SERVER, str_category=settings.DEFAULT_CATEGORY, *args, **kwargs):
+        category = Category(str_category, str_server)
         category.sort(request.GET.get('sort'))
         return render(request, self.template_name,
                       {
                           'slide_show': category.get_slide_show(),
                           'sort_list': get_sort_list(request.GET.get('sort')),
-                          'categories': load_categories('elytras'),
+                          'categories': load_categories(str_category),
+                          'servers': get_server_list(str_server),
                           'category': category,
+                          'server': str_server,
+                          'user_balance': get_user_balance_visual(request.user)
                       })
 
 
-class DonatePage(TemplateView):  # /donate
-    template_name = 'pages/donate_page.html'
-
-    def get(self, request, *args, **kwargs):
-        return render(request, self.template_name)
+class ProductPage(TemplateView):
+    template_name = 'pages/shop/shop_page.html'
 
 
-class LogoutPage(TemplateView):
-    template_name = ''
+class BuyProduct(LoginRequiredMixin, TemplateView):
+    def get(self, request, product_name='', *args, **kwargs):
+        user = request.user
+        balance = get_user_balance(user)
+        product = get_product(product_name)
+        if not product:
+            return custom_404(request, f'Вещь {product_name} не продается, так как её просто нет :)')
+        if balance and balance.balance + balance.gotbalance > product.price:
+            if balance.gotbalance > product.price:
+                balance.gotbalance -= product.price
+            else:
+                price, balance.gotbalance = product.price - balance.gotbalance, 0
+                balance.balance -= price
 
-    def get(self, request, *args, **kwargs):
-        logout(request)
+            balance.save()
+            add_product_to_queue(product, user, product.servers.first().server)
+            product.buyers_count += 1
+            product.save()
+            set_message(request, f"{product_name} успешно куплен", cls='success')
+        else:
+            set_message(request, 'Недостаточно средств', cls='danger')
         return redirect('/')
 
 
+# DONATE-------------------------------------------------------------------------------------------------------DONATE---
+class DonatePage(TemplateView):  # /donate
+    template_name = 'pages/donate/donate_page.html'
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name, {})
+
+
+# --------------------------------------------------------------------------------------------------------------LOGIN---
+def set_email_req(response, value):
+    response.set_cookie('email_req', not bool(value))
+
+
 class LoginPage(TemplateView):  # /login
-    template_name = 'pages/login_page.html'
+    template_name = 'pages/login/login_page.html'
+    template_name_wait = 'pages/login/wait.html'
 
     @staticmethod
     def get_email_req(request):
         return not request.session.get('email_req', False)
-
-    @staticmethod
-    def set_email_req(response, value):
-        response.set_cookie('email_req', not bool(value))
 
     def get(self, request, *args, **kwargs):
         form = LoginForm()
@@ -78,7 +115,7 @@ class LoginPage(TemplateView):  # /login
             form.add_error(field_name, error)
             _response = render(request, self.template_name, {'form': form, 'email_req': set_email})
             if set_email is not None:
-                self.set_email_req(_response, set_email)
+                set_email_req(_response, set_email)
             return _response
 
         if form.is_valid():
@@ -86,7 +123,7 @@ class LoginPage(TemplateView):  # /login
             username = form.cleaned_data["username"]
             password = form.cleaned_data["password"]
             user = User.objects.filter(username=username).first()
-            if not user:
+            if not user or not user.is_active:
                 if not _email:
                     return _break('email_field', 'вам необходимо привязать почту', set_email=True)
                 _user = Authme.objects.getuser(username)
@@ -94,29 +131,145 @@ class LoginPage(TemplateView):  # /login
                     return _break('username', 'Похоже, что вас еще нет на нашем сервере')
                 if not Authme.objects.check_password(_user, password):
                     return _break('password', 'Неправильный пароль')
-                user = refresh_or_load_user(_user, _email, password)
-            else:
-                user = authenticate(username=username, password=password)
-                if not user:
-                    return _break('password', 'Неправильный пароль')
+                if user:
+                    user = refresh_user(user, _email, password)
+                else:
+                    user = load_user(_user, _email, password)
+                send_confirm_email(user)
+                return render(request, self.template_name_wait, {'email': _email})
+
+            user = authenticate(username=username, password=password)
+            if not user:
+                return _break('password', 'Неправильный пароль')
 
             login(request, user)
+            set_message(request, 'Приветствуем вас на нашем сайте!')
             response = redirect('/')
-            self.set_email_req(response, False)
+            set_email_req(response, False)
             return response
+        return render(request, self.template_name, {'form': form})
 
 
+class LogoutPage(TemplateView):
+    def get(self, request, *args, **kwargs):
+        logout(request)
+        set_message(request, 'Вы вышли из своего аккаунта')
+        return redirect('/')
+
+
+class ConfirmEmailPage(TemplateView):
+    template_name = 'pages/login/incorrect_token.html'
+
+    def get(self, request, _uid='', _token='', *args, **kwargs):
+        user = EmailConfirm.objects.check_uid_token_user(_uid, _token)
+        if user:
+            login(request, user)
+            set_message(request, 'Почта подтверждена')
+            response = redirect('/')
+            set_email_req(response, False)
+            return response
+        return render(request, self.template_name, {})
+
+
+class ChangePasswordPage(LoginRequiredMixin, TemplateView):
+    template_name = 'pages/login/change_password_page.html'
+
+    def get(self, request, *args, **kwargs):
+        form = ChangePasswordForm()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, *args, **kwargs):
+        form = ChangePasswordForm(request.POST)
+
+        if form.is_valid():
+            password = form.cleaned_data["password"]
+            new_password = form.cleaned_data.get("new_password")
+
+            user = request.user
+            auth_user = Authme.objects.getuser(user.username)
+            if user.check_password(password) and auth_user:
+                user.set_password(new_password)
+                user.save()
+                auth_user.set_password(new_password)
+                auth_user.save()
+                login(request, user)
+
+                set_message(request, 'Пароль успешно сменён')
+                return redirect('/')
+
+            form.add_error('password', 'Неправильный пароль')
+            return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {'form': form})
+
+
+class ForgetPasswordPage(TemplateView):  # /forget
+    template_name = 'pages/login/forget_password_page.html'
+    template_name_wait = 'pages/login/wait_recovery.html'
+
+    def get(self, request, *args, **kwargs):
+        form = ForgetPasswordForm()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request):
+        if request.user.is_authenticated:
+            return custom_404(request, 'Что-то забыли? вам напомнить? :)')
+
+        form = ForgetPasswordForm(request.POST)
+
+        if form.is_valid():
+            username = form.cleaned_data["username"]
+            user = User.objects.get_by_natural_key(username)
+            if user and user.is_active:
+                send_recovery_email(user)
+                return render(request, self.template_name_wait, {})
+            form.add_error('username', 'Такого пользователя не существует')
+            return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {'form': form})
+
+
+class RecoveryPasswordPage(TemplateView):
+    template_name = 'pages/login/recovery_password_page.html'
+    template_name_incorrect = 'pages/login/recovery_password_incorrect_token.html'
+
+    def get(self, request, *args, **kwargs):
+        form = RecoveryPasswordForm()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, _uid='', _token='', *args, **kwargs):
+        form = RecoveryPasswordForm(request.POST)
+
+        if form.is_valid():
+            new_password = form.cleaned_data.get("new_password")
+
+            obj = EmailConfirm.objects.only_check_uid_token(_uid, _token)
+            if not obj:
+                return render(request, self.template_name_incorrect, {})
+            user = obj.user
+            auth_user = Authme.objects.getuser(user.username)
+            if user and auth_user:
+                obj.delete()
+
+                user.set_password(new_password)
+                user.save()
+                auth_user.set_password(new_password)
+                auth_user.save()
+                login(request, user)
+
+                set_message(request, 'Больше не забывайте :)')
+                return redirect('/')
+            form.add_error('new_password', 'Неизвестная ошибка')
+            return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {'form': form})
+
+
+# -------------------------------------------------------------------------------------------------------------SERVER---
 class ServerPage(TemplateView):  # server/<str:server>
-    template_name = 'pages/server_page.html'
+    template_name = 'pages/server/server_page.html'
 
     def get(self, request, server='', *args, **kwargs):
-        if not server:
-            return redirect('/')
-        _server = get_server(server).load_users()
+        _server = get_server(server)
+        if not _server:
+            return custom_404(request, 'У вас не получится поиграть на этом сервере, его просто нет :)')
+        _server.load_users()
         slide_show = SlideShow().load(server)
         return render(request, self.template_name, {'server': _server, 'slide_show': slide_show})
-
-
-def send(request):
-    send_mail('Тема', 'Тело письма', 'yougc.ru@gmail.com', ['sashayanochkin@gmail.com', 'krovinosets@gmail.com'])
-    return redirect('/')

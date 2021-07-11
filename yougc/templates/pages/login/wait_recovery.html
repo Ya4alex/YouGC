@@ -1,0 +1,17 @@
+{% extends 'patterns/main_page.html' %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+<div class="up-block main_block" style="padding: 10px">
+    <div class="login-info">
+        <h1>Подтведрдите вашу почту</h1>
+        <span>
+            На вашу почту было отправлено письмо.<br>Мы должны убедиться, что именно вы хозяин этого аккаунта.<br>
+        </span>
+        <span>
+            Чтобы отправить письмо повторно обновите страницу (F5 или Ctrl + R)<br>
+        </span>
+    </div>
+</div>
+{% endblock %}

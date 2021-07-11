@@ -6,15 +6,24 @@
 {%endblock%}
 {% block content %}
 <div class="main_block shop-navbar">
-    <ul>
-        {% for list_category in categories %}
-        <li class="{{list_category.css_class}}">
-            <a href="/shop/{{list_category.name}}">{{ list_category.long_name }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+    <div style="display: inline-grid;">
+        <ul>
+            {% for list_server in servers %}
+            <li class="{{list_server.css_class}}">
+                <a href="/shop/{{list_server}}">{{ list_server.label }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for list_category in categories %}
+            <li class="{{list_category.css_class}}">
+                <a href="/shop/{{server}}/{{list_category}}">{{ list_category.long_name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
     <a href="#" class="balance">
-        100 баллов
+        {{user_balance}}
     </a>
 </div>
 <div class="shop-container">
@@ -36,9 +45,9 @@
         {% for product in category %}
         <div class="shop-item">
             <h1>{{product.long_name}}</h1>
-            <img src="/static/img/shop/{{category}}/{{product.img}}">
+            <img src="/static/img/shop/{{category}}/{{product.get_picture}}">
             <span>{{product.price}} баллов</span>
-            <a href="/shop/{{category}}/{{product}}/buy">Купить</a>
+            <button onclick="buyProduct('{{ product }}', '{{ product.long_name }}')">Купить</button>
         </div>
         {% endfor %}
     </div>
@@ -46,4 +55,5 @@
 {% endblock %}
 {% block scripts %}
 <script src="{% static 'scripts/crop.js' %}"></script>
+<script src="{% static 'scripts/shop.js' %}"></script>
 {% endblock %}
