@@ -7,7 +7,7 @@ urlpatterns = [
     path('shop', views.shop_page),
     path('shop/<str:str_server>', views.shop_page),
     path('shop/<str:str_server>/<str:str_category>', views.ShopPage.as_view()),
-    path('buy/<str:product_name>', views.BuyProduct.as_view()),
+    path('buy/<str:str_server>/<str:product_name>', views.BuyProduct.as_view()),
 
     path('donate', views.DonatePage.as_view()),
 

@@ -92,7 +92,7 @@ class Category:
 
         server = KonlineOnline.objects.filter(server=server).first()
         self.products = []
-        self.products = server.siteproduct_set.filter(category=self.obj)
+        self.products = server.siteproduct_set.filter(category=self.obj)  # TODO none type object
 
     def get_slide_show(self):
         return SlideShow().load(f"shop_{self.obj.name}")

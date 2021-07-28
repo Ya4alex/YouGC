@@ -35,7 +35,7 @@
             <label>
                 <select onchange="window.location.href = this.options[this.selectedIndex].value">
                     {% for item in sort_list %}
-                    <option {{item.selected}} value="/shop/{{category}}?sort={{item.tag}}">{{item.name}}</option>
+                    <option {{item.selected}} value="/shop/{{server}}/{{category}}?sort={{item.tag}}">{{item.name}}</option>
                     {% endfor %}
                 </select>
             </label>
@@ -47,7 +47,7 @@
             <h1>{{product.long_name}}</h1>
             <img src="/static/img/shop/{{category}}/{{product.get_picture}}">
             <span>{{product.price}} баллов</span>
-            <button onclick="buyProduct('{{ product }}', '{{ product.long_name }}')">Купить</button>
+            <button onclick="buyProduct('{{ server }}','{{ product }}', '{{ product.long_name }}')">Купить</button>
         </div>
         {% endfor %}
     </div>

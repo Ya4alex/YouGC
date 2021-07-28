@@ -60,14 +60,14 @@ class ProductPage(TemplateView):
 
 
 class BuyProduct(LoginRequiredMixin, TemplateView):
-    def get(self, request, product_name='', *args, **kwargs):
+    def get(self, request, server_name='', product_name='', *args, **kwargs):
         user = request.user
         balance = get_user_balance(user)
         product = get_product(product_name)
         if not product:
             return custom_404(request, f'Вещь {product_name} не продается, так как её просто нет :)')
-        if balance and balance.balance + balance.gotbalance > product.price:
-            if balance.gotbalance > product.price:
+        if balance and balance.balance + balance.gotbalance >= product.price:
+            if balance.gotbalance >= product.price:
                 balance.gotbalance -= product.price
             else:
                 price, balance.gotbalance = product.price - balance.gotbalance, 0
@@ -77,10 +77,10 @@ class BuyProduct(LoginRequiredMixin, TemplateView):
             add_product_to_queue(product, user, product.servers.first().server)
             product.buyers_count += 1
             product.save()
-            set_message(request, f"{product_name} успешно куплен", cls='success')
+            set_message(request, f"{product.long_name} успешно куплен", cls='success')
         else:
             set_message(request, 'Недостаточно средств', cls='danger')
-        return redirect('/')
+        return redirect(f"/shop/{product.servers.first().server}/{product.category}")  # TODO исправить
 
 
 # DONATE-------------------------------------------------------------------------------------------------------DONATE---
