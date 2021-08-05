@@ -48,7 +48,7 @@ class SiteProductCategoryAdminModel(admin.ModelAdmin):
 
 
 class KactivityListAdminModel(admin.ModelAdmin):
-    list_display = ['name', 'status', 'balance', 'gotbalance', 'server', 'last_online']
+    list_display = ['name', 'status', 'balance', 'gotbalance', 'server', 'access_until']
 
     class Meta:
         model = KactivityList

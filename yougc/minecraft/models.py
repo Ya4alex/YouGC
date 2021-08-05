@@ -85,7 +85,7 @@ class KactivityList(models.Model):
     balance = models.IntegerField()
     gotbalance = models.IntegerField()
     server = models.CharField(max_length=45)
-    last_online = models.TextField()
+    access_until = models.TextField()
 
     class Meta:
         managed = False

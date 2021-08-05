@@ -6,10 +6,10 @@ from django.contrib.auth.models import User
 from django.shortcuts import redirect
 from django.views.generic import TemplateView
 
-from .data.user_methods import send_recovery_email
-from .models import Authme, EmailConfirm
 from .data import *
+from .data.user_methods import send_recovery_email
 from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm
+from .models import Authme, EmailConfirm
 
 
 def custom_404(request, message='', *args, **kwargs):
@@ -85,10 +85,10 @@ class BuyProduct(LoginRequiredMixin, TemplateView):
 
 # DONATE-------------------------------------------------------------------------------------------------------DONATE---
 class DonatePage(TemplateView):  # /donate
-    template_name = 'pages/donate/donate_page.html'
+    template_name = 'pages/donate/donate_page_wait.html'
 
     def get(self, request, *args, **kwargs):
-        return render(request, self.template_name, {})
+        return custom_404(request, 'Приносим свои извинения! Страница пока в разработке. Что-то будет ;)')
 
 
 # --------------------------------------------------------------------------------------------------------------LOGIN---
@@ -270,6 +270,7 @@ class ServerPage(TemplateView):  # server/<str:server>
         _server = get_server(server)
         if not _server:
             return custom_404(request, 'У вас не получится поиграть на этом сервере, его просто нет :)')
-        _server.load_users()
+        _server = _server.load_users()
         slide_show = SlideShow().load(server)
-        return render(request, self.template_name, {'server': _server, 'slide_show': slide_show})
+        return render(request, self.template_name,
+                      {'server': _server, 'slide_show': slide_show, 'test': _server.players})

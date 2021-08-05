@@ -25,7 +25,8 @@ class Server:
             self.css_class = ''
 
     def load_users(self):
-        self.players = [self.Player(p.player, int(p.date)) for p in KonlineList.objects.filter(server_id=self.obj.id)]
+        self.players = [self.Player(p.player, int(p.date)) for p in
+                        KonlineList.objects.filter(server_id=self.obj.id)]
         self.players = sorted(self.players, key=lambda x: x.unix_time)
         return self
 

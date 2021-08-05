@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--_-%aufj_ps22n9m+4dq+1#dn^!@@az)ny1ug(nj(5gr603c-7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'minecraft.yougc.ru']
 
 # Application definition
 
@@ -82,11 +82,12 @@ DATABASES = {
     'yougc': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'krovinka_main',
-        # 'USER': 'krovinka_main',
-        'USER': 'django',
-        # 'PASSWORD': 'WFk4z5%5',
-        'PASSWORD': '0427Sasha',
-        'HOST': '127.0.0.1',
+        'USER': 'krovinka_main',
+        # 'USER': 'django',
+        'PASSWORD': 'WFk4z5%5',
+        # 'PASSWORD': '0427Sasha',
+        # 'HOST': '127.0.0.1',
+        'HOST': 'krovinka.beget.tech',
         'PORT': '3306',
     }
 }
