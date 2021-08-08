@@ -8,10 +8,24 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/list_table.css' %}">
 {% endblock %}
 {% block content %}
-<div class="main_block up-block server-block">
+<div class="main_block server-navbar">
+    <div style="display: inline-grid;">
+        <ul>
+            {% for list_server in servers %}
+            <li class="{{list_server.css_class}}">
+                <a href="/servers/{{list_server}}">{{ list_server.label }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <a href="#" class="balance">
+        {{user_balance}}
+    </a>
+</div>
+<div class="center-block main_block server-block">
     <div class="server-label">
         <span class="server-label-big">{{server.label}}</span>
-        <span class="server-label-small">- это приватный сервер ориентированный на дружескую атмосферу и РП отыгрыш.</span>
+        <span class="server-label-small">{{server.text.short_about}}</span>
     </div>
 </div>
 <div class="left-block main_block server-slide-block" id="border">
@@ -46,34 +60,11 @@
         </tbody>
     </table>
 </div>
+{% if server.text.about %}
 <div class="center-block main_block server-text-block">
     <span class="server-label-big">О Сервере</span>
-    <section>
-        <h1>Добро пожаловать!</h1>
-        <p>-Ты попал в «Твой игровой уголок» (YouGC)</p>
-        <p>-Что это за сервер?</p>
-        <p>-Сейчас объясню OwO</p>
-
-        <h1>[Проходка]</h1>
-        <p>
-            На сервер можно попасть совершенно бесплатно!
-            Для этого вам нужно написать в личные сообщения группы, где вам всё объяснят.
-        </p>
-
-        <h1>[Направление сервера]</h1>
-        <p>О чём этот сервер и каков он внутри?</p>
-        <p>Скажу сразу, мы не пытаемся идти в какое-то жёсткое рп, но, всё же, тесно с ним связаны.
-            Фокус направлен на обретение новых знакомств, отдых после тяжёлого дня и банальное веселье без излишней
-            токсичности.</p>
-
-        <p>Мы стараемся стать местом, от куда не захочется уходить, где любой сможет продвигать свои идеи и развиваться
-            творчески.</p>
-
-        <p>Это сервер, где всё зависит от вас!</p>
-    </section>
+    {{server.text.about|safe}}
 </div>
-<div class="center-block main_block server-text-block">
-
-</div>
+{% endif %}
 
 {% endblock %}

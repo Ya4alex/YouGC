@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import (Authme, KonlineOnline, KonlineList, KactivityLeaderboard, SiteProduct, SiteProductCategory,
-                     EmailConfirm, KactivityList, SiteProductQueue)
+                     EmailConfirm, SiteProductQueue)
 
 
 # Register your models here.
@@ -51,7 +51,7 @@ class KactivityListAdminModel(admin.ModelAdmin):
     list_display = ['name', 'status', 'balance', 'gotbalance', 'server', 'access_until']
 
     class Meta:
-        model = KactivityList
+        model = None
 
 
 class EmailConfirmAdminModel(admin.ModelAdmin):
@@ -75,5 +75,5 @@ admin.site.register(KactivityLeaderboard, KactivityLeaderboardAdminModel)
 admin.site.register(SiteProduct, SiteProductAdminModel)
 admin.site.register(SiteProductCategory, SiteProductCategoryAdminModel)
 admin.site.register(EmailConfirm, EmailConfirmAdminModel)
-admin.site.register(KactivityList, KactivityListAdminModel)
+# admin.site.register(KactivityList, KactivityListAdminModel)
 admin.site.register(SiteProductQueue, SiteProductQueueAdminModel)

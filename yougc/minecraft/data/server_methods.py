@@ -1,11 +1,17 @@
 import time
 from datetime import datetime
 
-from .meta import SERVER_STATUS
-from ..models import (KonlineOnline, KonlineList)
+from .meta import SERVER_STATUS, SERVERS_TEXT
+from ..models import (KonlineOnline, KonlineList, MODELS_SERVERS_LIST)
 
 
 class Server:
+    class Text:
+        def __init__(self, server_name):
+            _ = SERVERS_TEXT[server_name]
+            self.short_about = _['short_about']
+            self.about = _['about']
+
     class Player:
         def __init__(self, name, unix_time: int):
             self.unix_time = unix_time
@@ -31,7 +37,7 @@ class Server:
         return self
 
     def load_extra_text(self):
-        pass
+        self.text = self.Text(self.name)
 
     def __str__(self):
         return self.name
@@ -48,6 +54,10 @@ def get_server(server):
     if _server:
         return Server(_server)
     return None
+
+
+def get_server_class(server_name):
+    return MODELS_SERVERS_LIST[server_name]
 
 
 def get_server_list(current):

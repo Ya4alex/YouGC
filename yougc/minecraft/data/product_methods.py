@@ -3,7 +3,7 @@ import time
 
 from .user_methods import get_user_balance
 from ..models import (KonlineOnline, Authme, KonlineList, KactivityLeaderboard, SiteProduct, SiteProductCategory,
-                      EmailConfirm, KactivityList, SiteProductQueue)
+                      EmailConfirm, SiteProductQueue)
 from django.contrib.auth.models import User
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags

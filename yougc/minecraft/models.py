@@ -1,6 +1,6 @@
 import secrets
-import uuid
 import time
+import uuid
 from datetime import datetime
 from hashlib import sha256
 
@@ -54,8 +54,8 @@ class Authme(models.Model):
     class Meta:
         managed = False
         db_table = 'authme'
-        verbose_name = 'Игрок'
-        verbose_name_plural = 'Игроки'
+        verbose_name = 'Игрок (основная информация)'
+        verbose_name_plural = 'Игроки (основная информация)'
 
     def set_password(self, raw_password):
         def sha(_password: str):
@@ -78,20 +78,46 @@ class KactivityLeaderboard(models.Model):
         verbose_name_plural = 'Рейтинг игроков'
 
 
-class KactivityList(models.Model):
+class KactivityListDeadworld(models.Model):
     name = models.CharField(max_length=45)
-    discord = models.CharField(max_length=45)
     status = models.CharField(max_length=45)
     balance = models.IntegerField()
     gotbalance = models.IntegerField()
-    server = models.CharField(max_length=45)
     access_until = models.TextField()
 
     class Meta:
         managed = False
-        db_table = 'kactivity_list'
+        db_table = 'kactivity_list_deadworld'
+        verbose_name = 'Игрок в deadworld'
+        verbose_name_plural = 'Игроки в deadworld'
+
+
+class KactivityListLobby(models.Model):
+    name = models.CharField(max_length=45)
+    status = models.CharField(max_length=45)
+    balance = models.IntegerField()
+    gotbalance = models.IntegerField()
+    access_until = models.TextField()
+
+    class Meta:
+        managed = False
+        db_table = 'kactivity_list_lobby'
         verbose_name = 'Игрок'
         verbose_name_plural = 'Игроки'
+
+
+class KactivityListRoleplay(models.Model):
+    name = models.CharField(max_length=45)
+    status = models.CharField(max_length=45)
+    balance = models.IntegerField()
+    gotbalance = models.IntegerField()
+    access_until = models.TextField()
+
+    class Meta:
+        managed = False
+        db_table = 'kactivity_list_roleplay'
+        verbose_name = 'Игрок в roleplay'
+        verbose_name_plural = 'Игроки в roleplay'
 
 
 class KonlineList(models.Model):
@@ -153,6 +179,8 @@ class SiteProductKonlineOnline(models.Model):
     class Meta:
         managed = False
         db_table = 'site_product_konline_online'
+        verbose_name = 'продукт - сервер'
+        verbose_name_plural = 'Продукты - сервера'
 
 
 class SiteProductCategory(models.Model):
@@ -163,8 +191,8 @@ class SiteProductCategory(models.Model):
     class Meta:
         managed = False
         db_table = 'site_product_category'
-        verbose_name = 'категория'
-        verbose_name_plural = 'Категории'
+        verbose_name = 'категория продукта'
+        verbose_name_plural = 'Категории продуктов'
 
     def __str__(self):
         return self.name
@@ -179,8 +207,8 @@ class SiteProductQueue(models.Model):
     class Meta:
         managed = False
         db_table = 'site_product_queue'
-        verbose_name = 'очердь'
-        verbose_name_plural = 'Очередь'
+        verbose_name = 'Продукт на получение'
+        verbose_name_plural = 'Очередь продуктов'
 
 
 class EmailConfirmManager(models.Manager):
@@ -235,3 +263,10 @@ class EmailConfirm(models.Model):
 
     def wait_time(self):
         return datetime.utcfromtimestamp(time.time() - settings.EMAIL_SEND_PAUSE - self.date).strftime('%M:%S')
+
+
+MODELS_SERVERS_LIST = {
+    'roleplay': KactivityListRoleplay,
+    'deadworld': KactivityListDeadworld,
+    'lobby': KactivityListLobby,
+}

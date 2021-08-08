@@ -1,7 +1,7 @@
 from django.conf import settings
 
 from ..models import (KonlineOnline, Authme, KonlineList, KactivityLeaderboard, SiteProduct, SiteProductCategory,
-                      EmailConfirm, KactivityList)
+                      EmailConfirm)
 from .meta import SLIDE_SHOW_DATA
 
 

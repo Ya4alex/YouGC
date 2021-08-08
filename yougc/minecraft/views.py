@@ -1,8 +1,6 @@
 from django.conf import settings
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.models import User
 from django.shortcuts import redirect
 from django.views.generic import TemplateView
 
@@ -51,7 +49,7 @@ class ShopPage(TemplateView):  # /shop
                           'servers': get_server_list(str_server),
                           'category': category,
                           'server': str_server,
-                          'user_balance': get_user_balance_visual(request.user)
+                          'user_balance': get_user_balance_visual(request.user, str_server)
                       })
 
 
@@ -60,12 +58,14 @@ class ProductPage(TemplateView):
 
 
 class BuyProduct(LoginRequiredMixin, TemplateView):
-    def get(self, request, server_name='', product_name='', *args, **kwargs):
-        user = request.user
-        balance = get_user_balance(user)
+    def get(self, request, str_server='', product_name='', *args, **kwargs):
         product = get_product(product_name)
         if not product:
             return custom_404(request, f'Вещь {product_name} не продается, так как её просто нет :)')
+
+        user = request.user
+        balance = get_user_balance(user, str_server)
+
         if balance and balance.balance + balance.gotbalance >= product.price:
             if balance.gotbalance >= product.price:
                 balance.gotbalance -= product.price
@@ -271,6 +271,7 @@ class ServerPage(TemplateView):  # server/<str:server>
         if not _server:
             return custom_404(request, 'У вас не получится поиграть на этом сервере, его просто нет :)')
         _server = _server.load_users()
+        _server.load_extra_text()
         slide_show = SlideShow().load(server)
         return render(request, self.template_name,
-                      {'server': _server, 'slide_show': slide_show, 'test': _server.players})
+                      {'server': _server, 'slide_show': slide_show, 'servers': get_server_list(server)})

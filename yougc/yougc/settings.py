@@ -15,7 +15,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SITE_LINK = 'http://127.0.0.1:8000'
+SITE_LINK = 'http://minecraft.yougc.ru'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -76,8 +76,15 @@ WSGI_APPLICATION = 'yougc.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'krovinka_django',
+        'USER': 'krovinka_django',
+        'PASSWORD': 'pgE0*1TK',
+        'HOST': 'krovinka.beget.tech',
+        'PORT': '3306',
+
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
     },
     'yougc': {
         'ENGINE': 'django.db.backends.mysql',
@@ -111,10 +118,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = "yougc.ru@gmail.com"
-EMAIL_HOST_PASSWORD = "andrew08082004"
+EMAIL_HOST = 'smtp.beget.com'
+EMAIL_PORT = 2525
+EMAIL_HOST_USER = "YouGC.ru@yougc.ru"
+EMAIL_HOST_PASSWORD = "P61ZjHf*"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 

@@ -1,17 +1,19 @@
-from ..models import (Authme, EmailConfirm, KactivityList)
 from django.contrib.auth.models import User
-from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 
+from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD
+from .server_methods import get_server_class
+from ..models import (Authme, EmailConfirm, )
 
-def get_user_balance(user):
-    return KactivityList.objects.filter(name=user.username).first()
+
+def get_user_balance(user, server_name):
+    return get_server_class(server_name).objects.filter(name=user.username).first()
 
 
-def get_user_balance_visual(user: User):
+def get_user_balance_visual(user: User, server_name):
     if user:
-        balance = get_user_balance(user)
+        balance = get_user_balance(user, server_name)
         if balance:
             return f"У вас сумарно {balance.balance + balance.gotbalance} баллов"
     return ''
