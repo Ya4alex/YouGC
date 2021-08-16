@@ -224,7 +224,7 @@ class EmailConfirmManager(models.Manager):
         if obj:
             obj.delete()
         _uid, _token = self._generate_uid_token()
-        obj = self.model(user=user, uid=_uid, token=_token)
+        obj = self.model(user=user, uid=_uid, token=_token, date=time.time())
         obj.save()
         return f"{settings.SITE_LINK}/{url_prefix}/{_uid}/{_token}"
 

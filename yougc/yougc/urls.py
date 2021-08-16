@@ -22,3 +22,5 @@ urlpatterns = [
 ]
 
 handler404 = 'minecraft.views.custom_404'
+handler500 = 'minecraft.views.custom_500'
+handler403 = 'minecraft.views.custom_403'

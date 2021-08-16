@@ -1,3 +1,7 @@
+import json
+from random import randint
+
+from django.conf import settings
 from django.shortcuts import render as django_render
 
 from .meta import NOTIFICATION_CLASSES
@@ -8,7 +12,9 @@ def render(request, template, context, *args, **kwargs):
     if request.session.get('messages'):
         del request.session['messages']
     context['notification_messages'] = messages
-    return django_render(request, template, context, *args, **kwargs)
+    response = django_render(request, template, context, *args, **kwargs)
+    response['Last-Modified'] = settings.LAST_MODIFIED
+    return response
 
 
 def set_message(request, message, skip=True, cls='', color=''):

@@ -93,7 +93,7 @@ Toast.add = function(params) {
 }
 
 function renderMassages() {
-    var par = massages;
+    var par = JSON.parse(document.getElementById('notifdata').textContent);
     for (var key in par) {
         Toast.add({
             text: par[key][0],
@@ -103,4 +103,3 @@ function renderMassages() {
     }
 }
 document.addEventListener("DOMContentLoaded", renderMassages);
-

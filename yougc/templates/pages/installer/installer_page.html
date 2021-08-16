@@ -1,0 +1,47 @@
+{% extends 'patterns/main_page.html' %}
+
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/server.css' %}">
+{% endblock %}
+{% block content %}
+<div class="center-block main_block server-block">
+    <div class="server-label">
+        <span class="server-label-big">Установщик</span>
+    </div>
+    <div class="download-button">
+        <button onclick="download_installer('{{ installer_link | safe }}')">Скачать</button>
+    </div>
+
+</div>
+<div class="left-block main_block server-slide-block" id="border">
+</div>
+<div class="center-block main_block server-text-block">
+    <span class="server-label-big">Инструкция:</span>
+    <section>
+        <h2>Для того, чтобы установка прошла успешно надо:</h2>
+        <p>1) Иметь установленный minecraft на вашем компьютере</p>
+        <p>2) Выберите клиент, если вы пользуетесь TLauncher или другим пиратским клиентом, то выберите "TLauncher",
+            иначе "Лицензионный Minecraft"</p>
+        <p>3) Согласитесь с правилами нашего проекта, подробнее ознакомиться сними можно на нашем сайте yougc.ru</p>
+        <p>4) Нажмите кнопку "Установить", чтобы началось скачивание нужных файлов</p>
+        <p>5) После окончания установки, если вы выбрали клиент TLauncher:</p>
+        <section>
+            <h2>Для TLauncher:</h2>
+            <p>- Откройте ваш пиратский клиент</p>
+            <p>- Выберите версию, содержащую название нашего проекта <small>(например: если вы скачивали модификации для
+                rоlерlау сервера, то версия будет называться yougc-rоlерlау)</small></p>
+            <h2>Для Лицензионного Minecraft:</h2>
+            <p>- Откройте лицензионный клиент</p>
+            <p>- Выберите в установках ту, которая содержит название нашего проекта <small>(например: если вы скачивали
+                модификации для rоlерlау сервера, то установка будет называться YOUGC.RU-ROLEPLAY)</small></p>
+        </section>
+        <p>6) Наслаждайтесь игрой!</p>
+    </section>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'scripts/installer.js' %}"></script>
+{% endblock %}

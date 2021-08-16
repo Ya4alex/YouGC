@@ -15,7 +15,6 @@
     <div id="border">
         <div id="vk_groups"></div>
     </div>
-    <script type="text/javascript" src="{% static 'scripts/vk.js' %}"></script>
 </div>
 <div class="right-block main_block">
     <table class="list-table">
@@ -43,4 +42,7 @@
 {% endblock %}
 {% block scripts %}
 <script src="{% static 'scripts/crop.js' %}"></script>
+{% endblock %}
+{% block post-scripts %}
+<script type="text/javascript" src="{% static 'scripts/vk.js' %}"></script>
 {% endblock %}

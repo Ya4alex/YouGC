@@ -22,7 +22,7 @@
             {% endfor %}
         </ul>
     </div>
-    <a href="#" class="balance">
+    <a href="#" class="balance" id="laptop-balance">
         {{user_balance}}
     </a>
 </div>
@@ -35,10 +35,16 @@
             <label>
                 <select onchange="window.location.href = this.options[this.selectedIndex].value">
                     {% for item in sort_list %}
-                    <option {{item.selected}} value="/shop/{{server}}/{{category}}?sort={{item.tag}}">{{item.name}}</option>
+                    <option {{item.selected}} value="/shop/{{server}}/{{category}}?sort={{item.tag}}">{{item.name}}
+                    </option>
                     {% endfor %}
                 </select>
             </label>
+        </div>
+        <div class="mobile-balance" id="mobile-balance" style="display: none;">
+            <a href="#" class="balance">
+                {{user_balance}}
+            </a>
         </div>
     </div>
     <div class="shop-items-container crop-block" id="crop">
@@ -56,4 +62,7 @@
 {% block scripts %}
 <script src="{% static 'scripts/crop.js' %}"></script>
 <script src="{% static 'scripts/shop.js' %}"></script>
+{% endblock %}
+{% block post-scripts %}
+<script src="{% static 'scripts/shop_mobile.js' %}"></script>
 {% endblock %}

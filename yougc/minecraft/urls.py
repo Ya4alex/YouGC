@@ -19,4 +19,6 @@ urlpatterns = [
     path('forget_password', views.ForgetPasswordPage.as_view()),
 
     path('servers/<str:server>', views.ServerPage.as_view()),
+
+    path('installer', views.InstallerPage.as_view()),
 ]

@@ -1,3 +1,5 @@
+import random
+
 from django.conf import settings
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -5,6 +7,7 @@ from django.shortcuts import redirect
 from django.views.generic import TemplateView
 
 from .data import *
+from .data.meta import INSTALLER_LINK
 from .data.user_methods import send_recovery_email
 from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm
 from .models import Authme, EmailConfirm
@@ -13,8 +16,24 @@ from .models import Authme, EmailConfirm
 def custom_404(request, message='', *args, **kwargs):
     if not message:
         message = 'страница не найдена'
-    response = render(request, 'patterns/404_page.html', {'message': message})
+    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 404})
     response.status_code = 404
+    return response
+
+
+def custom_403(request, message='', *args, **kwargs):
+    if not message:
+        message = 'Нет доступа. Возможно вы пытаетесь отправить устаревшую форму (csrf)'
+    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 403})
+    response.status_code = 403
+    return response
+
+
+def custom_500(request, message='', *args, **kwargs):
+    if not message:
+        message = 'Ошибка сервера. Пожалуйста, напишите администрации YouGC!'
+    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 500})
+    response.status_code = 500
     return response
 
 
@@ -40,10 +59,19 @@ class ShopPage(TemplateView):  # /shop
 
     def get(self, request, str_server=settings.DEFAULT_SERVER, str_category=settings.DEFAULT_CATEGORY, *args, **kwargs):
         category = Category(str_category, str_server)
+
+        try:
+            slide_show = category.get_slide_show()
+        except ValueError:
+            return custom_404(request,
+                              'Приносим свои извинения! Страница пока в разработке. Что-то будет, поберегите головы ;)')
+        if len(category.products) == 0:
+            return custom_404(request, 'Приносим свои извинения! Сервера пока в разработке. Что-то будет ;)')
+
         category.sort(request.GET.get('sort'))
         return render(request, self.template_name,
                       {
-                          'slide_show': category.get_slide_show(),
+                          'slide_show': slide_show,
                           'sort_list': get_sort_list(request.GET.get('sort')),
                           'categories': load_categories(str_category),
                           'servers': get_server_list(str_server),
@@ -80,7 +108,7 @@ class BuyProduct(LoginRequiredMixin, TemplateView):
             set_message(request, f"{product.long_name} успешно куплен", cls='success')
         else:
             set_message(request, 'Недостаточно средств', cls='danger')
-        return redirect(f"/shop/{product.servers.first().server}/{product.category}")  # TODO исправить
+        return redirect(f"/shop/{str_server}/{product.category}?reload={random.random()}")
 
 
 # DONATE-------------------------------------------------------------------------------------------------------DONATE---
@@ -218,7 +246,7 @@ class ForgetPasswordPage(TemplateView):  # /forget
 
         if form.is_valid():
             username = form.cleaned_data["username"]
-            user = User.objects.get_by_natural_key(username)
+            user = User.objects.filter(username=username).first()
             if user and user.is_active:
                 send_recovery_email(user)
                 return render(request, self.template_name_wait, {})
@@ -275,3 +303,13 @@ class ServerPage(TemplateView):  # server/<str:server>
         slide_show = SlideShow().load(server)
         return render(request, self.template_name,
                       {'server': _server, 'slide_show': slide_show, 'servers': get_server_list(server)})
+
+
+# ----------------------------------------------------------------------------------------------------------INSTALLER---
+
+
+class InstallerPage(TemplateView):
+    template_name = 'pages/installer/installer_page.html'
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name, {'installer_link': INSTALLER_LINK})

@@ -120,7 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 EMAIL_HOST = 'smtp.beget.com'
 EMAIL_PORT = 2525
-EMAIL_HOST_USER = "YouGC.ru@yougc.ru"
+EMAIL_HOST_USER = "yougc.ru@yougc.ru"
 EMAIL_HOST_PASSWORD = "P61ZjHf*"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
@@ -128,8 +128,10 @@ EMAIL_USE_SSL = False
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-EMAIL_DELTA_TIME = 900.  # unix (float)
+EMAIL_DELTA_TIME = 9000.  # unix (float)
 EMAIL_SEND_PAUSE = 300
+
+LAST_MODIFIED = 'Mon, 09 Aug 2021 17:04:33 GMT'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/

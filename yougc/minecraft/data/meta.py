@@ -89,3 +89,5 @@ NOTIFICATION_CLASSES = {
     'success': ('#1ba750', True),
     'danger': ('#ff0000', False),
 }
+
+INSTALLER_LINK = 'http://yougc.ru/download/installer/status/YouGC%20Installer%20v1.5.jar'
