@@ -17,6 +17,7 @@ urlpatterns = [
     path('confirm_email/<str:_uid>/<str:_token>', views.ConfirmEmailPage.as_view()),
     path('recovery_password/<str:_uid>/<str:_token>', views.RecoveryPasswordPage.as_view()),
     path('forget_password', views.ForgetPasswordPage.as_view()),
+    path('change_email', views.ChangeEmailPage.as_view()),
 
     path('servers/<str:server>', views.ServerPage.as_view()),
 

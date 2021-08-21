@@ -13,7 +13,7 @@ def render(request, template, context, *args, **kwargs):
         del request.session['messages']
     context['notification_messages'] = messages
     response = django_render(request, template, context, *args, **kwargs)
-    response['Last-Modified'] = settings.LAST_MODIFIED
+    response['Cache-Control'] = 'max-age=60'
     return response
 
 

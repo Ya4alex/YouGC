@@ -10,12 +10,15 @@
     <div class="server-label">
         <span class="server-label-big">Установщик</span>
     </div>
-    <div class="download-button">
+    <div class="download-button" id="laptop">
         <button onclick="download_installer('{{ installer_link | safe }}')">Скачать</button>
     </div>
 
 </div>
-<div class="left-block main_block server-slide-block" id="border">
+<div class="center-block main_block server-text-block" id="mobile" style="display: none;">
+    <div class="mobile-download-button">
+        <button onclick="download_installer('{{ installer_link | safe }}')">Скачать</button>
+    </div>
 </div>
 <div class="center-block main_block server-text-block">
     <span class="server-label-big">Инструкция:</span>
@@ -24,7 +27,7 @@
         <p>1) Иметь установленный minecraft на вашем компьютере</p>
         <p>2) Выберите клиент, если вы пользуетесь TLauncher или другим пиратским клиентом, то выберите "TLauncher",
             иначе "Лицензионный Minecraft"</p>
-        <p>3) Согласитесь с правилами нашего проекта, подробнее ознакомиться сними можно на нашем сайте yougc.ru</p>
+        <p>3) Согласитесь с правилами нашего проекта, подробнее ознакомиться с ними можно <a>тут</a></p>
         <p>4) Нажмите кнопку "Установить", чтобы началось скачивание нужных файлов</p>
         <p>5) После окончания установки, если вы выбрали клиент TLauncher:</p>
         <section>

@@ -8,8 +8,8 @@ from django.views.generic import TemplateView
 
 from .data import *
 from .data.meta import INSTALLER_LINK
-from .data.user_methods import send_recovery_email
-from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm
+from .data.user_methods import send_recovery_email, send_change_email_email
+from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm, ChangeEmailForm
 from .models import Authme, EmailConfirm
 
 
@@ -178,7 +178,7 @@ class LoginPage(TemplateView):  # /login
         return render(request, self.template_name, {'form': form})
 
 
-class LogoutPage(TemplateView):
+class LogoutPage(LoginRequiredMixin, TemplateView):
     def get(self, request, *args, **kwargs):
         logout(request)
         set_message(request, 'Вы вышли из своего аккаунта')
@@ -287,6 +287,38 @@ class RecoveryPasswordPage(TemplateView):
                 return redirect('/')
             form.add_error('new_password', 'Неизвестная ошибка')
             return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {'form': form})
+
+
+class ChangeEmailPage(LoginRequiredMixin, TemplateView):
+    template_name = 'pages/login/change_email_page.html'
+    template_name_wait = 'pages/login/wait.html'
+
+    def get(self, request, *args, **kwargs):
+        form = ChangeEmailForm()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, *args, **kwargs):
+        form = ChangeEmailForm(request.POST)
+
+        def _break(field_name, error='ошибка', set_email=None):
+            form.add_error(field_name, error)
+            _response = render(request, self.template_name, {'form': form, 'email_req': set_email})
+            if set_email is not None:
+                set_email_req(_response, set_email)
+            return _response
+
+        if form.is_valid():
+            _email = form.cleaned_data["email_field"]
+            password = form.cleaned_data["password"]
+            user = request.user
+            if user and user.check_password(password):
+                user.email = _email
+                user.is_active = False
+                user.save()
+                send_change_email_email(user)
+                return render(request, self.template_name_wait, {'email': _email})
+            return _break('password', 'Неправильный пароль')
         return render(request, self.template_name, {'form': form})
 
 

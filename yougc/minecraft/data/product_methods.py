@@ -15,8 +15,8 @@ def get_product(name):
 
 def add_product_to_queue(product: SiteProduct, user: User, str_server):
     queue = SiteProductQueue(
-        name=product.long_name,
-        product_text=f"/ktexture give {user.username} {product}",
+        name=user.username,
+        product_text=f"/ktexture give {user.username} {product.long_name}",
         product=product,
         server=str_server
     )

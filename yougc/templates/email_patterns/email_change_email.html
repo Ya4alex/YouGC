@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style type="text/css">
+            .button {
+                text-decoration: none;
+                background: #1ba750;
+                padding: 4px;
+                color: #fff;
+                border-radius: 5px;
+                text-decoration-color: #fff;
+            }
+
+            body {
+                font-family: cursive;
+                background: #fff;
+                color: #000
+            }
+
+            p {
+                text-indent: 20px;
+            }
+            span {
+                color: #1ba750;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Сменить текущую почту на {{ email }}</h1>
+        <a class="button" href="{{ link }}">Подтвердить электронную почту</a>
+        <p>
+            Нажимая на кнопку, вы автоматически привязываете почту <span>{{ email }}</span>
+            к аккаунту <span>{{ name }}</span>
+            на <a href="http://minecraft.yougc.ru">сайте</a>
+            . Если это не вы, то просто проигнорируйте это письмо! Не переживайте, вы в
+    безопасности.
+        </p>
+        <br>
+        YouGC - <small>твой игровой уголок.</small>
+    </body>
+</html>

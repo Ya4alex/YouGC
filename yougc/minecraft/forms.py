@@ -40,3 +40,9 @@ class RecoveryPasswordForm(forms.Form):
             self.add_error('new_password', 'Парль должен быть не меньше 8 символов')
         elif new_password_again != new_password:
             self.add_error('new_password_again', 'Пароли не совпадают')
+
+
+class ChangeEmailForm(forms.Form):
+    password = forms.CharField(widget=forms.PasswordInput)
+    email_field = forms.EmailField(label='Почта', required=True)
+

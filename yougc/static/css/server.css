@@ -8,13 +8,15 @@
 }
  
 .server-label-small { 
-    color: white;  
+    color: white;   
     text-shadow: 0 0 22px black;
     padding: 7px;
     font-size: 110%; 
-}
+} 
  
 .server-label-count {padding: 5px;}
+
+
 
 .download-button{
     margin-right: 20px;
@@ -23,7 +25,6 @@
 }
 
 .download-button button{
-    /* width: 70%; */
     border: none;
     padding: 4px 18px;
     border-radius: 5px;
@@ -34,6 +35,25 @@
 .download-button button:hover {
     box-shadow: 0 0 5px black;
     padding: 4px 30px;
+    transition: 0.15s;
+}
+
+.mobile-download-button{
+    font-size: 150%;
+    align-items: center;
+}
+.mobile-download-button button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 4px 18px;
+    border-radius: 5px;
+    background: #096249;
+    color: white;
+    transition: 0.15s;
+}
+.mobile-download-button button:hover {
+    box-shadow: 0 0 5px black;
     transition: 0.15s;
 }
 
@@ -54,9 +74,11 @@
     /* padding: 0px 0px 4px 0px; */
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .server-text-block{
     word-spacing: 4px;
+    font-size: 65%;
 }
 .server-text-block section{
     padding: 5px 20px 15px 20px;

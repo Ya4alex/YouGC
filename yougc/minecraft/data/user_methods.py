@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 
-from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD
+from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD, EMAIL_CHANGE_EMAIL
 from .server_methods import get_server_class
 from ..models import (Authme, EmailConfirm, )
 
@@ -58,6 +58,22 @@ def send_recovery_email(user: User):
     html_message = render_to_string(EMAIL_RECOVERY_PASSWORD['message'], {'link': link,
                                                                          'email': user.email,
                                                                          'name': user.username})
+    user.email_user(
+        subject=EMAIL_RECOVERY_PASSWORD['subject'],
+        message=strip_tags(html_message),
+        html_message=html_message,
+    )
+
+
+def send_change_email_email(user: User):
+    '''
+    :param user:
+    :return: если возвращает int (время в unix), то это повторная отправка письма, повторная отправка возможна через n
+    '''
+    link = EmailConfirm.objects.create(user)
+    html_message = render_to_string(EMAIL_CHANGE_EMAIL['message'], {'link': link,
+                                                                    'email': user.email,
+                                                                    'name': user.username})
     user.email_user(
         subject=EMAIL_RECOVERY_PASSWORD['subject'],
         message=strip_tags(html_message),

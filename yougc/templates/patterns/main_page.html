@@ -68,9 +68,17 @@
             Войти
         </a>
         {% else %}
-        <a class="login-button" href="/logout">
-            {{ request.user.username }}
-        </a>
+        <div class="login-button">
+            <a onclick="openProfileMenu()">
+                {{ request.user.username }}
+            </a>
+            <ul id="profile_menu" style="display:none;">
+                <li><a href="/change_password">Сменить пароль</a></li>
+                <li><a href="/change_email">Сменить почту</a></li>
+                <li><a style="color: red;" href="/logout">Выйти</a></li>
+            </ul>
+        </div>
+
         {% endif %}
 
         <input id="menu__toggle" type="checkbox"/>
@@ -123,7 +131,7 @@
             <li><a href="http://yougc.ru">yougc.ru</a></li>
             <li><a href="#">все права защищены</a> | <a>12+</a></li>
             <li><a href="mailto:yougc.ru@yougc.ru">yougc.ru@yougc.ru</a></li>
-            <li><a href="https://m.vk.com/write-202950114?mvk_entrypoint=community_page">поддержка</a></li>
+            <li><a href="https://vk.com/write-202950114?mvk_entrypoint=community_page">поддержка</a></li>
             <li><a href="https://vk.com/ii_e_e_ii">Krovinosets</a> & <a href="https://vk.com/mego_lox">YaAlex</a></li>
         </ul>
     </div>
@@ -143,6 +151,7 @@
 </body>
 </html>
 <script src="{% static 'scripts/panorama.js' %}"></script>
+<script src="{% static 'scripts/profile.js' %}"></script>
 {% block scripts %}
 {% endblock %}
 

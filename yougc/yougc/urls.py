@@ -14,9 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.shortcuts import render
 from django.urls import path, include
 
 urlpatterns = [
+    path('firewall', lambda req: render(req, 'firewall/firewall.html', {})),
     path('admin/', admin.site.urls),
     path('', include('minecraft.urls'))
 ]

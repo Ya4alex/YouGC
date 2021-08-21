@@ -13,8 +13,6 @@ SLIDE_SHOW_DATA = {
     ),
     'shop_elytras': (
         ("", "1.jpg"),
-        ("", "2.jpg"),
-        ("", "3.jpg"),
     ),
     'lobby': (
         ("", "1.jpg"),
@@ -78,6 +76,11 @@ EMAIL_RECOVERY_PASSWORD = {  # стандартный шаблон письма 
     'subject': 'Восстановление пароля',
     'message': 'email_patterns/email_recovery_password.html',
 }
+EMAIL_CHANGE_EMAIL = {  # стандартный шаблон письма для подтверждения почты
+    'subject': 'Смена почты',
+    'message': 'email_patterns/email_change_email.html',
+}
+
 
 SERVER_STATUS = {
     'Включен': ('Работает', 'server-on', True), 'Выключен': ('Выключен', 'server-off', False),

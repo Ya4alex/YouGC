@@ -8,7 +8,7 @@
     </thead>
     <tbody>
     {% for player in leader_board %}
-    <tr class="place-{{player.class_status}}" onclick="javascript:location.href='/servers/{{server.name}}';">
+    <tr class="place-{{player.class_status}}">
         <td class="label">{{player.place}}</td>
         <td class="status">{{player.name}}</td>
         <td class="online">{{player.scores}}</td>
