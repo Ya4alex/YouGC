@@ -265,6 +265,27 @@ class EmailConfirm(models.Model):
         return datetime.utcfromtimestamp(time.time() - settings.EMAIL_SEND_PAUSE - self.date).strftime('%M:%S')
 
 
+class DonateQueue(models.Model):
+    user = models.ForeignKey(User, models.CASCADE)
+    date = models.FloatField(null=True)
+
+    price = models.IntegerField()
+    cur = models.IntegerField(null=True, help_text='валюта')  # https://www.free-kassa.ru/docs/api.php#ex_currencies
+    paid = models.BooleanField(default=False)
+
+    type = models.CharField(max_length=40)
+    order = models.IntegerField()
+    received = models.BooleanField(default=False)
+
+    phone = models.CharField(null=True, max_length=20)
+    kassaid = models.IntegerField(null=True, help_text='id операции на фрикассе')
+
+    class Meta:
+        db_table = 'donate_point_queue'
+        verbose_name = 'Заказы'
+        verbose_name_plural = 'Заказ'
+
+
 MODELS_SERVERS_LIST = {
     'roleplay': KactivityListRoleplay,
     'deadworld': KactivityListDeadworld,

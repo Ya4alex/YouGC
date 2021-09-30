@@ -1,0 +1,16 @@
+{% extends 'patterns/main_page.html' %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+<div class="up-block main_block" style="padding: 10px">
+    <div class="login-info">
+        <h1>Что-то пошло не так...</h1>
+        <span>
+            Обязательно обратитесь к администрации.<br>
+            Не переживайте, мы поможем.<br>
+            <small>всегда ваша, команда yougc</small>
+        </span>
+    </div>
+</div>
+{% endblock %}

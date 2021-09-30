@@ -63,3 +63,10 @@ def get_server_class(server_name):
 def get_server_list(current):
     servers = [Server(obj, current) for obj in KonlineOnline.objects.all()]
     return servers
+
+
+def get_json_server_online(server):
+    _server = KonlineOnline.objects.filter(server=server).first()
+    if not _server:
+        return []
+    return [(p.player, int(p.date)) for p in KonlineList.objects.filter(server_id=_server.id)]

@@ -80,7 +80,10 @@ EMAIL_CHANGE_EMAIL = {  # стандартный шаблон письма дл�
     'subject': 'Смена почты',
     'message': 'email_patterns/email_change_email.html',
 }
-
+EMAIL_DONATE_ERROR = {
+    'subject': 'Ошибка сервера',
+    'message': 'email_patterns/email_donate_error_email.html',
+}
 
 SERVER_STATUS = {
     'Включен': ('Работает', 'server-on', True), 'Выключен': ('Выключен', 'server-off', False),
@@ -93,4 +96,6 @@ NOTIFICATION_CLASSES = {
     'danger': ('#ff0000', False),
 }
 
-INSTALLER_LINK = 'http://yougc.ru/download/installer/status/YouGC%20Installer%20v1.5.jar'
+INSTALLER_LINK = 'http://yougc.ru/download/installer/ai/YouGC%20Installer.jar'
+
+

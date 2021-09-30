@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 
-from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD, EMAIL_CHANGE_EMAIL
+from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD, EMAIL_CHANGE_EMAIL, EMAIL_DONATE_ERROR
 from .server_methods import get_server_class
 from ..models import (Authme, EmailConfirm, )
 
@@ -76,6 +76,20 @@ def send_change_email_email(user: User):
                                                                     'name': user.username})
     user.email_user(
         subject=EMAIL_RECOVERY_PASSWORD['subject'],
+        message=strip_tags(html_message),
+        html_message=html_message,
+    )
+
+
+def send_donate_error_email(user: User, order_id):
+    """
+    :param user:
+    :param order_id:
+    :return: если возвращает int (время в unix), то это повторная отправка письма, повторная отправка возможна через n
+    """
+    html_message = render_to_string(EMAIL_DONATE_ERROR['message'], {'order_id': order_id})
+    user.email_user(
+        subject=EMAIL_DONATE_ERROR['subject'],
         message=strip_tags(html_message),
         html_message=html_message,
     )

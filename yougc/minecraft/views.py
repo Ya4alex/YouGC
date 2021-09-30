@@ -119,6 +119,14 @@ class DonatePage(TemplateView):  # /donate
         return custom_404(request, 'Приносим свои извинения! Страница пока в разработке. Что-то будет ;)')
 
 
+def donate_success_page(request, *args, **kwargs):
+    return render(request, 'pages/donate/success_page.html', {})
+
+
+def donate_fail_page(request, *args, **kwargs):
+    return render(request, 'pages/donate/fail_page.html', {})
+
+
 # --------------------------------------------------------------------------------------------------------------LOGIN---
 def set_email_req(response, value):
     response.set_cookie('email_req', not bool(value))
