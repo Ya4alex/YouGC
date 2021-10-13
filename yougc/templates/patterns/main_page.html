@@ -39,7 +39,7 @@
             {% if request.path == '/donate' %}
             <li class="choice">{% else %}
             <li>{% endif %}
-                <a href="/donate">Донат</a>
+                <a href="/donate/roleplay">Донат</a>
             </li>
             {% if 'servers' in request.path %}
             <li class="choice">{% else %}
@@ -50,11 +50,6 @@
             <li class="choice">{% else %}
             <li>{% endif %}
                 <a href="#">Discord</a>
-            </li>
-            {% if request.path == '/1' %}
-            <li class="choice">{% else %}
-            <li>{% endif %}
-                <a href="#">Правила</a>
             </li>
             {% if request.path == '/installer' %}
             <li class="choice">{% else %}
@@ -99,7 +94,7 @@
             {% if request.path == '/donate' %}
             <li class="choice">{% else %}
             <li>{% endif %}
-                <a href="/donate">Донат</a>
+                <a href="/donate/roleplay">Донат</a>
             </li>
             {% if 'servers' in request.path %}
             <li class="choice">{% else %}

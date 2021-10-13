@@ -100,6 +100,7 @@
     appearance: none;
     cursor: pointer;
     width: -webkit-fill-available;
+    font-size: 85%;
 }
 
 .sort-container label {
@@ -162,7 +163,7 @@
 }
 
 .shop-item h1 {
-    font-size: 120%;
+    font-size: 110%;
     text-align: center;
     margin-bottom: 5px;
 }

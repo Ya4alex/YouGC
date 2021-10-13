@@ -23,7 +23,7 @@ SITE_LINK = 'http://minecraft.yougc.ru'
 SECRET_KEY = 'django-insecure--_-%aufj_ps22n9m+4dq+1#dn^!@@az)ny1ug(nj(5gr603c-7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'minecraft.yougc.ru']
 

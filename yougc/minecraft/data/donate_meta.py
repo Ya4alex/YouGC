@@ -1,4 +1,5 @@
 DONATE_CONFIGURATION = {  # для изменения конфигурации, необходим перезапуск программы
+    # обязательно наличие price и status (по-умолчанию True)
     'points':
         [
             {
@@ -18,17 +19,27 @@ DONATE_CONFIGURATION = {  # для изменения конфигурации, 
                 'server': 'roleplay'
             },
             {
-                'status': False,
+                'status': True,
                 'value': 1000,
                 'price': 350,
                 'server': 'roleplay'
             },
+        ],
+    'tickets':  # value (время продления проходки) указывается в unix
+        [
             {
                 'status': True,
-                'value': 1,
-                'price': 1,
+                'price': 100,
+                'value': 2629743,
                 'server': 'roleplay'
             },
+            {
+                'status': False,
+                'price': 80,
+                'value': 2629743,
+                'server': 'roleplay'
+            },
+
         ],
 }
 DONATE_CONFIGURATION_PUBLIC = {}

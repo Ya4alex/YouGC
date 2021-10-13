@@ -1,18 +1,22 @@
-if ($(window).width() < 670){
-    $('.shop-container').removeClass('shop-container');
-    $('.shop-left-side').width('100%');
-    
-    $('#laptop-balance').hide();
-    $('#mobile-balance').show();
+$(document).ready(function(){
+    if ($(window).width() < 650){
+        $('.shop-container').removeClass('shop-container');
+        $('.shop-left-side').width('100%');
 
-    $('.shop-item').css("margin", "0px 0px 10px 0px");
-    $('.shop-item').width('100%');
-    $('.shop-items-container').width('100%');
+        $('#laptop-balance').hide();
+        $('#mobile-balance').show();
 
-} else {
-    document.addEventListener("DOMContentLoaded", render_catalog);
-    window.addEventListener('resize', render_catalog);
+        $('.shop-item').css("margin", "0px 0px 10px 0px");
+        $('.shop-item').width('100%');
+        $('.shop-items-container').width('100%');
 
-    document.addEventListener("DOMContentLoaded", Crop);
-    window.addEventListener('resize', Crop);
-}
+    } else {
+        render_catalog();
+        window.addEventListener('resize', render_catalog);
+
+        Crop();
+        window.addEventListener('resize', Crop);
+    }
+});
+
+

@@ -113,10 +113,13 @@ class BuyProduct(LoginRequiredMixin, TemplateView):
 
 # DONATE-------------------------------------------------------------------------------------------------------DONATE---
 class DonatePage(TemplateView):  # /donate
-    template_name = 'pages/donate/donate_page_wait.html'
+    template_name = 'pages/donate/donate_page.html'
 
-    def get(self, request, *args, **kwargs):
-        return custom_404(request, 'Приносим свои извинения! Страница пока в разработке. Что-то будет ;)')
+    def get(self, request, server='roleplay', *args, **kwargs):
+        _server = get_server(server)
+        if not _server:
+            return custom_404(request, 'У вас не получится поиграть на этом сервере, его просто нет :)')
+        return render(request, self.template_name, {'servers': get_server_list(server)})
 
 
 def donate_success_page(request, *args, **kwargs):

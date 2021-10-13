@@ -1,66 +1,49 @@
 {% extends 'patterns/main_page.html' %}
-{% load static %}
+{% load static%}
 {% block css%}
-<link rel="stylesheet" type="text/css" href="{% static 'css/card.css' %}">
-{% endblock %}
-
+<link rel="stylesheet" type="text/css" href="{% static 'css/donate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/server.css' %}">
+{%endblock%}
 {% block content %}
+<div class="main_block server-navbar">
+    <div style="display: inline-grid;">
+        <ul>
+            {% for list_server in servers %}
+            <li class="{{list_server.css_class}}">
+                <a href="/donate/{{list_server}}">{{ list_server.label }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <a href="#" class="balance">
+        {{user_balance}}
+    </a>
+</div>
 <div class="center-block main_block">
-    <div></div>
-</div>
-<div class="label"><h1><span>ROLEPLAY</span> - проходки</h1></div>
-<div class="card-container">
-    <div class="card">
-        <h1>1</h1>
-        <h2>месяц</h2>
-        <h3 id="coast1">75₽</h3>
-        <button onclick="" id="1"><span>купить</span></button>
-    </div>
-    <div class="card">
-        <div class="sale" id="sale2"></div>
-        <h1>3</h1>
-        <h2>месяца</h2>
-        <h3 id="coast2">200₽</h3>
-        <button onclick="" id="2"><span>купить</span></button>
-    </div>
-    <div class="card">
-        <div class="sale" id="sale3"></div>
-        <h1>ДО</h1>
-        <h2>конца сезона</h2>
-        <h3 id="coast3">400₽</h3>
-        <button onclick="" id="3"><span>купить</span></button>
+    <div class="nav-img">
+        <h1>ROLEPLAY</h1>
+        <ul>
+            <li><a href="#points">Баллы</a></li>
+            <li><a>Проходки</a></li>
+        </ul>
     </div>
 
+    <div class="father-donate-container">
+        <div class="name">
+            <div><span></span></div>
+            <h2>Баллы</h2>
+        </div>
+        <div class="donate-container" id="points">
+        </div>
+        <div class="name">
+            <div><span></span></div>
+            <h2>Проходки</h2>
+        </div>
+    </div>
 </div>
-<div class="label"><h1><span>ANARCHY</span> - артефакты</h1></div>
-<div class="card-container">
-    <div class="card">
-        <h1>1</h1>
-        <h2>месяц</h2>
-        <h3 id="coast4">100₽</h3>
-        <button onclick="" id="4"><span>купить</span></button>
-    </div>
-    <div class="card">
-        <div class="sale" id="sale5"></div>
-        <h1>3</h1>
-        <h2>месяца</h2>
-        <h3 id="coast5">200₽</h3>
-        <button onclick="" id="5"><span>купить</span></button>
-    </div>
-    <div class="card">
-        <div class="sale" id="sale6"></div>
-        <h1>5</h1>
-        <h2>месяцев</h2>
-        <h3 id="coast6">500₽</h3>
-        <button onclick="" id="6"><span>купить</span></button>
-    </div>
-    <div class="card">
-        <div class="sale" id="sale7"></div>
-        <h1>ДО</h1>
-        <h2>конца сезона</h2>
-        <h3 id="coast7">999₽</h3>
-        <button onclick="" id="7"><span>купить</span></button>
-    </div>
-
-</div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'scripts/donate.js' %}"></script>
+{% endblock %}
+{% block post-scripts %}
 {% endblock %}

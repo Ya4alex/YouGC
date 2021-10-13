@@ -14,6 +14,9 @@ SLIDE_SHOW_DATA = {
     'shop_elytras': (
         ("", "1.jpg"),
     ),
+    'shop_weapons': (
+        ("", "1.jpg"),
+    ),
     'lobby': (
         ("", "1.jpg"),
     ),
@@ -97,5 +100,3 @@ NOTIFICATION_CLASSES = {
 }
 
 INSTALLER_LINK = 'http://yougc.ru/download/installer/ai/YouGC%20Installer.jar'
-
-
