@@ -4,13 +4,14 @@ from django.views.generic import TemplateView
 
 from .data import *
 from .data.donate_meta import DONATE_CONFIGURATION, DONATE_CONFIGURATION_PUBLIC
-from .data.donate_methods import render_pay_link, get_signature, DONATE_EXECUTORS, SHOP_ID
+from .data.donate_methods import render_pay_link, get_signature, SHOP_ID, DONATE_HANDLERS
 from .data.server_methods import get_json_server_online
 from .data.user_methods import send_donate_error_email
 from .models import DonateQueue
+from .views import custom_403
 
 
-class OnlineGETJSON(TemplateView):  # /
+class OnlineGETJSON(TemplateView):
     template_name = 'pages/main/main_page.html'
 
     def get(self, request, *args, **kwargs):
@@ -28,7 +29,6 @@ class Donate(LoginRequiredMixin, TemplateView):
     def get(self, request, *args, **kwargs):
         _order = request.GET.get('card', '')
         _type = request.GET.get('type', '')
-        print(_type, _order)
         try:
             card = DONATE_CONFIGURATION[_type][int(_order)]
             user = request.user
@@ -37,6 +37,9 @@ class Donate(LoginRequiredMixin, TemplateView):
 
         if 'status' in card.keys() and not card.get('status'):
             return HttpResponse('no longer valid parameters', 403)
+
+        if not DONATE_HANDLERS[_type].perm(user, card):
+            return custom_403(request, "Отказано в доступе (возможно вы еще не подали заявку). Напишите администрации.")
 
         line = DonateQueue(
             user=user,
@@ -78,14 +81,15 @@ class DonateConfirmation(TemplateView):
         if line.received:
             return HttpResponse('Order has already been processed', 403)
         # ALL CHECKED
-        if DONATE_EXECUTORS[line.type](line, user):
-            line.received = True
-        else:
-            send_donate_error_email(user, oreder_id)
 
         line.phone = params.get('P_PHONE')
         line.paid = True
         line.kassaid = intid
+
+        if DONATE_HANDLERS[line.type].execute(line, user):
+            line.received = True
+        else:
+            send_donate_error_email(user, oreder_id)
 
         line.save()
         return HttpResponse('YES')

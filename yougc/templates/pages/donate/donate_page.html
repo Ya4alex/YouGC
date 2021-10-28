@@ -1,7 +1,7 @@
 {% extends 'patterns/main_page.html' %}
 {% load static%}
 {% block css%}
-<link rel="stylesheet" type="text/css" href="{% static 'css/donate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/donate.css' %}?v=1">
 <link rel="stylesheet" type="text/css" href="{% static 'css/server.css' %}">
 {%endblock%}
 {% block content %}
@@ -24,7 +24,7 @@
         <h1>ROLEPLAY</h1>
         <ul>
             <li><a href="#points">Баллы</a></li>
-            <li><a>Проходки</a></li>
+            <li><a href="#other">Прочее</a></li>
         </ul>
     </div>
 
@@ -37,13 +37,52 @@
         </div>
         <div class="name">
             <div><span></span></div>
-            <h2>Проходки</h2>
+            <h2>Прочее</h2>
+        </div>
+        <div class="donate-container" id="other">
+            <div class="card-other"
+                 style="background-image: url(/static/img/donate/colors_nick.png); background-size: 76px;">
+                <button class="other-info" onclick="info('#info-window-my_name')">🛈</button>
+
+                <div class="info-window" id="info-window-my_name" onclick="info('#info-window-my_name')">
+                    Вы сможете разукрасить свой ник в любые цвета. Каждая буква - свой цвет. После заказа свяжитесь с
+                    администрацией,
+                    чтобы установить цвета.
+                </div>
+                <div class="price">75₽</div>
+                <a class="buy" href="/service/donate_pay?type=other&card=0">купить</a>
+            </div>
+            <div class="card-other" style="background-image: url(/static/img/donate/prefix.png);">
+                <button class="other-info" onclick="info('#info-window-my_prefix')">🛈</button>
+
+                <div class="info-window" id="info-window-my_prefix" onclick="info('#info-window-my_prefix')">
+                    Перед вашим ником в майнкрафт появится кастомный префикс. После заказа свяжитесь с администрацией,
+                    чтобы установить его.
+                </div>
+                <div class="price">75₽</div>
+                <a class="buy" href="/service/donate_pay?type=other&card=1">купить</a>
+            </div>
+            <div class="card-other" style="background-image: url(/static/img/donate/skin.png);">
+                <button class="other-info" onclick="info('#info-window-my_texture')">🛈</button>
+
+                <div class="info-window" id="info-window-my_texture" onclick="info('#info-window-my_texture')">
+                    Вы сможете установить личную текстуру, с исключительным правом пользования. Заказ
+                    выполняется вручную, нужный текстурпак
+                    надо прислать администрации. Внимание! Текстурпак должен будет пройти модерацию.
+                </div>
+
+                <div class="name">
+                    Личная текстура
+                </div>
+                <div class="price">150₽</div>
+                <a class="buy" href="/service/donate_pay?type=other&card=2">купить</a>
+            </div>
         </div>
     </div>
 </div>
 {% endblock %}
 {% block scripts %}
-<script src="{% static 'scripts/donate.js' %}"></script>
+<script src="{% static 'scripts/donate.js' %}?v=1"></script>
 {% endblock %}
 {% block post-scripts %}
 {% endblock %}

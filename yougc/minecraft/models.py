@@ -286,6 +286,32 @@ class DonateQueue(models.Model):
         verbose_name_plural = 'Заказ'
 
 
+class DonateNotAuto(models.Model):
+    username = models.CharField(max_length=45)
+    service = models.CharField(max_length=45)
+    date = models.IntegerField(blank=True, null=True)
+    donate_id = models.IntegerField()
+    user_id = models.IntegerField()
+    send = models.IntegerField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'donate_not_auto'
+        verbose_name = 'Очередь на получение неавтоматических услуг'
+        verbose_name_plural = 'Получение неавтоматической услуги'
+
+
+class KactivityInfo(models.Model):
+    name = models.TextField()
+    discord = models.CharField(max_length=45, blank=True, null=True)
+    vk = models.CharField(max_length=45, blank=True, null=True)
+    email = models.TextField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'kactivity_info'
+
+
 MODELS_SERVERS_LIST = {
     'roleplay': KactivityListRoleplay,
     'deadworld': KactivityListDeadworld,

@@ -1,3 +1,16 @@
+function getbottom(elem) {
+    return elem.getBoundingClientRect().bottom + document.documentElement.scrollTop;
+}
+
+function Crop() {
+    let border = document.getElementById('border');
+    let crop = document.getElementById('crop');
+    let delta = getbottom(crop) - getbottom(border);
+
+    crop.style.maxHeight = (crop.clientHeight - delta) + 'px';
+
+}
+
 $(document).ready(function(){
     if ($(window).width() < 650){
         $('.shop-container').removeClass('shop-container');
@@ -16,6 +29,7 @@ $(document).ready(function(){
 
         Crop();
         window.addEventListener('resize', Crop);
+        document.addEventListener("load", Crop);
     }
 });
 

@@ -69,4 +69,7 @@ def get_json_server_online(server):
     _server = KonlineOnline.objects.filter(server=server).first()
     if not _server:
         return []
-    return [(p.player, int(p.date)) for p in KonlineList.objects.filter(server_id=_server.id)]
+    a = {}
+    for p in KonlineList.objects.filter(server_id=_server.id):
+        a[p.player] = int(p.date)
+    return a

@@ -39,7 +39,7 @@
 </div>
 <div class="right-block main_block server-players-block">
     <div class="server-label">
-        <span class="server-label-count">Игроков онлайн: {{server.online}}</span>
+        <span class="server-label-count" id="online_counter"></span>
     </div>
 </div>
 <div class="right-block main_block server-players-block crop-block" id="crop">
@@ -50,13 +50,7 @@
             <th>Время игры</th>
         </tr>
         </thead>
-        <tbody>
-        {% for player in server.players %}
-        <tr onclick="javascript:location.href='/servers/{{server.name}}';">
-            <td class="label">{{player.name}}</td>
-            <td class="status">{{player.b_time}}</td>
-        </tr>
-        {% endfor %}
+        <tbody id="online_container">
         </tbody>
     </table>
 </div>
@@ -65,9 +59,13 @@
     <span class="server-label-big">О Сервере</span>
     {{server.text.about|safe}}
 </div>
+<script>
+    var server_name = "{{server.name}}";
+</script>
 {% endif %}
 
 {% endblock %}
 {% block scripts %}
-<script src="{% static 'scripts/crop.js' %}"></script>
+<script src="{% static 'scripts/crop.js' %}?v=1"></script>
+<script src="{% static 'scripts/server.js' %}?v=1"></script>
 {% endblock %}

@@ -15,7 +15,7 @@ SLIDE_SHOW_DATA = {
         ("", "1.jpg"),
     ),
     'shop_weapons': (
-        ("", "1.jpg"),
+        ("", "1.jpg?v=1"),
     ),
     'lobby': (
         ("", "1.jpg"),
@@ -86,6 +86,10 @@ EMAIL_CHANGE_EMAIL = {  # стандартный шаблон письма дл�
 EMAIL_DONATE_ERROR = {
     'subject': 'Ошибка сервера',
     'message': 'email_patterns/email_donate_error_email.html',
+}
+EMAIL_NOT_AUTO_DONATE_ERROR = {
+    'subject': 'Покупка успешно совершена',
+    'message': 'email_patterns/email_not_auto_donate.html',
 }
 
 SERVER_STATUS = {

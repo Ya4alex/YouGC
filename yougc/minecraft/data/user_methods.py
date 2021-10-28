@@ -2,7 +2,8 @@ from django.contrib.auth.models import User
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 
-from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD, EMAIL_CHANGE_EMAIL, EMAIL_DONATE_ERROR
+from .meta import EMAIL_CONFIRM_CONFIG, EMAIL_RECOVERY_PASSWORD, EMAIL_CHANGE_EMAIL, EMAIL_DONATE_ERROR, \
+    EMAIL_NOT_AUTO_DONATE_ERROR
 from .server_methods import get_server_class
 from ..models import (Authme, EmailConfirm, )
 
@@ -15,7 +16,7 @@ def get_user_balance_visual(user: User, server_name):
     if user:
         balance = get_user_balance(user, server_name)
         if balance:
-            return f"У вас сумарно {balance.balance + balance.gotbalance} баллов"
+            return f"У вас суммарно {balance.balance + balance.gotbalance} баллов"
     return ''
 
 
@@ -90,6 +91,21 @@ def send_donate_error_email(user: User, order_id):
     html_message = render_to_string(EMAIL_DONATE_ERROR['message'], {'order_id': order_id})
     user.email_user(
         subject=EMAIL_DONATE_ERROR['subject'],
+        message=strip_tags(html_message),
+        html_message=html_message,
+    )
+
+
+def send_not_auto_donate_email(user: User, order_id):
+    """
+    :param user:
+    :param order_id:
+    :return: если возвращает int (время в unix), то это повторная отправка письма, повторная отправка возможна через n
+    """
+    html_message = render_to_string(EMAIL_NOT_AUTO_DONATE_ERROR['message'],
+                                    {'user': user.username, 'donate_id': order_id})
+    user.email_user(
+        subject=EMAIL_NOT_AUTO_DONATE_ERROR['subject'],
         message=strip_tags(html_message),
         html_message=html_message,
     )

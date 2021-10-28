@@ -11,5 +11,6 @@ function Crop() {
     crop.style.maxHeight = (crop.clientHeight - delta) + 'px';
 
 }
+
 document.addEventListener("DOMContentLoaded", Crop);
 window.addEventListener('resize', Crop);

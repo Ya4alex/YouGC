@@ -2,7 +2,7 @@
 {% load static%}
 
 {% block css%}
-<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}?v=3">
 {%endblock%}
 {% block content %}
 <div class="main_block shop-navbar">
@@ -53,16 +53,16 @@
             <h1>{{product.long_name}}</h1>
             <img src="/static/img/shop/{{category}}/{{product.get_picture}}">
             <span>{{product.price}} баллов</span>
-            <button onclick="buyProduct('{{ server }}','{{ product }}', '{{ product.long_name }}')">Купить</button>
+            <button class="buy" onclick="buyProduct('{{ server }}','{{ product }}', '{{ product.long_name }}')">Купить
+            </button>
         </div>
         {% endfor %}
     </div>
 </div>
 {% endblock %}
 {% block scripts %}
-<script src="{% static 'scripts/crop.js' %}"></script>
-<script src="{% static 'scripts/shop.js' %}"></script>
+<script src="{% static 'scripts/shop.js' %}?v=1"></script>
 {% endblock %}
 {% block post-scripts %}
-<script src="{% static 'scripts/shop_mobile.js' %}"></script>
+<script src="{% static 'scripts/shop_mobile.js' %}?v=1"></script>
 {% endblock %}

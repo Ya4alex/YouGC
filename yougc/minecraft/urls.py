@@ -1,6 +1,7 @@
+from django.shortcuts import redirect
 from django.urls import path
 
-from . import views
+from . import views, service_views
 
 urlpatterns = [
     path('', views.MainPage.as_view()),
@@ -10,10 +11,10 @@ urlpatterns = [
     path('shop/<str:str_server>/<str:str_category>', views.ShopPage.as_view()),
     path('buy/<str:str_server>/<str:product_name>', views.BuyProduct.as_view()),
 
-    # path('donate/<str:str_server>', views.DonatePage.as_view()),
-    # path('donate', lambda request: redirect('donate/roleplay', permanent=False)),
-    # path('donate/success', views.donate_success_page),
-    # path('donate/fail', views.donate_fail_page),
+    path('donate/<str:str_server>', views.DonatePage.as_view()),
+    path('donate', lambda request: redirect('donate/roleplay', permanent=False)),
+    path('donate/success', views.donate_success_page),
+    path('donate/fail', views.donate_fail_page),
 
     path('login', views.LoginPage.as_view()),
     path('logout', views.LogoutPage.as_view()),
@@ -27,8 +28,8 @@ urlpatterns = [
 
     path('installer', views.InstallerPage.as_view()),
 
-    # path('service/donate_confirmation', service_views.DonateConfirmation.as_view()),
-    # path('service/donate_pay', service_views.Donate.as_view()),
-    # path('service/get_donate_configuration', service_views.DonateGETJSON.as_view()),
-    # path('service/get_server_online', service_views.OnlineGETJSON.as_view()),
+    path('service/donate_confirmation', service_views.DonateConfirmation.as_view()),
+    path('service/donate_pay', service_views.Donate.as_view()),
+    path('service/get_donate_configuration', service_views.DonateGETJSON.as_view()),
+    path('service/get_server_online', service_views.OnlineGETJSON.as_view()),
 ]
