@@ -30,6 +30,7 @@ $(document).ready(function(){
         Crop();
         window.addEventListener('resize', Crop);
         document.addEventListener("load", Crop);
+        setTimeout(Crop, 1000);
     }
 });
 

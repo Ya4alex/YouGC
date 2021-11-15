@@ -10,7 +10,7 @@ from .data import *
 from .data.meta import INSTALLER_LINK
 from .data.user_methods import send_recovery_email, send_change_email_email
 from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm, ChangeEmailForm
-from .models import Authme, EmailConfirm
+from .models import Authme, EmailConfirm, KactivityQueue
 
 
 def custom_404(request, message='', *args, **kwargs):
@@ -91,6 +91,10 @@ class BuyProduct(LoginRequiredMixin, TemplateView):
         if not product:
             return custom_404(request, f'Вещь {product_name} не продается, так как её просто нет :)')
 
+        server = product.servers.filter(server=str_server)
+        if not server:
+            return custom_404(request, f'Вещь {product_name} не продается на этом сервере.')
+
         user = request.user
         balance = get_user_balance(user, str_server)
 
@@ -105,6 +109,16 @@ class BuyProduct(LoginRequiredMixin, TemplateView):
             add_product_to_queue(product, user, product.servers.first().server)
             product.buyers_count += 1
             product.save()
+
+            if product.creator_id:
+                KactivityQueue(
+                    name=product.creator_name,
+                    balance=int(int(product.price) * 0.1),
+                    gotbalance=0,
+                    server=str_server,
+                    action=f"10% с продажи [{product.long_name}]"
+                ).save()
+
             set_message(request, f"{product.long_name} успешно куплен", cls='success')
         else:
             set_message(request, 'Недостаточно средств', cls='danger')

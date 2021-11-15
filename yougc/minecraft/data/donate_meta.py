@@ -6,26 +6,26 @@ DONATE_CONFIGURATION = {  # для изменения конфигурации, 
                 'place_id': 1,
                 'status': True,
                 'value': 40,
-                'price': 20,
+                'price': 39,
                 'server': 'roleplay'
             },
             {
                 'place_id': 2,
                 'value': 100,
-                'price': 40,
+                'price': 89,
                 'server': 'roleplay'
             },
             {
                 'place_id': 3,
                 'value': 300,
-                'price': 100,
+                'price': 239,
                 'server': 'roleplay'
             },
             {
                 'place_id': 4,
                 'status': True,
                 'value': 1000,
-                'price': 350,
+                'price': 599,
                 'server': 'roleplay'
             },
         ],
@@ -51,17 +51,17 @@ DONATE_CONFIGURATION = {  # для изменения конфигурации, 
         [
             {
                 'service': "разноцветный ник",
-                'price': 75,
+                'price': 99,
                 'server': 'roleplay'
             },
             {
                 'service': "префикс",
-                'price': 75,
+                'price': 99,
                 'server': 'roleplay'
             },
 {
                 'service': "личная текстура",
-                'price': 150,
+                'price': 159,
                 'server': 'roleplay'
             },
 

@@ -30,7 +30,8 @@ function load() {
     $.ajax({
         url: "/service/get_server_online",
         data: {
-            "server": server_name
+            "server": server_name,
+            "random": Math.random()
         },
         success: function(result) {
             online_counter.text("Игроков онлайн: " + Object.keys(result).length);

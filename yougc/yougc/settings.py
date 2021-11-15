@@ -23,7 +23,7 @@ SITE_LINK = 'http://minecraft.yougc.ru'
 SECRET_KEY = 'django-insecure--_-%aufj_ps22n9m+4dq+1#dn^!@@az)ny1ug(nj(5gr603c-7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'minecraft.yougc.ru']
 
@@ -161,6 +161,23 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # urls:
 LOGIN_URL = '/login'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': f'{BASE_DIR}/debug.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'propagate': True,
+        },
+    },
+}
 
 # const
 DEFAULT_SERVER = 'roleplay'

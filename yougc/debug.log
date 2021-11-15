@@ -1,0 +1,1158 @@
+Watching for file changes with StatReloader
+"GET /service/donate_confirmation?MERCHANT_ORDER_ID=80&P_PHONE=&P_EMAIL=hinadoka96%40gmail.com&CUR_ID=160&AMOUNT=99&MERCHANT_ID=144528&SIGN=be243ee01afad05567cdbbaaedd83769&intid=152495406 HTTP/1.1" 200 3
+"GET /service/donate_confirmation?MERCHANT_ORDER_ID=80&P_PHONE=&P_EMAIL=hinadoka96%40gmail.com&CUR_ID=160&AMOUNT=99&MERCHANT_ID=144528&SIGN=be243ee01afad05567cdbbaaedd83769&intid=152495406 HTTP/1.1" 200 3
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\donate_methods.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12668
+"GET /service/donate_confirmation?MERCHANT_ORDER_ID=80&P_PHONE=&P_EMAIL=hinadoka96%40gmail.com&CUR_ID=160&AMOUNT=99&MERCHANT_ID=144528&SIGN=be243ee01afad05567cdbbaaedd83769&intid=152495406 HTTP/1.1" 200 3
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5937
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\donate_methods.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /service/donate_confirmation?MERCHANT_ORDER_ID=80&P_PHONE=&P_EMAIL=hinadoka96%40gmail.com&CUR_ID=160&AMOUNT=99&MERCHANT_ID=144528&SIGN=be243ee01afad05567cdbbaaedd83769&intid=152495406 HTTP/1.1" 200 3
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\donate_methods.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /service/donate_confirmation?MERCHANT_ORDER_ID=80&P_PHONE=&P_EMAIL=hinadoka96%40gmail.com&CUR_ID=160&AMOUNT=99&MERCHANT_ID=144528&SIGN=be243ee01afad05567cdbbaaedd83769&intid=152495406 HTTP/1.1" 200 3
+"GET /service/donate_confirmation?MERCHANT_ORDER_ID=80&P_PHONE=&P_EMAIL=hinadoka96%40gmail.com&CUR_ID=160&AMOUNT=99&MERCHANT_ID=144528&SIGN=be243ee01afad05567cdbbaaedd83769&intid=152495406 HTTP/1.1" 200 3
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\donate_methods.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12668
+"GET /static/css/style.css?v=1 HTTP/1.1" 304 0
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 10966
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 304 0
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /shop/roleplay/elytras HTTP/1.1" 200 10966
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 3970
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 849
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 10966
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 3970
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 849
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 9083
+"GET /static/css/donate.css?v=1 HTTP/1.1" 200 4358
+"GET /static/img/donate/skin.png HTTP/1.1" 200 5475
+"GET /static/img/donate/prefix.png HTTP/1.1" 200 16336
+"GET /static/img/donate/colors_nick.png HTTP/1.1" 200 28861
+"GET /static/scripts/donate.js?v=1 HTTP/1.1" 200 1950
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /service/get_donate_configuration HTTP/1.1" 200 361
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5937
+"GET /shop/roleplay/elytras HTTP/1.1" 200 10966
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4016
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 849
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /shop/roleplay/weapons HTTP/1.1" 200 13004
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 3860
+"GET /static/img/shop/weapons/magic_bow.png HTTP/1.1" 200 21135
+"GET /static/img/shop/weapons/ax_of_god_of_war.png HTTP/1.1" 200 139726
+"GET /static/img/shop/weapons/ax_of_immortal.png HTTP/1.1" 200 158323
+"GET /static/img/shop/weapons/hand_of_flesh.png HTTP/1.1" 200 23823
+"GET /static/img/shop/weapons/blade_1000_souls.png HTTP/1.1" 200 32347
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 200 4961
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 200 4777
+"GET /static/img/shop/weapons/cyber_blade.png HTTP/1.1" 200 19923
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 200 6640
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 200 5107
+"GET /static/img/shop/weapons/assassins_crossbow.png HTTP/1.1" 200 3049
+"GET /static/img/shop/weapons/assassins_blade.png HTTP/1.1" 200 3057
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 200 5753
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 9963
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/nebula_pickaxe.png HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/stardust_pickaxe.png HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/solar_flare_pickaxe.png HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/whirlwind_pick.png HTTP/1.1" 304 0
+"GET /static/img/slide_show/shop_pickaxes/1.jpg?v=1 HTTP/1.1" 200 323161
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 9963
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 9963
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 10966
+Internal Server Error: /shop/roleplay/elytras
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 61, in get
+    category = Category(str_category, str_server)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\visual_methods.py", line 89, in __init__
+    self.obj = SiteProductCategory.objects.filter(name=name).first()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 674, in first
+    for obj in (self if self.ordered else self.order_by('pk'))[:1]:
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+"GET /shop/roleplay/elytras HTTP/1.1" 500 234331
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5937
+Internal Server Error: /shop/roleplay/elytras
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 61, in get
+    category = Category(str_category, str_server)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\visual_methods.py", line 89, in __init__
+    self.obj = SiteProductCategory.objects.filter(name=name).first()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 674, in first
+    for obj in (self if self.ordered else self.order_by('pk'))[:1]:
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+"GET /shop/roleplay/elytras HTTP/1.1" 500 234331
+Internal Server Error: /shop/roleplay/elytras
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 61, in get
+    category = Category(str_category, str_server)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\visual_methods.py", line 89, in __init__
+    self.obj = SiteProductCategory.objects.filter(name=name).first()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 674, in first
+    for obj in (self if self.ordered else self.order_by('pk'))[:1]:
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+"GET /shop/roleplay/elytras HTTP/1.1" 500 234331
+Internal Server Error: /shop/roleplay/elytras
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 61, in get
+    category = Category(str_category, str_server)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\visual_methods.py", line 89, in __init__
+    self.obj = SiteProductCategory.objects.filter(name=name).first()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 674, in first
+    for obj in (self if self.ordered else self.order_by('pk'))[:1]:
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'krovinka.beget.tech' (11001)")
+- Broken pipe from ('127.0.0.1', 57257)
+
+"GET /shop/roleplay/elytras HTTP/1.1" 200 10954
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 3860
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 849
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 10807
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 9071
+"GET /service/get_donate_configuration HTTP/1.1" 200 361
+"GET /donate/roleplay HTTP/1.1" 200 9071
+"GET /service/get_donate_configuration HTTP/1.1" 200 361
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15329
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15329
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 3863
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 849
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 9071
+"GET /service/get_donate_configuration HTTP/1.1" 200 361
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15195
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4486
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 9071
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/donate.css?v=1 HTTP/1.1" 200 4358
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/donate.js?v=1 HTTP/1.1" 200 1950
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/donate/prefix.png HTTP/1.1" 200 16336
+"GET /static/img/donate/colors_nick.png HTTP/1.1" 200 28861
+"GET /static/img/donate/skin.png HTTP/1.1" 200 5475
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /service/get_donate_configuration HTTP/1.1" 200 361
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15195
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4486
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 869
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15195
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 843
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15128
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15128
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4486
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 15128
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4487
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+Watching for file changes with StatReloader
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18395
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18794
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4487
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18822
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18794
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4508
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 19032
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 19032
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27793
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /shop/roleplay/weapons HTTP/1.1" 200 28144
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 28420
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 14696
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 14696
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4509
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/shop/pickaxes/nebula_pickaxe.png HTTP/1.1" 200 2672
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/shop/pickaxes/whirlwind_pick.png HTTP/1.1" 200 3319
+"GET /static/img/slide_show/shop_pickaxes/1.jpg?v=1 HTTP/1.1" 200 323161
+"GET /static/img/shop/pickaxes/solar_flare_pickaxe.png HTTP/1.1" 200 3580
+"GET /static/img/shop/pickaxes/stardust_pickaxe.png HTTP/1.1" 200 3715
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 28420
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /shop/roleplay/weapons HTTP/1.1" 200 28420
+"GET /static/css/style.css?v=1 HTTP/1.1" 304 0
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5937
+"GET /shop/creative HTTP/1.1" 302 0
+Not Found: /shop/creative/elytras
+"GET /shop/creative/elytras HTTP/1.1" 404 5395
+"GET /static/css/login.css HTTP/1.1" 200 1157
+"GET /servers/roleplay HTTP/1.1" 200 9433
+"GET /static/scripts/crop.js?v=1 HTTP/1.1" 200 546
+"GET /static/scripts/server.js?v=2 HTTP/1.1" 200 1409
+"GET /static/img/slide_show/roleplay/2.jpg HTTP/1.1" 200 526270
+"GET /static/img/slide_show/roleplay/1.jpg HTTP/1.1" 200 439143
+"GET /service/get_server_online?server=roleplay&random=0.37418197541754417 HTTP/1.1" 200 170
+Internal Server Error: /servers/creative
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 345, in get
+    _server.load_extra_text()
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 40, in load_extra_text
+    self.text = self.Text(self.name)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 11, in __init__
+    _ = SERVERS_TEXT[server_name]
+KeyError: 'creative'
+"GET /servers/creative HTTP/1.1" 500 85263
+"GET /service/get_server_online?server=roleplay&random=0.35766772953839565 HTTP/1.1" 200 170
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 19097
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12692
+"GET /static/css/server_status.css HTTP/1.1" 200 173
+"GET /static/css/list_table.css HTTP/1.1" 200 454
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/crop.js HTTP/1.1" 200 546
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/vk.js HTTP/1.1" 200 201
+"GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 200 245606
+"GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 200 326336
+"GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 200 455630
+"GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 200 545699
+"GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 200 857392
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /servers/roleplay HTTP/1.1" 200 9433
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/scripts/crop.js?v=1 HTTP/1.1" 200 546
+"GET /static/img/slide_show/roleplay/1.jpg HTTP/1.1" 200 439143
+"GET /static/img/slide_show/roleplay/2.jpg HTTP/1.1" 200 526270
+"GET /static/scripts/server.js?v=2 HTTP/1.1" 200 1409
+"GET /service/get_server_online?server=roleplay&random=0.9893591689892443 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.9757187862351779 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.7209971827057278 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6406963939652774 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.014258160811628118 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.861398754245235 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.69540911034886 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.050550268239245355 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.02351364164890457 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6319959961080712 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.31789528889798646 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.2967950977933038 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.619860114625203 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.0340305407948398 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.7049974363251577 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.8306807765833311 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.36012890791710594 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.2252729764389838 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.8290940158288345 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.8654220328185616 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.5782372493787507 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.4830113883027838 HTTP/1.1" 200 12
+"GET /service/get_server_online HTTP/1.1" 200 2
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5937
+"GET /service/get_server_online?server=roleplay&random=0.1501692281180098 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.825984544419555 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=1 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.5665014255873966 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.9239709000048575 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.8809941541540831 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.47491210166912046 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.4703650327621176 HTTP/1.1" 200 12
+"GET /service/get_server_online?server=roleplay&random=0.8467798052525841 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.040943821346923315 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.33607334117785603 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.995098785870661 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.7787843271654604 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.5037916568558256 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.032558239973772274 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.7875874346115184 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.2724463364384331 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.9706311767719269 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.4545312866543203 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.9132248637874747 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.4139593785735105 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.09446651866632338 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.6966772990099463 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.719780215157396 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.0661232597040331 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.061505037855447364 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.1282075939262104 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.1970886127538498 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.6323333621380731 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.9292148940543274 HTTP/1.1" 200 30
+"GET /service/get_server_online?server=roleplay&random=0.829547953029707 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.24045098023345557 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.24548957824913797 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.541302745122302 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.00523361056560967 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.5392687329038892 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.29295787291713804 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.7100090334161777 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.5178106407168752 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.3823569196650156 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.7767349647864472 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6978365283558174 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.3098066891217597 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6811218210512875 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.25691278318114774 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.34895965028756915 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.04258430863888174 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6232259032407728 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6579869078066971 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.9131564936813812 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.5869399122691059 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.5571124484340122 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.8267085307679563 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.5699460268262246 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.24577933395555318 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.910360249693599 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6772207593167485 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.9641904470154621 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.7440248606494437 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.1007978103016316 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.5431893080161452 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.33104059402248387 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.514088435175414 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.8737900297064738 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.17328875533610533 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.9738700439409562 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.7780259932623492 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.34138767841440565 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.2039562037674154 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.09049635588896487 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6515534547226673 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.6894088991024547 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.026183255021964724 HTTP/1.1" 200 2
+"GET /service/get_server_online?server=roleplay&random=0.24050480656849738 HTTP/1.1" 200 2
+"GET /shop HTTP/1.1" 302 0
+"GET /service/get_server_online?server=roleplay&random=0.90258930446408 HTTP/1.1" 200 2
+"GET /shop/roleplay/elytras HTTP/1.1" 200 19097
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4510
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /shop/roleplay/weapons HTTP/1.1" 200 28420
+"GET /static/img/shop/weapons/magic_bow.png HTTP/1.1" 200 21135
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
+"GET /static/img/shop/weapons/hand_of_flesh.png HTTP/1.1" 200 23823
+"GET /static/img/shop/weapons/blade_1000_souls.png HTTP/1.1" 200 32347
+"GET /static/img/shop/weapons/ax_of_immortal.png HTTP/1.1" 200 158323
+"GET /static/img/shop/weapons/ax_of_god_of_war.png HTTP/1.1" 200 139726
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 200 4777
+"GET /static/img/shop/weapons/cyber_blade.png HTTP/1.1" 200 19923
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 200 4961
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 200 5107
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 200 6640
+"GET /static/img/shop/weapons/assassins_crossbow.png HTTP/1.1" 200 3049
+"GET /static/img/shop/weapons/assassins_blade.png HTTP/1.1" 200 3057
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 200 5753
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 14696
+"GET /static/img/shop/pickaxes/nebula_pickaxe.png HTTP/1.1" 200 2672
+"GET /static/img/shop/pickaxes/solar_flare_pickaxe.png HTTP/1.1" 200 3580
+"GET /static/img/shop/pickaxes/whirlwind_pick.png HTTP/1.1" 200 3319
+"GET /static/img/shop/pickaxes/stardust_pickaxe.png HTTP/1.1" 200 3715
+"GET /static/img/slide_show/shop_pickaxes/1.jpg?v=1 HTTP/1.1" 200 323161
+"GET /shop/roleplay/elytras HTTP/1.1" 200 19097
+"GET /shop/roleplay/elytras HTTP/1.1" 200 19097
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 19097
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18859
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18859
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4565
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12692
+"GET /static/css/style.css?v=1 HTTP/1.1" 304 0
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18861
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 304 0
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27980
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 304 0
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 304 0
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 14562
+"GET /static/img/slide_show/shop_pickaxes/1.jpg?v=1 HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/nebula_pickaxe.png HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/stardust_pickaxe.png HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/whirlwind_pick.png HTTP/1.1" 304 0
+"GET /static/img/shop/pickaxes/solar_flare_pickaxe.png HTTP/1.1" 304 0
+Internal Server Error: /buy/roleplay/solar_flare_pickaxe
+Traceback (most recent call last):
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 95, in get
+    if server not in product.servers:
+TypeError: argument of type 'ManyRelatedManager' is not iterable
+"GET /buy/roleplay/solar_flare_pickaxe HTTP/1.1" 500 83264
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5937
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /buy/roleplay/solar_flare_pickaxe
+"GET /buy/roleplay/solar_flare_pickaxe HTTP/1.1" 404 5327
+"GET /static/css/login.css HTTP/1.1" 200 1157
+"GET /buy/lobby/solar_flare_pickaxe HTTP/1.1" 302 0
+Not Found: /shop/lobby/pickaxes
+"GET /shop/lobby/pickaxes?reload=0.9973141934585474 HTTP/1.1" 404 5528
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18861
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 14562
+"GET /buy/roleplay/solar_flare_pickaxe HTTP/1.1" 302 0
+"GET /shop/roleplay/pickaxes?reload=0.5921795305612554 HTTP/1.1" 200 14788
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18861
+"GET /buy/roleplay/wings_angel HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras?reload=0.15357118008580128 HTTP/1.1" 200 19032
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27980
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 304 0
+"GET /donate/roleplay HTTP/1.1" 200 9071
+"GET /static/css/donate.css?v=1 HTTP/1.1" 200 4358
+"GET /static/scripts/donate.js?v=1 HTTP/1.1" 200 1950
+"GET /static/img/donate/colors_nick.png HTTP/1.1" 200 28861
+"GET /static/img/donate/prefix.png HTTP/1.1" 200 16336
+"GET /static/img/donate/skin.png HTTP/1.1" 200 5475
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /service/get_donate_configuration HTTP/1.1" 200 361
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12663
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 200 326336
+"GET /static/css/server_status.css HTTP/1.1" 200 173
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/list_table.css HTTP/1.1" 200 454
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 200 245606
+"GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 200 455630
+"GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 200 545699
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 200 857392
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/crop.js HTTP/1.1" 200 546
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/vk.js HTTP/1.1" 200 201
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 18861
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4565
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/elytras/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/img/shop/elytras/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/elytras/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/elytras/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/elytras/wings_light.png HTTP/1.1" 200 211088
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 842
+"GET /static/img/shop/elytras/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/elytras/wings_fly.png HTTP/1.1" 200 182558
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27980
+"GET /static/img/shop/weapons/ax_of_immortal.png HTTP/1.1" 200 158323
+"GET /static/img/shop/weapons/magic_bow.png HTTP/1.1" 200 21135
+"GET /static/img/shop/weapons/blade_1000_souls.png HTTP/1.1" 200 32347
+"GET /static/img/shop/weapons/ax_of_god_of_war.png HTTP/1.1" 200 139726
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 200 4777
+"GET /static/img/shop/weapons/hand_of_flesh.png HTTP/1.1" 200 23823
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 200 4961
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 200 6640
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 200 5107
+"GET /static/img/shop/weapons/assassins_crossbow.png HTTP/1.1" 200 3049
+"GET /static/img/shop/weapons/cyber_blade.png HTTP/1.1" 200 19923
+"GET /static/img/shop/weapons/assassins_blade.png HTTP/1.1" 200 3057
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 200 5753
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27980
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4565
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 892
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/shop/weapons/ax_of_immortal.png HTTP/1.1" 200 158323
+"GET /static/img/shop/weapons/blade_1000_souls.png HTTP/1.1" 200 32347
+"GET /static/img/shop/weapons/ax_of_god_of_war.png HTTP/1.1" 200 139726
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 200 4777
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
+"GET /static/img/shop/weapons/magic_bow.png HTTP/1.1" 200 21135
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 200 6640
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 200 5107
+"GET /static/img/shop/weapons/hand_of_flesh.png HTTP/1.1" 200 23823
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 200 4961
+"GET /static/img/shop/weapons/cyber_blade.png HTTP/1.1" 200 19923
+"GET /static/img/shop/weapons/assassins_crossbow.png HTTP/1.1" 200 3049
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 200 5753
+"GET /static/img/shop/weapons/assassins_blade.png HTTP/1.1" 200 3057
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27980
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4565
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 892
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/img/shop/weapons/blade_1000_souls.png HTTP/1.1" 200 32347
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
+"GET /static/img/shop/weapons/magic_bow.png HTTP/1.1" 200 21135
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/shop/weapons/ax_of_god_of_war.png HTTP/1.1" 200 139726
+"GET /static/img/shop/weapons/ax_of_immortal.png HTTP/1.1" 200 158323
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 200 4777
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 200 4961
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 200 6640
+"GET /static/img/shop/weapons/hand_of_flesh.png HTTP/1.1" 200 23823
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 200 5107
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/shop/weapons/assassins_crossbow.png HTTP/1.1" 200 3049
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 200 5753
+"GET /static/img/shop/weapons/cyber_blade.png HTTP/1.1" 200 19923
+"GET /static/img/shop/weapons/assassins_blade.png HTTP/1.1" 200 3057
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27980
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4566
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27980
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27932
+"GET /static/css/shop.css?v=3 HTTP/1.1" 200 4566
+"GET /static/css/style.css?v=1 HTTP/1.1" 200 10373
+"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 200 892
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/shop_mobile.js?v=2 HTTP/1.1" 200 1041
+"GET /static/scripts/mobile.js HTTP/1.1" 200 411
+"GET /static/img/shop/weapons/blade_1000_souls.png HTTP/1.1" 200 32347
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/shop/weapons/magic_bow.png HTTP/1.1" 200 21135
+"GET /static/img/shop/weapons/meumur.png HTTP/1.1" 200 4777
+"GET /static/img/shop/weapons/ax_of_god_of_war.png HTTP/1.1" 200 139726
+"GET /static/img/shop/weapons/ax_of_immortal.png HTTP/1.1" 200 158323
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/shop/weapons/star_wrath.png HTTP/1.1" 200 4961
+"GET /static/img/shop/weapons/whirlwind_ax.png HTTP/1.1" 200 6640
+"GET /static/img/shop/weapons/hand_of_flesh.png HTTP/1.1" 200 23823
+"GET /static/img/shop/weapons/zenith.png HTTP/1.1" 200 5107
+"GET /static/img/shop/weapons/cyber_blade.png HTTP/1.1" 200 19923
+"GET /static/img/shop/weapons/assassins_blade.png HTTP/1.1" 200 3057
+"GET /static/img/shop/weapons/terra_blade.png HTTP/1.1" 200 5753
+"GET /static/img/shop/weapons/assassins_crossbow.png HTTP/1.1" 200 3049
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27932
+"GET /static/css/shop.css?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=1 HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/weapons HTTP/1.1" 200 27932
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/background.png HTTP/1.1" 200 987181

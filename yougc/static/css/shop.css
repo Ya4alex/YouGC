@@ -48,7 +48,7 @@
 .shop-navbar li a {
     margin: 5px 0;
 }
-
+ 
 .shop-navbar .balance {
     margin: auto 10px;
     margin-left: auto;
@@ -137,26 +137,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /* background: #00000022; */
-    /* border-radius: 5px; */
-    /* box-shadow: 0 20px 30px -20px #000 inset, 0px -20px 30px -20px #000 inset, 0px 5px 12px 1px rgb(0 0 0 / 60%); */
     flex-direction: row;
     align-items: flex-start;
+    /* margin-bottom: -10px; */
 }
 
 .shop-item {
-    display: inline-grid;
-    align-items: center;
+    display: flex;
     background-color: #000000cc;
     border-radius: 5px;
     color: white;
-    padding: 10px 0px;
-    margin: 0px 0px 10px 10px;
-    height: 266px;
+    margin: 0 0 10px 10px;
+    height: 286px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .shop-item img {
-    height: 140px;
+    height: 180px;
     margin: auto;
 }
 
@@ -168,11 +166,11 @@
 .shop-item h1 {
     font-size: 110%;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 .shop-item span {
-    margin: auto;
+    margin-bottom: 3px;
 }
 
 .shop-item .buy {
@@ -183,6 +181,8 @@
     background: #096249;
     color: white;
     transition: 0.15s;
+    margin-bottom: 12px;
+    margin-top: 0;
 }
 
 .shop-item .buy:hover {
@@ -199,4 +199,46 @@
     color: white;
     margin: 12px 0px;
     padding: 7px
+}
+
+/* -------------------------------------- */
+.other-info {
+    height: 0;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: 7px;
+    top: 3px;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info-window {
+    display: none;
+    position: absolute;
+    background: #096249;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+    z-index: 1;
+    font-size: 80%;
+}
+
+.info-window:before {
+    content: "×";
+    position: absolute;
+    right: 2px;
+    top: -8px;
+    font-size: 160%;
+}
+
+.info-window:hover:before {
+    cursor: pointer;
+}
+
+.info-window table {
+    width: -webkit-fill-available;
 }

@@ -2,7 +2,7 @@
 {% load static%}
 
 {% block css%}
-<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}?v=3">
+<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}?v=4">
 {%endblock%}
 {% block content %}
 <div class="main_block shop-navbar">
@@ -50,10 +50,47 @@
     <div class="shop-items-container crop-block" id="crop">
         {% for product in category %}
         <div class="shop-item">
-            <h1>{{product.long_name}}</h1>
+            <button class="other-info" onclick="info('#{{product}}')">🛈</button>
+
+            <div class="info-window" id="{{product}}" onclick="info('#{{product}}')">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>
+                            Предмет:
+                        </td>
+                        <td>
+                            {{product.item}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Коллекция:
+                        </td>
+                        <td>
+                            {{product.collection}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Создатель:
+                        </td>
+                        <td>
+                            {{product.creator_name}}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>
+                    {% if product.description %}
+                    {{product.description}}
+                    {% endif %}
+                </p>
+            </div>
             <img src="/static/img/shop/{{category}}/{{product.get_picture}}">
-            <span>{{product.price}} баллов</span>
-            <button class="buy" onclick="buyProduct('{{ server }}','{{ product }}', '{{ product.long_name }}')">Купить
+            <h1>{{product.long_name}}</h1>
+            <button class="buy" onclick="buyProduct('{{ server }}','{{ product }}', '{{ product.long_name }}')">
+                {{product.price}} баллов
             </button>
         </div>
         {% endfor %}
@@ -61,8 +98,8 @@
 </div>
 {% endblock %}
 {% block scripts %}
-<script src="{% static 'scripts/shop.js' %}?v=1"></script>
+<script src="{% static 'scripts/shop.js' %}?v=2"></script>
 {% endblock %}
 {% block post-scripts %}
-<script src="{% static 'scripts/shop_mobile.js' %}?v=1"></script>
+<script src="{% static 'scripts/shop_mobile.js' %}?v=2"></script>
 {% endblock %}

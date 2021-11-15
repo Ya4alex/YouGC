@@ -69,7 +69,7 @@ class DonateOther:
                     service=self.conf[line.order]['service'],
                     date=int(time.time()),
                     donate_id=line.id,
-                    user_id=KactivityInfo.objects.get(name=user.username).discord
+                    user_id=KactivityInfo.objects.filter(name=user.username).first().discord
                 )
                 _line.save()
                 send_not_auto_donate_email(user, line.id)

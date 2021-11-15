@@ -17,18 +17,16 @@ var all_info = [];
 function info(el) {
     let q = $(el);
     let f = q.is(":hidden");
-    $.each(all_info, function(index, href) {
-        $(href).hide();
+    $.each(all_info, function(index, ell) {
+        ell.hide();
     });
     if (f) {
         q.show();
+        q.offset({top: q.parent().offset().top});
+        all_info.push(q);
     } else {
         q.hide();
     }
-    if (q.position().left < 0) {
-        q.css('left', 0);
-    }
-    ;if (q.position().left + q.width() > $(window).width()) {
-        q.css('right', 0);
-    }
+    if (q.position().left < 0){q.css('left', 0);};
+    if (q.position().left + q.width() > $( window ).width()){q.css('right', 0);}
 }

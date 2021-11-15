@@ -120,6 +120,18 @@ class KactivityListRoleplay(models.Model):
         verbose_name_plural = 'Игроки в roleplay'
 
 
+class KactivityQueue(models.Model):
+    name = models.CharField(max_length=45)
+    action = models.CharField(max_length=45)
+    balance = models.IntegerField()
+    gotbalance = models.IntegerField()
+    server = models.CharField(max_length=45)
+
+    class Meta:
+        managed = False
+        db_table = 'kactivity_queue'
+
+
 class KonlineList(models.Model):
     server_id = models.IntegerField()
     player = models.CharField(max_length=45)
@@ -152,9 +164,13 @@ class SiteProduct(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(unique=True, max_length=45)
     long_name = models.CharField(max_length=45)
-    description = models.TextField(blank=True, null=True)
     price = models.IntegerField()
     category = models.ForeignKey('SiteProductCategory', models.DO_NOTHING, db_column='category')
+    item = models.CharField(max_length=45, blank=True, null=True)
+    collection = models.CharField(max_length=45, blank=True, null=True)
+    creator_name = models.CharField(max_length=45, blank=True, null=True)
+    creator_id = models.IntegerField(blank=True, null=True)
+    description = models.TextField(blank=True, null=True)
     buyers_count = models.IntegerField(blank=True, null=True)
     servers = models.ManyToManyField(KonlineOnline, through='SiteProductKonlineOnline',
                                      through_fields=('site_product', 'konline_online'))

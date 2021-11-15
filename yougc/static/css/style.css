@@ -192,6 +192,7 @@ footer .footer-raw li a {
 footer .footer-raw li a:hover {
     color: #4eeec1;
 }
+.footer-baner{border-radius: 15px;padding-top: 8px;}
 
 .social-icons {
     display: flex;

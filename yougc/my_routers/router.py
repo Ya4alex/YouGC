@@ -5,7 +5,7 @@ class YougcRouter:
         'konline_list', 'konline_online', 'kpasswords_messages', 'roleplay_input', 'roleplay_output',
         'site_product_queue', 'site_product', 'site_product_category', 'site_product_konline_online',
         'kactivity_list_roleplay', 'kactivity_list_lobby', 'kactivity_list_deadworld', 'donate_not_auto',
-        'kactivity_info'
+        'kactivity_info', 'kactivity_queue',
     }
 
     def db_for_read(self, model, **hints):

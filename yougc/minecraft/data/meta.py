@@ -17,6 +17,9 @@ SLIDE_SHOW_DATA = {
     'shop_weapons': (
         ("", "1.jpg?v=1"),
     ),
+    'shop_pickaxes': (
+        ("", "1.jpg?v=1"),
+    ),
     'lobby': (
         ("", "1.jpg"),
     ),
@@ -103,4 +106,4 @@ NOTIFICATION_CLASSES = {
     'danger': ('#ff0000', False),
 }
 
-INSTALLER_LINK = 'http://yougc.ru/download/installer/ai/YouGC%20Installer.jar'
+INSTALLER_LINK = 'https://minecraft.yougc.ru/download/installer/YouGC_Installer.jar'
