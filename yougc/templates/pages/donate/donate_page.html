@@ -40,49 +40,76 @@
             <h2>Прочее</h2>
         </div>
         <div class="donate-container" id="other">
-            <div class="card-other"
-                 style="background-image: url(/static/img/donate/colors_nick.png); background-size: 76px;">
-                <button class="other-info" onclick="info('#info-window-my_name')">🛈</button>
 
-                <div class="info-window" id="info-window-my_name" onclick="info('#info-window-my_name')">
-                    Вы сможете разукрасить свой ник в любые цвета. Каждая буква - свой цвет. После заказа свяжитесь с
-                    администрацией,
-                    чтобы установить цвета.
+            <div class="card-other"
+                 style="background-image: url(/static/img/donate/color_nick.png?v=1); background-size: 245px; background-position-y: -12px;">
+                <button class="other-info" onclick="info('#info-window-color-nick')">🛈</button>
+
+                <div class="info-window" id="info-window-color-nick" onclick="info('#info-window-color-nick')">
+                    Вы сможете покрасить ник в один цвет. После заказа в discord появится личный канал с администрацией,
+                    чтобы установить цвет.
                 </div>
-                <div class="price">75₽</div>
+                <div class="price">99₽</div>
                 <a class="buy" href="/service/donate_pay?type=other&card=0">купить</a>
             </div>
-            <div class="card-other" style="background-image: url(/static/img/donate/prefix.png);">
-                <button class="other-info" onclick="info('#info-window-my_prefix')">🛈</button>
 
-                <div class="info-window" id="info-window-my_prefix" onclick="info('#info-window-my_prefix')">
-                    Перед вашим ником в майнкрафт появится кастомный префикс. После заказа свяжитесь с администрацией,
-                    чтобы установить его.
+            <div class="card-other"
+                 style="background-image: url(/static/img/donate/color_prefix.png?v=1); background-size: 245px; background-position-y: -12px;">
+                <button class="other-info" onclick="info('#info-window-prefix')">🛈</button>
+
+                <div class="info-window" id="info-window-prefix" onclick="info('#info-window-prefix')">
+                    Перед вашим ником в майнкрафт появится кастомный префикс. После заказа в discord появится личный
+                    канал с администрацией, чтобы установить префикс и цвет.
                 </div>
-                <div class="price">75₽</div>
+                <div class="price">99₽</div>
                 <a class="buy" href="/service/donate_pay?type=other&card=1">купить</a>
             </div>
-            <div class="card-other" style="background-image: url(/static/img/donate/skin.png);">
+
+            <div class="card-other"
+                 style="background-image: url(/static/img/donate/grad_nick.png?v=1); background-size: 245px; background-position-y: -12px;">
+                <button class="other-info" onclick="info('#info-window-grad-nick')">🛈</button>
+
+                <div class="info-window" id="info-window-grad-nick" onclick="info('#info-window-grad-nick')">
+                    Вы сможете разукрасить свой ник в любые цвета. После заказа в discord появится личный канал с
+                    администрацией, чтобы установить цвета.
+                </div>
+                <div class="price">149₽</div>
+                <a class="buy" href="/service/donate_pay?type=other&card=2">купить</a>
+            </div>
+
+            <div class="card-other"
+                 style="background-image: url(/static/img/donate/grad_prefix.png?v=1); background-size: 245px; background-position-y: -12px;">
+                <button class="other-info" onclick="info('#info-window-grad-prefix')">🛈</button>
+
+                <div class="info-window" id="info-window-grad-prefix" onclick="info('#info-window-grad-prefix')">
+                    Перед вашим ником в майнкрафт появится кастомный префикс, который можна раскрасить в любые цвета.
+                    После заказа в discord появится личный канал с администрацией, чтобы установить префикс и цвета.
+                </div>
+                <div class="price">149₽</div>
+                <a class="buy" href="/service/donate_pay?type=other&card=3">купить</a>
+            </div>
+
+            <div class="card-other" style="background-image: url(/static/img/donate/skin.png?v=1);">
                 <button class="other-info" onclick="info('#info-window-my_texture')">🛈</button>
 
                 <div class="info-window" id="info-window-my_texture" onclick="info('#info-window-my_texture')">
                     Вы сможете установить личную текстуру, с исключительным правом пользования. Заказ
-                    выполняется вручную, нужный текстурпак
-                    надо прислать администрации. Внимание! Текстурпак должен будет пройти модерацию.
+                    выполняется вручную, нужный текстурпак надо прислать администрации. Текстурпак должен
+                    будет пройти модерацию. После заказа в discord появится личный канал с администрацией.
                 </div>
 
                 <div class="name">
                     Личная текстура
                 </div>
                 <div class="price">150₽</div>
-                <a class="buy" href="/service/donate_pay?type=other&card=2">купить</a>
+                <a class="buy" href="/service/donate_pay?type=other&card=4">купить</a>
             </div>
         </div>
     </div>
 </div>
 {% endblock %}
 {% block scripts %}
-<script src="{% static 'scripts/donate.js' %}?v=1"></script>
+<script src="{% static 'scripts/donate.js' %}?v=2"></script>
 {% endblock %}
 {% block post-scripts %}
 {% endblock %}

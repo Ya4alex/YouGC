@@ -60,8 +60,18 @@ DONATE_CONFIGURATION = {  # для изменения конфигурации, 
                 'server': 'roleplay'
             },
 {
+                'service': "градиент ник",
+                'price': 149,
+                'server': 'roleplay'
+            },
+{
+                'service': "градиент префикс",
+                'price': 149,
+                'server': 'roleplay'
+            },
+{
                 'service': "личная текстура",
-                'price': 159,
+                'price': 199,
                 'server': 'roleplay'
             },
 

@@ -52,17 +52,23 @@ $.ajax({
     }
 }); 
 
-var all_info = ["#info-window-my_name", "#info-window-my_prefix", "#info-window-my_texture"];
+var all_info = [];
 
-function info(el){
+function info(el) {
     let q = $(el);
     let f = q.is(":hidden");
-    $.each(all_info, function(index, href) {$(href).hide();});
-    if (f){
+    $.each(all_info, function(index, ell) {
+        ell.hide();
+    });
+    if (f) {
         q.show();
-    }else{
+        q.offset({top: q.parent().offset().top});
+        all_info.push(q);
+    } else {
         q.hide();
     }
     if (q.position().left < 0){q.css('left', 0);};
     if (q.position().left + q.width() > $( window ).width()){q.css('right', 0);}
 }
+
+
