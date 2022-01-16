@@ -294,6 +294,7 @@ class DonateQueue(models.Model):
     received = models.BooleanField(default=False)
 
     phone = models.CharField(null=True, max_length=20)
+    account = models.CharField(null=True, max_length=40, help_text='Номер счета/карты плательщика')
     kassaid = models.IntegerField(null=True, help_text='id операции на фрикассе')
 
     class Meta:

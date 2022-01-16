@@ -83,6 +83,7 @@ class DonateConfirmation(TemplateView):
         # ALL CHECKED
 
         line.phone = params.get('P_PHONE')
+        line.account = params.get('payer_account')
         line.paid = True
         line.kassaid = intid
 

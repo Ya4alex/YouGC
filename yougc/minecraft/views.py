@@ -1,3 +1,4 @@
+import logging
 import random
 
 from django.conf import settings
@@ -11,6 +12,8 @@ from .data.meta import INSTALLER_LINK
 from .data.user_methods import send_recovery_email, send_change_email_email
 from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm, ChangeEmailForm
 from .models import Authme, EmailConfirm, KactivityQueue
+
+logger = logging.getLogger(__name__)
 
 
 def custom_404(request, message='', *args, **kwargs):
@@ -111,13 +114,16 @@ class BuyProduct(LoginRequiredMixin, TemplateView):
             product.save()
 
             if product.creator_id:
-                KactivityQueue(
-                    name=product.creator_name,
-                    balance=int(int(product.price) * 0.1),
-                    gotbalance=0,
-                    server=str_server,
-                    action=f"10% с продажи [{product.long_name}]"
-                ).save()
+                try:
+                    KactivityQueue(
+                        name=product.creator_name,
+                        balance=int(int(product.price) * 0.1),
+                        gotbalance=0,
+                        server=str_server,
+                        action=f"10% с продажи [{product.long_name}]"
+                    ).save()
+                except:
+                    logger.error(f'Не найден создатель товара {product_name}')
 
             set_message(request, f"{product.long_name} успешно куплен", cls='success')
         else:

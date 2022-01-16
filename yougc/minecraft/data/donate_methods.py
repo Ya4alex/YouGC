@@ -8,21 +8,26 @@ from .donate_meta import DONATE_CONFIGURATION
 from .user_methods import send_not_auto_donate_email
 from ..models import DonateNotAuto, KactivityInfo
 
-PAYMENT_LINK = 'https://www.free-kassa.ru/merchant/cash.php'
-SHOP_ID = '144528'
-SECRET = ('', 'gq8bfw3x', '4fk7yh36')  # FAKE (1, 2)
+PAYMENT_LINK = 'https://pay.freekassa.ru/'
+SHOP_ID = '9935'
+SECRET = ('', 'qEU81Wiwa]{x^)X', '<&O!!n<3Wz^O[E-')  # FAKE (1, 2)
 
 logger = logging.getLogger(__name__)
 
 
 def get_signature(line, secret: int = 1):
-    return md5(f"{SHOP_ID}:{line.price}:{SECRET[secret]}:{line.id}".encode()).hexdigest()
+    cur = ""
+    if secret == 1:  # если форма оплаты, то вставляем еще и валюту (фрикасса дэбилы)
+        cur = "RUB:"
+
+    return md5(f"{SHOP_ID}:{line.price}:{SECRET[secret]}:{cur}{line.id}".encode()).hexdigest()
 
 
 def render_pay_link(line):
     params = {
         'm': SHOP_ID,
         'oa': line.price,
+        'currency': "RUB",
         'o': line.id,
         's': get_signature(line),
 

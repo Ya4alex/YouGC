@@ -13,8 +13,8 @@ urlpatterns = [
 
     path('donate/<str:str_server>', views.DonatePage.as_view()),
     path('donate', lambda request: redirect('donate/roleplay', permanent=False)),
-    path('donate/success', views.donate_success_page),
-    path('donate/fail', views.donate_fail_page),
+    path('donate-success', views.donate_success_page),
+    path('donate-fail', views.donate_fail_page),
 
     path('login', views.LoginPage.as_view()),
     path('logout', views.LogoutPage.as_view()),
