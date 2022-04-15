@@ -2,7 +2,7 @@
 {% load static%}
 
 {% block css%}
-<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}?v=4">
+<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}?v=5">
 {%endblock%}
 {% block content %}
 <div class="main_block shop-navbar">
@@ -65,6 +65,14 @@
                     </tr>
                     <tr>
                         <td>
+                            Редкость:
+                        </td>
+                        <td>
+                            {{product.rarity}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             Коллекция:
                         </td>
                         <td>
@@ -87,7 +95,7 @@
                     {% endif %}
                 </p>
             </div>
-            <img src="/static/img/shop/{{category}}/{{product.get_picture}}">
+            <img src="/static/img/shop/{{product.get_picture}}">
             <h1>{{product.long_name}}</h1>
             <button class="buy" onclick="buyProduct('{{ server }}','{{ product }}', '{{ product.long_name }}')">
                 {{product.price}} баллов
@@ -101,5 +109,5 @@
 <script src="{% static 'scripts/shop.js' %}?v=2"></script>
 {% endblock %}
 {% block post-scripts %}
-<script src="{% static 'scripts/shop_mobile.js' %}?v=2"></script>
+<script src="{% static 'scripts/shop_mobile.js' %}?v=3"></script>
 {% endblock %}

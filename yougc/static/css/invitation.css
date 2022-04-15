@@ -1,0 +1,215 @@
+.t-button {
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background: #1ba750;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px 40px;
+}
+
+#ticket-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    margin: 10px 40px;
+    font-size: 120%;
+    max-width: 550px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.text-container h1 {
+    text-align: center;
+    font-size: 160%;
+}
+
+.text-container h2 {
+    font-size: 220%;
+    margin: 0px 10px 10px 10px;
+}
+
+.text-container p {
+}
+
+.text-container .code {
+    font-style: normal;
+    padding: 0 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #515151;
+}
+
+.text-container div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px 0;
+}
+
+#ticket-video {
+    /* position: absolute; */
+    /* height: -webkit-fill-available; */
+    min-width: -webkit-fill-available;
+    min-height: -webkit-fill-available;
+}
+
+.ticket-present {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s cubic-bezier(0.39, -0.4, 0.6, 1.4);
+}
+
+#ticket-window {
+    width: 260px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    background: #000000bd;
+    color: #fff;
+    padding: 10px 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.25s cubic-bezier(0.39, -0.4, 0.6, 1.4);
+}
+
+#ticket-window:hover {
+    background: #000000d6;
+}
+
+#ticket-window h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#ticket-window h2 {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+#ticket-window .ticket-window-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    list-style: none;
+    font-size: 16px;
+}
+
+#ticket-window .ticket-window-list li {
+    transition: all 0.25s cubic-bezier(0.39, -0.4, 0.6, 1.4);
+}
+
+#ticket-window .ticket-window-list li:hover {
+    margin-left: -10px;
+}
+
+#ticket-window #ticket-buy {
+    padding: 12px 15px;
+    border-radius: 5px;
+    background: #1ba750;
+    transition: all 0.25s cubic-bezier(0.39, -0.4, 0.6, 1.4);
+}
+
+#ticket-window #ticket-buy:hover {
+    padding: 10px 25px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+@media (max-width: 420px) {
+    #ticket-window {
+        width: 420px !important;
+    }
+}
+
+#ticket-hide {
+    position: absolute;
+    z-index: 12;
+    bottom: 0;
+    padding: 10px;
+}
+
+#ticket-hide svg {
+    height: 20px;
+}
+
+#ticket-hide path {
+    stroke-width: 2px;
+    fill: none;
+    stroke: #fff;
+}
+
+#ticket-show {
+    display: block;
+    position: absolute;
+    right: 0;
+    background: #000000cc;
+    box-shadow: 0px 5px 12px 1px rgb(0 0 0 / 60%);
+    padding: 5px;
+    padding-right: 3px;
+    border-radius: 5px 0 0 5px;
+}
+
+#ticket-show svg {
+    height: 10px;
+}
+
+#ticket-show path {
+    stroke-width: 2px;
+    fill: none;
+    stroke: #fff;
+}
+
+.discord-link-container {
+    margin: 40px 0;
+    font-size: 120%;
+    display: flex;
+    
+flex-direction: column;}
+
+#discord-link {
+    font-size: 120%;
+    margin-bottom: 15px;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #1ba750;
+    transition: all 0.25s cubic-bezier(0.39, -0.4, 0.6, 1.4);
+}
+
+#discord-link:hover {
+    padding: 10px 30px;
+}
+#discord-link-field {
+    font-size: 120%;
+    
+    display: block;
+    padding: 10px 10px;
+    border: none;border-radius: 5px;
+    
+    transition: all 0.25s cubic-bezier(0.39, -0.4, 0.6, 1.4);
+}
+
+#show-discord-link-field {padding: 10px 10px;border: none;border-radius: 5px;background: #1ba750;color: white;margin-left: 5px;}

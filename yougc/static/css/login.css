@@ -14,6 +14,7 @@
 
 .login .fieldWrapper input {
     width: -webkit-fill-available;
+    width: -moz-available;
     margin: 5px 0px;
     border: none;
     padding: 6px;

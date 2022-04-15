@@ -1,0 +1,28 @@
+{% extends 'patterns/main_page.html' %}
+{% load static%}
+{% block css%}
+<link rel="stylesheet" type="text/css" href="{% static 'css/case.css' %}">
+{%endblock%}
+{% block content %}
+<div class="center-block main_block" style="position: relative;border-radius: 0 0 5px 5px;">
+    <button id="button-back-cases" class="button-back-cases" style="display: none"><i
+            class="arrow-button-back-cases"></i></button>
+
+    <div id="roulette" style="display: none">
+        <div class="open-case-window" id="open-case-window">
+            <div class="stick"></div>
+            <div class="open-case-container" id="open-case-container">
+            </div>
+        </div>
+        <button id="button-spin" class="button-spin" onclick="spin()">крутить</button>
+    </div>
+    <div class="user-case-container" id="cases-container">
+    </div>
+    <div class="drop-container" id="drop-container" style="display: none"></div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'scripts/case/case.js' %}"></script>
+{% endblock %}
+{% block post-scripts %}
+{% endblock %}

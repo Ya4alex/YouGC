@@ -1,7 +1,7 @@
 SLIDE_SHOW_DATA = {
     'main_page': (
         ("Город Парадиз | RP 1 сезон", "1.jpg"),
-        ("Корабль-призрак около спанва | RP 1 сезон", "2.jpg"),
+        ("Корабль-призрак около спавна | RP 1 сезон", "2.jpg"),
         ("Город Тэмпест | RP 1 сезон", "3.jpg"),
         ("Сюжетный ивент | RP 1 сезон", "4.jpg"),
         ("Город Мельбург | RP 1 сезон", "5.jpg"),
@@ -93,6 +93,10 @@ EMAIL_DONATE_ERROR = {
 EMAIL_NOT_AUTO_DONATE_ERROR = {
     'subject': 'Покупка успешно совершена',
     'message': 'email_patterns/email_not_auto_donate.html',
+}
+EMAIL_DONATE_TICKET = {
+    'subject': 'Вы успешно купили проходку',
+    'message': 'email_patterns/email_donate_ticket.html',
 }
 
 SERVER_STATUS = {

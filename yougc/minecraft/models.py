@@ -167,6 +167,7 @@ class SiteProduct(models.Model):
     price = models.IntegerField()
     category = models.ForeignKey('SiteProductCategory', models.DO_NOTHING, db_column='category')
     item = models.CharField(max_length=45, blank=True, null=True)
+    rarity = models.CharField(max_length=45, blank=True, null=True, default='обычный')
     collection = models.CharField(max_length=45, blank=True, null=True)
     creator_name = models.CharField(max_length=45, blank=True, null=True)
     creator_id = models.IntegerField(blank=True, null=True)
@@ -327,6 +328,120 @@ class KactivityInfo(models.Model):
     class Meta:
         managed = False
         db_table = 'kactivity_info'
+
+
+class KactivityCase(models.Model):
+    id = models.IntegerField(primary_key=True)
+    player = models.CharField(max_length=45)
+    case1 = models.IntegerField(blank=True, null=True)
+    case2 = models.IntegerField(blank=True, null=True)
+    case3 = models.IntegerField(blank=True, null=True)
+    case4 = models.IntegerField(blank=True, null=True)
+    case5 = models.IntegerField(blank=True, null=True)
+    case6 = models.IntegerField(blank=True, null=True)
+    case7 = models.IntegerField(blank=True, null=True)
+    case8 = models.IntegerField(blank=True, null=True)
+    case9 = models.IntegerField(blank=True, null=True)
+    case10 = models.IntegerField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'kactivity_case'
+
+
+class SiteApplication(models.Model):
+    id = models.IntegerField(primary_key=True, auto_created=True)
+    user = models.CharField(max_length=45, blank=True, null=True)
+    text = models.TextField(blank=True, null=True)
+    uid = models.CharField(unique=True, max_length=45)
+    publish = models.IntegerField(default=0)
+    votes_l = models.IntegerField(blank=True, null=True, default=0)
+    votes_d = models.IntegerField(blank=True, null=True, default=0)
+
+    class Meta:
+        managed = False
+        db_table = 'site_application'
+
+
+class DonateTicketsManager(models.Manager):
+    @staticmethod
+    def _generate_uid_token():
+        return uuid.uuid4().hex, secrets.token_urlsafe()
+
+    def create(self, user: User, url_prefix='confirm_email'):
+        obj = self.filter(user=user).first()
+        if obj:
+            obj.delete()
+        _uid, _token = self._generate_uid_token()
+        obj = self.model(user=user, uid=_uid, token=_token, date=time.time())
+        obj.save()
+        return f"{settings.SITE_LINK}/{url_prefix}/{_uid}/{_token}"
+
+    def only_check_uid_token(self, _uid, _token):
+        obj = self.filter(uid=_uid, token=_token).first()
+        return obj
+
+    def check_uid_token_user(self, _uid, _token):
+        obj = self.filter(uid=_uid, token=_token).first()
+        if not obj or time.time() - settings.EMAIL_DELTA_TIME > obj.date:
+            return None
+        user = obj.user
+        obj.delete()
+        user.is_active = True
+        user.save()
+        return user
+
+
+class DonateTickets(models.Model):
+    uid = models.CharField(unique=True, max_length=32)
+    token = models.CharField(max_length=43)
+    status = models.IntegerField(default=0)
+    done = models.IntegerField(default=0)
+    email = models.CharField(max_length=45, blank=True, null=True)
+    discord_inv = models.CharField(max_length=45, blank=True, null=True)
+    promo = models.CharField(max_length=45, blank=True, null=True)
+    friend = models.CharField(max_length=45, blank=True, null=True)
+    price = models.IntegerField(blank=True, null=True)
+    name = models.CharField(null=True, max_length=45)
+
+    phone = models.CharField(null=True, max_length=20)
+    account = models.CharField(null=True, max_length=40, help_text='Номер счета/карты плательщика')
+    kassaid = models.IntegerField(null=True, help_text='id операции на фрикассе')
+
+    objects = DonateTicketsManager()
+
+    class Meta:
+        managed = False
+        db_table = 'donate_tickets'
+
+    @staticmethod
+    def _generate_uid_token():
+        return uuid.uuid4().hex, secrets.token_urlsafe()
+
+    def generate_uid_token(self):
+        self.uid, self.token = self._generate_uid_token()
+
+    def generate_link(self, url_prefix):
+        return f"{settings.SITE_LINK}/{url_prefix}/{self.uid}/{self.token}"
+
+
+class SiteLinksDiscordManager(models.Manager):
+    def get_link(self):
+        obj = self.all().last()
+        link = obj.link
+        obj.delete()
+        return link
+
+
+class SiteLinksDiscord(models.Model):
+    link = models.TextField()
+    date = models.TextField()
+
+    objects = SiteLinksDiscordManager()
+
+    class Meta:
+        managed = False
+        db_table = 'site_links_discord'
 
 
 MODELS_SERVERS_LIST = {

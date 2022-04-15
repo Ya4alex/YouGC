@@ -56,7 +56,7 @@ def get_server(server):
     return None
 
 
-def get_server_class(server_name):
+def get_server_class(server_name='roleplay'):
     return MODELS_SERVERS_LIST[server_name]
 
 

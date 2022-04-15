@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+            .button {
+                text-decoration: none;
+                background: #1ba750;
+                padding: 10px 20px;
+                color: #fff!important;
+                border-radius: 5px;
+                text-decoration-color: #fff;
+            }
+            body {
+                font-family: cursive;
+                background: #fff;
+                color: #000
+            }
+
+            p {
+                text-indent: 0px;
+            }
+            .span {
+                color: #1ba750;
+            }
+            #ticket-label {
+                font-size: 18px;
+                margin: 0px 0 20px 0;
+                display: block;
+                width: fit-content;
+                border-bottom: 3px solid;
+            }
+            #ticket-label span{
+                font-size: 200%;
+                color: #1ba750;
+                font-weight: bolder;
+            }
+    </style>
+</head>
+<body>
+<h1>Поздравляем, вы успешно купили проходку</h1>
+<div id="ticket-label">
+    <span id="digit">{% if step %}3{% else %}2{% endif %}</span> из <span>5</span> шагов.
+</div>
+<a class="button" href="{{ link }}">Продолжить регистрацию</a><br>
+{% if line.promo %}
+<p>
+    Поздравляем вами был применен промокод <span class="span">{{ line.promo }}</span>, цена составила
+    <span class="span">{{ line.price }}</span>.
+</p>
+{% elif line.friend %}
+<p>
+    Ваш друг <span class="span">{{ line.friend }}</span> получил награду, теперь он ваш должник =)
+</p>
+{% endif %}
+<p>
+    Если вы ничего не покупали, просто проигнорируйте это письмо! Не переживайте, вы в
+    безопасности.
+</p>
+<br>
+YouGC - <small>твой игровой уголок.</small>
+</body>
+</html>
