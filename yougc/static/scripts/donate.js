@@ -31,12 +31,34 @@ function add_points(index, card) {
     points_el.append(d);
 }
 
+tickets_el = $("#tickets");
+function add_tickets(index, card) {
+    let d = $('<div>', {
+        "class": 'card-points'
+    });
+    d.append($('<div>', {
+        "class": 'price'
+    }).html(card["price"] + "₽"));
+    d.append($('<a>').html("купить").attr('href', '/service/donate_pay?type=tickets&card=' + card['id'].toString()));
+    d.css("background-image", "url(/static/img/donate/points_coins/" + card["value"].toString() + ".png)");
+    tickets_el.append(d);
+}
+
 $.ajax({
     url: "/service/get_donate_configuration",
     success: function(result) {
         var POINTS = result["points"];
+        var TICKETS = result["tickets"];
 
         var POINTS_ = POINTS.sort(function(a, b) {
+            if (a['place_id'] < b['place_id']) {
+                return -1;
+            } else {
+                return 1;
+            }
+        })
+
+        var TICKETS_ = TICKETS.sort(function(a, b) {
             if (a['place_id'] < b['place_id']) {
                 return -1;
             } else {
@@ -47,6 +69,11 @@ $.ajax({
         $.each(POINTS_, function(index, card) {
             if (card["status"] || !("status"in card)) {
                 add_points(index, card);
+            }
+        });
+        $.each(TICKETS_, function(index, card) {
+            if (card["status"] || !("status"in card)) {
+                add_tickets(index, card);
             }
         });
     }

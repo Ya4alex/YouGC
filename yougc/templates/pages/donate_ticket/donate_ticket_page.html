@@ -1,0 +1,34 @@
+{% extends 'patterns/main_page.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/invitation.css' %}?v=1">
+{% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}?v=1">
+<div class="up-block main_block" style="padding: 10px">
+    <div id="ticket-label">
+        <span id="digit">1</span> из <span>5</span> шагов.
+    </div>
+    <div class="login-info">
+        <h1 style="font-size: 140%;">Покупка проходки</h1>
+        <h2>Это <big style="font-size: 120%;">1</big> из <big style="font-size: 120%;">5</big> шагов</h2>
+        <span style="color: red;">Внимательно вводите почту, это важно</span>
+    </div>
+    <form method="post" class="login">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        <div class="fieldWrapper">
+            <label for="id_email_field" style="font-size: 110%;">Ваша почта, сюда придет приглашение</label>
+            {{ form.email_field }}
+            {{ form.email_field.errors }}
+        </div>
+        <div class="fieldWrapper">
+            <label for="id_promo" style="font-size: 110%;">Ник друга или промокод <small style="font-size: 80%;">(необязательно)</small></label>
+            {{ form.promo }}
+            {{ form.promo.errors }}
+        </div>
+        <p><input type="submit" value="Перейти к оплате"/></p>
+        <p><a href="https://m.vk.com/write-202950114?mvk_entrypoint=community_page">Помощь</a></p>
+    </form>
+</div>
+{% endblock %}

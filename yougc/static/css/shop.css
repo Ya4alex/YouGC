@@ -100,6 +100,7 @@
     appearance: none;
     cursor: pointer;
     width: -webkit-fill-available;
+    width: -moz-available;
     font-size: 85%;
 }
 
@@ -241,4 +242,6 @@
 
 .info-window table {
     width: -webkit-fill-available;
+    width: -moz-available;
+    width: -moz-available;
 }

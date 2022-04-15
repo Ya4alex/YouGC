@@ -1,0 +1,63 @@
+{% extends 'patterns/main_page.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/invitation.css' %}?v=1">
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}?v=1">
+<div class="up-block main_block" style="padding: 10px">
+    <div id="ticket-label">
+        <span id="digit">{% if step %}4{% else %}3{% endif %}</span> из <span>5</span> шагов.
+    </div>
+    <div id="ticket-info" {% if step %} style="display: none;" {% endif %}>
+        <div class="text-container">
+            <h1>Авторизация в Minecraft</h1>
+            <div>
+                <h2>1.</h2>
+                <p>
+                    Запусти майнкрафт и зайди на сервер по такому адресу <span class="code">mc.yougc.ru</span>
+                </p>
+            </div>
+            <div>
+                <h2>2.</h2>
+                <p>
+                    Введи команду <span class="code">/register password password</span>, где password - твой пароль.
+                    Запомни
+                    его,
+                    он тебе еще пригодится =)
+                </p>
+            </div>
+        </div>
+        <button class="t-button" onclick="swap()" style="float:right;">Далее</button>
+    </div>
+    <div id="ticket-login" {% if not step %} style="display: none;" {% endif %}>
+        <div class="login-info">
+            <h1>Авторизация</h1>
+        </div>
+        <form method="post" class="login">
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+            <div class="fieldWrapper">
+                <label for="id_username">Ваш ник на сервере:</label>
+                {{ form.username }}
+                {{ form.username.errors }}
+            </div>
+            <div class="fieldWrapper">
+                <label for="id_password">Пароль на сервере</label>
+                {{ form.password }}
+                {{ form.password.errors }}
+            </div>
+            <p><input type="submit" value="Подтвердить"/></p>
+            <p><a href="https://m.vk.com/write-202950114?mvk_entrypoint=community_page">Помощь</a></p>
+        </form>
+        <button class="t-button" onclick="swap()">Назад</button>
+    </div>
+
+
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'scripts/invitation.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,83 @@
+{% extends 'patterns/main_page.html' %}
+
+{% load static %}
+
+{% block css %}
+{% endblock %}
+{% block content %}
+<div class="application-container">
+    <div class="app-slide" id="1slide">
+        <h1>
+            Вам нужно зарегистрироваться на сервере <code>mc.yougc.ru</code>
+        </h1>
+        <a href="#2slide">Далее</a>
+    </div>
+    <div class="app-slide" id="2slide">
+        <h1>
+            Нам необходимо убедиться, что это вы:
+        </h1>
+        <form action="/login" method="post" class="login">
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+            <div class="fieldWrapper">
+                <label for="id_username">Ваш ник на сервере:</label>
+                {{ form.username }}
+                {{ form.username.errors }}
+            </div>
+            <div class="fieldWrapper">
+                <label for="id_password">Пароль на сервере</label>
+                {{ form.password }}
+                {{ form.password.errors }}
+            </div>
+            <p><input type="submit" value="Войти"/></p>
+        </form>
+        <a href="#3slide">Далее</a>
+    </div>
+    <div class="app-slide" id="3slide">
+        <h1>Расскажите о себе. Имейте в виду, игроки будут голосовать за вас, поэтому напишите как можно больше о
+            себе</h1>
+
+        <form action="/login" method="post" class="login">
+            {% csrf_token %}
+            {{ form2.non_field_errors }}
+            <div class="fieldWrapper">
+                <label for="id_data1">Ваш ник на сервере:</label>
+                {{ form2.data1 }}
+                {{ form2.data1.errors }}
+            </div>
+
+            <div class="fieldWrapper">
+                <label for="id_data2">Ваш ник на сервере:</label>
+                {{ form2.data2 }}
+                {{ form2.data2.errors }}
+            </div>
+
+            <div class="fieldWrapper">
+                <label for="id_data3">Ваш ник на сервере:</label>
+                {{ form2.data3 }}
+                {{ form2.data3.errors }}
+            </div>
+
+            <div class="fieldWrapper">
+                <label for="id_data4">Ваш ник на сервере:</label>
+                {{ form2.data4 }}
+                {{ form2.data4.errors }}
+            </div>
+            <div class="fieldWrapper">
+                <label for="id_data5">Ваш ник на сервере:</label>
+                {{ form2.data5 }}
+                {{ form2.data5.errors }}
+            </div>
+
+            <p><input type="submit" value="Войти"/></p>
+        </form>
+
+    </div>
+    <div class="app-slide" id="4slide">
+
+    </div>
+
+</div>
+{% endblock %}
+{% block scripts %}
+{% endblock %}

@@ -28,8 +28,23 @@ urlpatterns = [
 
     path('installer', views.InstallerPage.as_view()),
 
+    path('invitation/buy', views.DonateTicketPage.as_view()),
+    path('invitation/form/<str:_uid>/<str:_token>', views.ConfirmDonateTicketPage.as_view()),
+    path('invitation/form/<str:_uid>/<str:_token>/final', views.FinalDonateTicketPage.as_view()),
+
+    # path('case', views.CasePage.as_view()),
+    # path('application', views.ApplicationPage.as_view()),
+
     path('service/donate_confirmation', service_views.DonateConfirmation.as_view()),
     path('service/donate_pay', service_views.Donate.as_view()),
     path('service/get_donate_configuration', service_views.DonateGETJSON.as_view()),
+
     path('service/get_server_online', service_views.OnlineGETJSON.as_view()),
+
+    # path('service/get_user_cases', service_views.UserCasesGETJSON.as_view()),
+    # path('service/open_case', service_views.OpenCase.as_view()),
+    # path('service/get_fake_drop', service_views.FakeDropGETJSON.as_view()),
+
+    # path('service/generate_application_link', service_views.GenerateApplicationLink.as_view()),
+
 ]

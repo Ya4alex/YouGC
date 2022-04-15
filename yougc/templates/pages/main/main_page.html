@@ -4,44 +4,97 @@
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/list_table.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/server_status.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/invitation.css' %}?v=1">
 {% endblock %}
 {% block content %}
-<div class="main_block  up-block">
-    {% include "patterns/slide_show.html" %}
+<div id="ticket-show" onclick="showVideo()" style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 8"
+         preserveAspectRatio="none">
+        <path d="M0 0 8 8 16 0"></path>
+    </svg>
 </div>
-<div class="left-block main_block">
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
-    <!-- VK Widget -->
-    <div id="border">
-        <div id="vk_groups"></div>
+<div class="main_block up-block ticket-present" id="ticket-present">
+    <video autoplay="autoplay" muted="muted" loop="loop" id="ticket-video">
+        <source src="https://minecraft.yougc.ru/static/video/yougc.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    {% if not request.user.is_authenticated %}
+    <div id="ticket-window">
+        <h1>Попасть к нам</h1>
+        <h2 style="color: #1ba750;">Что я получу?</h2>
+        <ul class="ticket-window-list">
+            <li>Доступ на один сезон</li>
+            <li>Ламповое комьюнити</li>
+            <li>Отзывчивую администрацию</li>
+            <li>Море удовольствия</li>
+        </ul>
+        <h2>Узнать больше о нас:</h2>
+        <ul class="social-icons" style="margin: 10px;">
+            <li><a class="social-icon-twitter" href="https://twitter.com/YouGC_Mine" title="..." target="_blank"
+                   rel="noopener"></a></li>
+            <!--<li><a class="social-icon-fb" href="#" title="..." target="_blank" rel="noopener"></a></li>-->
+            <li><a class="social-icon-vk" href="https://vk.com/yougc" title="..." target="_blank" rel="noopener"></a>
+            </li>
+            <!--<li><a class="social-icon-telegram" href="#" title="..." target="_blank" rel="noopener"></a></li>-->
+            <li><a class="social-icon-youtube" href="https://www.youtube.com/channel/UCluktLuYz0HXGnsMOM-ox0A"
+                   title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-tiktok" href="https://www.tiktok.com/@yougc_team" title="..." target="_blank"
+                   rel="noopener"></a></li>
+        </ul>
+        <a id="ticket-buy" href="/invitation/buy">Купить 50₽</a>
+    </div>
+    {% else %}
+    <div id="ticket-hide" onclick="hideVideo()">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 8"
+             preserveAspectRatio="none">
+            <path d="M0 8 8 0 16 8"></path>
+        </svg>
+    </div>
+    {% endif %}
+</div>
+<div class="container-1">
+    <div class="left-block main_block" id="border" style="width: 100%; height: fit-content; margin: 0;">
+        {% include "patterns/slide_show.html" %}
+    </div>
+    <div class="container-2">
+        <div class="right-block main_block">
+            <table class="list-table">
+                <thead>
+                <tr class="head">
+                    <th>Сервер</th>
+                    <th>Статус</th>
+                    <th>Онлайн</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for server in servers %}
+                <tr class="{{server.class_status}}" onclick="javascript:location.href='/servers/{{server.name}}';">
+                    <td class="label">{{server.label}}</td>
+                    <td class="status">{{server.status}}</td>
+                    <td class="online">{% if server.on %}{{server.online}}{% else %}-{% endif %}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="right-block main_block crop-block" id="crop">
+            {% include "patterns/leader_board.html" %}
+        </div>
     </div>
 </div>
-<div class="right-block main_block">
-    <table class="list-table">
-        <thead>
-        <tr class="head">
-            <th>Сервер</th>
-            <th>Статус</th>
-            <th>Онлайн</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for server in servers %}
-        <tr class="{{server.class_status}}" onclick="javascript:location.href='/servers/{{server.name}}';">
-            <td class="label">{{server.label}}</td>
-            <td class="status">{{server.status}}</td>
-            <td class="online">{% if server.on %}{{server.online}}{% else %}-{% endif %}</td>
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-</div>
-<div class="right-block main_block crop-block" id="crop">
-    {% include "patterns/leader_board.html" %}
+<div class="main_block up-block vk-container">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+    <!-- VK Widget -->
+    <div>
+        <div id="vk_groups"></div>
+    </div>
+    <span>Выключите блокировщик виджетов/рекламы.</span>
 </div>
 {% endblock %}
 {% block scripts %}
 <script src="{% static 'scripts/crop.js' %}"></script>
+<script src="{% static 'scripts/invitation.js' %}"></script>
+
 {% endblock %}
 {% block post-scripts %}
 <script type="text/javascript" src="{% static 'scripts/vk.js' %}"></script>

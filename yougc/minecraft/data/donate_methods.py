@@ -40,6 +40,24 @@ def render_pay_link(line):
     return f"{PAYMENT_LINK}?{req}"
 
 
+def render_pay_link_ticket(line, email):
+    params = {
+        'm': SHOP_ID,
+        'oa': line.price,
+        'currency': "RUB",
+        'o': line.id,
+        's': get_signature(line),
+
+        'em': email,
+        'lang': 'ru',
+        'us_type': 'ticket',
+
+    }
+
+    req = urlencode(params)
+    return f"{PAYMENT_LINK}?{req}"
+
+
 class DonatePoints:
     conf = DONATE_CONFIGURATION['points']
 
@@ -93,7 +111,32 @@ class DonateOther:
         return False
 
 
+class DonateTickets:
+    conf = DONATE_CONFIGURATION['tickets']
+
+    def execute(self, line, user, *args, **kwargs):
+        try:
+            balance = get_user_balance(user, self.conf[line.order]['server'])
+            if balance.access_until < int(time.time()):
+                balance.access_until = int(time.time())
+            balance.access_until = str(self.conf[line.order]['value'] + int(balance.access_until))
+            balance.save()
+            return True
+        except:
+            return False
+
+    def perm(self, user, card, *args, **kwargs):
+        try:
+            r = get_user_balance(user, card['server'])
+            if r and r.status == "ok":
+                return True
+        except:
+            pass
+        return False
+
+
 DONATE_HANDLERS = {
     'points': DonatePoints(),
     'other': DonateOther(),
+    'tickets': DonateTickets(),
 }

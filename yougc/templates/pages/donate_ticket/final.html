@@ -1,0 +1,28 @@
+{% extends 'patterns/main_page.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/invitation.css' %}">
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}?v=1">
+<div class="up-block main_block" style="padding: 10px">
+    <div id="ticket-label">
+        <span id="digit">5</span> из <span>5</span> шагов.
+    </div>
+    <div id="ticket-info">
+        <h1 style="font-size: 200%;">Зайдите в наш Discord сервер</h1>
+        <div class="discord-link-container">
+            <a href="{{ line.discord_inv }}" id="discord-link">Вступить</a>
+            <div style="display: flex;">
+                <input id="discord-link-field" type="text" value="{{ line.discord_inv }}">
+                <button id="show-discord-link-field" onclick="copyDiscordLink()">copy</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'scripts/invitation.js' %}"></script>
+{% endblock %}

@@ -8,34 +8,40 @@ from django.shortcuts import redirect
 from django.views.generic import TemplateView
 
 from .data import *
+from .data.donate_meta import DONATE_TICKET_PRICE, PROMO
+from .data.donate_methods import render_pay_link_ticket
 from .data.meta import INSTALLER_LINK
-from .data.user_methods import send_recovery_email, send_change_email_email
-from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm, ChangeEmailForm
-from .models import Authme, EmailConfirm, KactivityQueue
+from .data.server_methods import get_server_class
+from .data.user_methods import send_recovery_email, send_change_email_email, load_or_refresh_user, \
+    change_activity_status
+from .forms import LoginForm, ChangePasswordForm, ForgetPasswordForm, RecoveryPasswordForm, ChangeEmailForm, \
+    DonateTicketForm, DonateTicketFormForm
+from .models import Authme, EmailConfirm, KactivityQueue, DonateTickets, SiteLinksDiscord
+from .service_views import confirm_ticket_donate
 
 logger = logging.getLogger(__name__)
 
 
-def custom_404(request, message='', *args, **kwargs):
+def custom_404(request, message='', test='', *args, **kwargs):
     if not message:
         message = 'страница не найдена'
-    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 404})
+    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 404, 'test': test})
     response.status_code = 404
     return response
 
 
-def custom_403(request, message='', *args, **kwargs):
+def custom_403(request, message='', test='', *args, **kwargs):
     if not message:
         message = 'Нет доступа. Возможно вы пытаетесь отправить устаревшую форму (csrf)'
-    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 403})
+    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 403, 'test': test})
     response.status_code = 403
     return response
 
 
-def custom_500(request, message='', *args, **kwargs):
+def custom_500(request, message='', test='', *args, **kwargs):
     if not message:
         message = 'Ошибка сервера. Пожалуйста, напишите администрации YouGC!'
-    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 500})
+    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 500, 'test': test})
     response.status_code = 500
     return response
 
@@ -369,10 +375,130 @@ class ServerPage(TemplateView):  # server/<str:server>
 
 
 # ----------------------------------------------------------------------------------------------------------INSTALLER---
-
-
 class InstallerPage(TemplateView):
     template_name = 'pages/installer/installer_page.html'
 
     def get(self, request, *args, **kwargs):
         return render(request, self.template_name, {'installer_link': INSTALLER_LINK})
+
+
+# ----------------------------------------------------------------------------------------------------------CASE---
+class CasePage(LoginRequiredMixin, TemplateView):
+    template_name = 'pages/case/case_page.html'
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name, {})
+
+    def post(self, request, *args, **kwargs):
+        pass
+
+
+# -------------------------------------------------------------------------------------------------------Applications---
+
+class DonateTicketPage(TemplateView):
+    template_name = 'pages/donate_ticket/donate_ticket_page.html'
+
+    def get(self, request, *args, **kwargs):
+        form = DonateTicketForm()
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, *args, **kwargs):
+        form = DonateTicketForm(request.POST)
+        if form.is_valid():
+            _email = form.cleaned_data["email_field"]
+            friend = form.cleaned_data.get("promo")
+            promo = PROMO.get(friend)
+            friend_player = get_server_class().objects.filter(name=friend).first()
+
+            line = DonateTickets(
+                email=_email,
+                price=DONATE_TICKET_PRICE
+            )
+            line.generate_uid_token()
+
+            if promo and (not promo[1] or promo[1] > time.time()):
+                line.promo = friend
+                line.price = int(line.price * promo[0])
+            elif friend_player:
+                line.friend = friend
+
+            line.save()
+
+            if line.price == 0:
+                return confirm_ticket_donate(
+                    order_id=line.id,
+                    free=True,
+
+                    request=None,
+                    m_id=0,
+                    amount=0,
+                    intid=-1,
+                    sign='',
+                    params={},
+                )
+            return redirect(render_pay_link_ticket(line, _email))
+
+        return render(request, self.template_name, {'form': form})
+
+
+class ConfirmDonateTicketPage(TemplateView):
+    template_name = 'pages/donate_ticket/donate_ticket_confirm_page.html'
+
+    def get(self, request, _uid='', _token='', *args, **kwargs):
+        line = DonateTickets.objects.only_check_uid_token(_uid, _token)
+        if line and not line.done:
+            form = DonateTicketFormForm(initial={'email_field': line.email})
+
+            response = render(request, self.template_name, {'form': form, 'step': False})
+            return response
+        if line and line.status and line.done:
+            return render(request, 'patterns/redirect.html', {'link': f"/invitation/form/{_uid}/{_token}/final"})
+        return custom_403(request, 'Некорректная ссылка')
+
+    def post(self, request, _uid='', _token='', *args, **kwargs):
+        line = DonateTickets.objects.only_check_uid_token(_uid, _token)
+        if line and not line.done:
+            form = DonateTicketFormForm(request.POST)
+            if form.is_valid():
+                _email = line.email
+                username = form.cleaned_data["username"]
+                password = form.cleaned_data["password"]
+
+                _user = Authme.objects.getuser(username)
+                if not _user:
+                    form.add_error('username', 'Неправильный ник или вы еще не заходили на сервер')
+                    return render(request, self.template_name, {'form': form, 'step': True})
+                if not Authme.objects.check_password(_user, password):
+                    form.add_error('password', 'Неправильный пароль')
+                    return render(request, self.template_name, {'form': form, 'step': True})
+                user = load_or_refresh_user(_user, _email, password)
+
+                login(request, user)
+
+                change_activity_status(user, status='Зайдите в наш дискорд сервер', access=-1)
+                line.name = username
+                line.email = _email
+                line.discord_inv = SiteLinksDiscord.objects.get_link()
+                line.done = True
+                line.save()
+
+                response = render(request, 'patterns/redirect.html',
+                                  {'link': f"/invitation/form/{_uid}/{_token}/final"})
+                set_email_req(response, False)
+                return response
+            return render(request, self.template_name, {'form': form, 'step': True})
+        if line and line.done:
+            return render(request, 'patterns/redirect.html', {'link': f"/invitation/form/{_uid}/{_token}/final"})
+        return custom_403(request, 'Некорректная ссылка')
+
+
+class FinalDonateTicketPage(LoginRequiredMixin, TemplateView):
+    template_name = 'pages/donate_ticket/final.html'
+
+    def get(self, request, _uid='', _token='', *args, **kwargs):
+        line = DonateTickets.objects.only_check_uid_token(_uid, _token)
+        if line and line.done and line.status:
+            return render(request, self.template_name, {'line': line})
+        elif line.status:
+            return redirect(f"/invitation/form/{_uid}/{_token}")
+        return custom_403(request, 'Некорректная ссылка')
