@@ -1,7 +1,7 @@
 import time
 from datetime import datetime
 
-from .meta import SERVER_STATUS, SERVERS_TEXT
+from .meta import SERVER_STATUS, SERVERS_TEXT, PUBLISH_SERVERS
 from ..models import (KonlineOnline, KonlineList, MODELS_SERVERS_LIST)
 
 
@@ -49,9 +49,9 @@ def get_servers_info():
     return servers
 
 
-def get_server(server):
+def get_server(server, only_published=False):
     _server = KonlineOnline.objects.filter(server=server).first()
-    if _server:
+    if _server and (not only_published or _server.server in PUBLISH_SERVERS):
         return Server(_server)
     return None
 
@@ -60,8 +60,9 @@ def get_server_class(server_name='roleplay'):
     return MODELS_SERVERS_LIST[server_name]
 
 
-def get_server_list(current):
-    servers = [Server(obj, current) for obj in KonlineOnline.objects.all()]
+def get_server_list(current, only_published=False):
+    servers = [Server(obj, current) for obj in KonlineOnline.objects.all() if
+               not only_published or obj.server in PUBLISH_SERVERS]
     return servers
 
 

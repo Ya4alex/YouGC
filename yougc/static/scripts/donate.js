@@ -15,6 +15,7 @@ jQuery(function(e) {
 $(document).ready(function() {
     $('#points').hScroll(35);
     $('#other').hScroll(35);
+    $('.nav').css("border-radius", "5px");
     // You can pass (optionally) scrolling amount
 });
 

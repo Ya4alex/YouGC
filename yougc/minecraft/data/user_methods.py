@@ -28,23 +28,23 @@ def refresh_user(user: User, email='', password=''):
     return user
 
 
-def load_user(user: Authme, email, password):
+def load_user(user: Authme, email, password, is_active=False):
     new_user = User.objects.create_user(
         username=user.realname,
         email=email,
         password=password,
-        is_active=False
+        is_active=is_active
     )
     new_user.save()
     return new_user
 
 
 def load_or_refresh_user(user: Authme, email, password):
-    # return load_user(user, email, password)
-
-    user_d = User.objects.get_by_natural_key(user.username)
-    if user:
+    try:
+        user_d = User.objects.get_by_natural_key(user.username)
         return refresh_user(user_d, email, password)
+    except:
+        return load_user(user, email, password, is_active=True)
 
 
 def user_send_points_public(username, balance, gotbalance, server='roleplay', action='благословение свыше'):

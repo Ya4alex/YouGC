@@ -111,3 +111,5 @@ NOTIFICATION_CLASSES = {
 }
 
 INSTALLER_LINK = 'https://minecraft.yougc.ru/download/installer/YouGC_Installer.jar'
+
+PUBLISH_SERVERS = {'roleplay', 'lobby'}

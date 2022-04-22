@@ -23,7 +23,7 @@ class SlideShow:
     def load(self, slide_show_name):
         _conf = SLIDE_SHOW_DATA.get(slide_show_name)
         if not _conf:
-            raise ValueError("Необходимо добавть описание слайдов в data.meta.SLIDE_SHOW_DATA")
+            raise ValueError("Необходимо добавить описание слайдов в data.meta.SLIDE_SHOW_DATA")
         self.clear()
         self.dirname = slide_show_name.strip('/')
         for slide in _conf:
@@ -63,11 +63,11 @@ def get_sort_list(sort):
             self.selected = 'selected' if selected else ''
 
     _list = {
-        'popular': 'сначла популярные',
+        'popular': 'сначала популярные',
         'price-reverse': 'сначала дорогие',
         'price': 'сначала дешёвые',
-        'alphabet': 'по алфафиту(а - я)',
-        'alphabet-reverse': 'по алфафиту(я - а)',
+        'alphabet': 'по алфавиту(а - я)',
+        'alphabet-reverse': 'по алфавиту(я - а)',
     }
     ret = []
     for tag, name in _list.items():

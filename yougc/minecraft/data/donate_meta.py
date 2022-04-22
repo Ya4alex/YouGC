@@ -86,6 +86,17 @@ DONATE_CONFIGURATION = {  # для изменения конфигурации, 
             },
 
         ],
+    'unban':  # value (время продления проходки) указывается в unix
+        [
+            {
+                'title': 'Разбан',
+                'place_id': 1,
+                'status': True,
+                'price': 250,
+                'value': '',
+                'server': 'roleplay'
+            },
+        ],
 }
 _not_send = ['other']
 DONATE_CONFIGURATION_PUBLIC = {}
@@ -104,5 +115,5 @@ PROMO = {
     'арбуз': (0.85, 1654279788),
     'SosAlex': (0, 0),
 }
-DONATE_TICKET_PRICE = 99
+DONATE_TICKET_PRICE = 50
 DONATE_TICKET_BONUS = 100

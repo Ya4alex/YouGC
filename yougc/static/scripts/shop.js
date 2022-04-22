@@ -10,7 +10,7 @@ function render_catalog() {
     $('.shop-item').width(car_w);
 }
 
-$('.nav').css("border-radius", "5px");
+$('.nav').css("border-radius", "5px 5px 0 0");
 
 var all_info = [];
 

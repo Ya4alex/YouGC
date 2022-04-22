@@ -135,8 +135,34 @@ class DonateTickets:
         return False
 
 
+class DonateUnban:
+    conf = DONATE_CONFIGURATION['unban']
+
+    def execute(self, line, user, *args, **kwargs):
+        try:
+            balance = get_user_balance(user, self.conf[line.order]['server'])
+            if balance.status == 'permanently_banned':
+                return True
+            balance.status = 'ok'
+            balance.access_until = -1
+            balance.save()
+            return True
+        except:
+            return False
+
+    def perm(self, user, card, *args, **kwargs):
+        try:
+            r = get_user_balance(user, card['server'])
+            if r and r.status != "ok":
+                return 'Вы не забанены, пока что =)'
+        except:
+            pass
+        return False
+
+
 DONATE_HANDLERS = {
     'points': DonatePoints(),
     'other': DonateOther(),
     'tickets': DonateTickets(),
+    'unban': DonateUnban(),
 }

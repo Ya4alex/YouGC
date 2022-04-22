@@ -1,1190 +1,714 @@
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Not Found: /ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 404 6713
-Not Found: /ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 404 6713
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 304 0
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 7548
-"GET /static/css/invitation.css HTTP/1.1" 304 0
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1258
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5476
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\urls.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\urls.py changed, reloading.
-Watching for file changes with StatReloader
-Internal Server Error: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-Traceback (most recent call last):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
-    response = get_response(request)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 501, in get
-    response = render(request, self.template_name, {'form': form, 'step': False})
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\my_render.py", line 15, in render
-    response = django_render(request, template, context, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
-    for origin in self.get_template_sources(template_name):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
-    name = safe_join(template_dir, template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\utils\_os.py", line 17, in safe_join
-    final_path = abspath(join(base, *paths))
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\ntpath.py", line 117, in join
-    genericpath._check_arg_types('join', path, *paths)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\genericpath.py", line 152, in _check_arg_types
-    raise TypeError(f'{funcname}() argument must be str, bytes, or '
-TypeError: join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 500 141642
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Internal Server Error: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-Traceback (most recent call last):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
-    response = get_response(request)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 500, in get
-    return render(request, self.template_name, {'line': line})
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\my_render.py", line 15, in render
-    response = django_render(request, template, context, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
-    for origin in self.get_template_sources(template_name):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
-    name = safe_join(template_dir, template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\utils\_os.py", line 17, in safe_join
-    final_path = abspath(join(base, *paths))
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\ntpath.py", line 117, in join
-    genericpath._check_arg_types('join', path, *paths)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\genericpath.py", line 152, in _check_arg_types
-    raise TypeError(f'{funcname}() argument must be str, bytes, or '
-TypeError: join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 500 141005
-Internal Server Error: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-Traceback (most recent call last):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
-    response = get_response(request)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
-    return super().dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 500, in get
-    return render(request, self.template_name, {'line': line})
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\my_render.py", line 15, in render
-    response = django_render(request, template, context, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\shortcuts.py", line 19, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
-    return Template(self.engine.get_template(template_name), self)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
-    template, origin = self.find_template(template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
-    template = loader.get_template(name, skip=skip)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
-    for origin in self.get_template_sources(template_name):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
-    name = safe_join(template_dir, template_name)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\utils\_os.py", line 17, in safe_join
-    final_path = abspath(join(base, *paths))
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\ntpath.py", line 117, in join
-    genericpath._check_arg_types('join', path, *paths)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\genericpath.py", line 152, in _check_arg_types
-    raise TypeError(f'{funcname}() argument must be str, bytes, or '
-TypeError: join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 500 141005
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6455
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 7548
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1258
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6479
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6388
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6388
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6388
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6388
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 302 0
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 7548
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1320
-Forbidden (CSRF token missing or incorrect.): /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 2561
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 7548
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1334
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\models.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 304 0
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5476
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5476
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5475
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Internal Server Error: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-Traceback (most recent call last):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
-    response = get_response(request)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 456, in get
-    return custom_403(request, 'Некорректная ссылка', test=str(line, line.status, line.done, ))
-TypeError: str() argument 2 must be str, not int
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 500 84715
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5530
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 5533
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1332
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6388
-"GET /static/css/invitation.css HTTP/1.1" 304 0
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 302 0
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 7548
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Internal Server Error: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-Traceback (most recent call last):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
-    response = get_response(request)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 482, in post
-    raise line.link
-TypeError: exceptions must derive from BaseException
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 500 86713
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-Forbidden (CSRF token missing or incorrect.): /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 403 2561
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 7180
-Internal Server Error: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-Traceback (most recent call last):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
-    response = get_response(request)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 482, in post
-    raise ValueError(line.link)
-ValueError: https://discord.gg/fpu6PXYW
-- Broken pipe from ('127.0.0.1', 61674)
-
-Internal Server Error: /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw
-Traceback (most recent call last):
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
-    response = get_response(request)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
-    return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 482, in post
-    raise ValueError(line.link)
-ValueError: https://discord.gg/ZnYPdSq4
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 500 86468
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 7180
-"POST /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1332
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6388
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6089
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 304 0
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6089
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6013
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6089
-"GET /static/css/invitation.css HTTP/1.1" 200 3203
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6038
-"GET /static/css/invitation.css HTTP/1.1" 304 0
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6038
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6089
-"GET /static/css/invitation.css HTTP/1.1" 304 0
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6038
-"GET /static/css/invitation.css HTTP/1.1" 200 3203
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6083
-"GET /static/css/invitation.css HTTP/1.1" 200 3318
-"GET / HTTP/1.1" 200 14319
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3355
-"GET /logout HTTP/1.1" 302 0
-"GET / HTTP/1.1" 200 15372
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 304 0
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 304 0
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 302 0
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6352
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6352
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6352
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6352
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20422
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20422
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20409
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20425
+"GET /login HTTP/1.1" 200 6360
+"GET /static/css/login.css?v=1 HTTP/1.1" 304 0
 "POST /login HTTP/1.1" 302 0
 "GET / HTTP/1.1" 200 14504
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 304 0
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20875
 "GET /logout HTTP/1.1" 302 0
 "GET / HTTP/1.1" 200 15372
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1332
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 302 0
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6352
+"GET /login HTTP/1.1" 200 6360
 "POST /login HTTP/1.1" 302 0
 "GET / HTTP/1.1" 200 14504
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 304 0
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6720
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6720
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6720
-"GET /login?next=/invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6720
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw HTTP/1.1" 200 1332
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6083
-"GET /static/css/invitation.css HTTP/1.1" 200 3912
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6083
-"GET /static/css/invitation.css HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /invitation/form/ba161d31f7ce4047bbc8bd167a4e1dbb/XLw0BuU1zSMvZuVnAHuSVKvybgIX_sB6msJsy7SX1Vw/final HTTP/1.1" 200 6083
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 200 12088
-"GET /static/css/invitation.css HTTP/1.1" 200 3912
-"GET /static/css/login.css HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
 "GET /logout HTTP/1.1" 302 0
 "GET / HTTP/1.1" 200 15372
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 304 0
-"GET /invitation/buy HTTP/1.1" 200 6451
-"GET /static/css/invitation.css HTTP/1.1" 304 0
-"POST /invitation/buy HTTP/1.1" 200 38
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 6500
-"GET /invitation/form/9182b43049e241d68f931a059ac85f91/aqAon3SjD6UWGN80CFgkMuw1hBaS2Vs_hWIFznK-wU4 HTTP/1.1" 200 7180
-"GET /static/css/invitation.css HTTP/1.1" 304 0
-"POST /invitation/form/9182b43049e241d68f931a059ac85f91/aqAon3SjD6UWGN80CFgkMuw1hBaS2Vs_hWIFznK-wU4 HTTP/1.1" 200 1332
-"GET /invitation/form/9182b43049e241d68f931a059ac85f91/aqAon3SjD6UWGN80CFgkMuw1hBaS2Vs_hWIFznK-wU4/final HTTP/1.1" 200 6106
-"GET / HTTP/1.1" 200 14319
-"GET /static/css/style.css?v=2.1 HTTP/1.1" 304 0
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 14319
-"GET /static/scripts/invitation.js HTTP/1.1" 304 0
-"GET /donate/roleplay HTTP/1.1" 200 11296
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/donate.css?v=1 HTTP/1.1" 200 4358
-"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2859
-"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
-"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
-"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
-"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
-"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
-"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
-"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
-"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
-"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
-"GET /donate/roleplay HTTP/1.1" 200 11296
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /donate/roleplay HTTP/1.1" 200 11296
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/donate.css?v=1 HTTP/1.1" 200 4358
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2859
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
-"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
-"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
-"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
-"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
-"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
-"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
-"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
-"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /donate/roleplay HTTP/1.1" 200 11296
-"GET /static/css/donate.css?v=1 HTTP/1.1" 200 4358
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/scripts/panorama.js?v=1 HTTP/1.1" 200 158
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2859
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/mobile.js HTTP/1.1" 200 453
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
-"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
-"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
-"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
-"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
-"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
-"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
-"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
-"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-C:\Users\89663\Documents\GitHub\YouGC\venv\Lib\site-packages\django\apps\registry.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\venv\Lib\site-packages\django\db\models\functions\math.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\user_methods.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\meta.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 12870
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET / HTTP/1.1" 200 14323
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 304 0
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /logout HTTP/1.1" 302 0
-"GET / HTTP/1.1" 200 15376
-"GET / HTTP/1.1" 200 15216
-"GET /static/css/list_table.css HTTP/1.1" 200 454
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server_status.css HTTP/1.1" 200 173
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /login HTTP/1.1" 200 6360
+"POST /login HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 14504
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20879
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20930
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20930
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4894
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
 "GET /static/scripts/slide_show.js HTTP/1.1" 200 908
 "GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/crop.js HTTP/1.1" 200 546
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/scripts/vk.js HTTP/1.1" 200 201
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 200 326336
-"GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 200 245606
-"GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 200 857392
-"GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 200 545699
-"GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 200 455630
 "GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 900
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 125800
 "GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /invitation/buy HTTP/1.1" 200 6463
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /invitation/buy HTTP/1.1" 200 6463
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
+"GET /static/img/shop/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20930
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4894
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
 "GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 900
 "GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
 "GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/css/notif.css HTTP/1.1" 200 1020
 "GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
 "GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
 "GET /static/img/logo.png HTTP/1.1" 200 120599
-Internal Server Error: /invitation/buy
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
+"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 125800
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/shop/wings_light.png HTTP/1.1" 200 211088
+"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 205128
+"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 197752
+"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 307615
+"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 131815
+"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 182558
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20930
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 304 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20930
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 304 0
+"GET /donate/roleplay HTTP/1.1" 200 12092
+"GET /static/css/server.css HTTP/1.1" 304 0
+"GET /static/css/donate.css?v=2 HTTP/1.1" 304 0
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 304 0
+"GET /static/img/donate/points.jpg HTTP/1.1" 304 0
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/unban.png HTTP/1.1" 304 0
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 304 0
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 304 0
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 304 0
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 304 0
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 304 0
+"GET /servers/roleplay HTTP/1.1" 200 9630
+"GET /static/scripts/crop.js?v=1 HTTP/1.1" 200 561
+"GET /static/scripts/server.js?v=2 HTTP/1.1" 200 1462
+"GET /static/img/slide_show/roleplay/1.jpg HTTP/1.1" 200 439143
+"GET /static/img/slide_show/roleplay/2.jpg HTTP/1.1" 200 526270
+"GET /service/get_server_online?server=roleplay&random=0.6953132865285503 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.5435811340487884 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.581017694242524 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.021669399971177894 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.5875051055759852 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.3562222462418594 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.7723071616534809 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.9290371478157486 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.25373070341611137 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.8968266587310589 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.17821866692611255 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.7673832236224425 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.2704747527916891 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.27543279891765216 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.7615358537497385 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.06373185857632646 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.8154079923884152 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.6957775889608622 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.6131558410544953 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.8325337151932766 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.6737285729877207 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.5358825849656437 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.5976247478595116 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.10310710022034364 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.12851162370992153 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.8367570548847549 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.1500423926531793 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.16430113945401037 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.3998520868958406 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.23168640914989935 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.7834091883248075 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.22556564700175485 HTTP/1.1" 200 51
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\meta.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /service/get_server_online?server=roleplay&random=0.409353384503534 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.8374969452886847 HTTP/1.1" 200 51
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /service/get_server_online?server=roleplay&random=0.28701746083418933 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.49163042137837865 HTTP/1.1" 200 51
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /servers/roleplay
 Traceback (most recent call last):
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
     response = get_response(request)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
     return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
     return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 411, in post
-    friend_player = get_server_class().objects.filter(name=friend).first()
-TypeError: get_server_class() missing 1 required positional argument: 'server_name'
-"POST /invitation/buy HTTP/1.1" 500 84136
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 375, in get
+    'servers': get_server_list(server, only_published=True)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 64, in get_server_list
+    servers = [Server(obj, current) for obj in KonlineOnline.objects.all() if
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 65, in <listcomp>
+    not only_published or obj.name in PUBLISH_SERVERS]
+AttributeError: 'KonlineOnline' object has no attribute 'name'
+"GET /servers/roleplay HTTP/1.1" 500 91382
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 6500
 C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py changed, reloading.
 Watching for file changes with StatReloader
-"POST /invitation/buy HTTP/1.1" 200 38
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 200 7192
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 304 0
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 304 0
-"GET /static/css/login.css?v=1 HTTP/1.1" 304 0
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 304 0
-"GET /static/scripts/invitation.js HTTP/1.1" 304 0
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 304 0
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 200 7192
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 200 7192
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 200 7192
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 200 7192
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-Internal Server Error: /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg
+"GET /servers/roleplay HTTP/1.1" 200 9510
+"GET /service/get_server_online?server=roleplay&random=0.8705432730796321 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.1905586501231329 HTTP/1.1" 200 51
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\meta.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /service/get_server_online?server=roleplay&random=0.6012824140458177 HTTP/1.1" 200 51
+"GET /servers/roleplay HTTP/1.1" 200 9630
+"GET /service/get_server_online?server=roleplay&random=0.8851814518463235 HTTP/1.1" 200 51
+Internal Server Error: /servers/creative
 Traceback (most recent call last):
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
     response = get_response(request)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
     return self.dispatch(request, *args, **kwargs)
-  File "C:\Users\89663\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
     return handler(request, *args, **kwargs)
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 481, in post
-    line.discord_inv = SiteLinksDiscord.objects.get_link()
-  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\models.py", line 431, in get_link
-    link = obj.link
-AttributeError: 'NoneType' object has no attribute 'link'
-"POST /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 500 90442
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 6500
-Forbidden (CSRF token missing or incorrect.): /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg
-"POST /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 403 2561
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 200 7192
-"POST /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg HTTP/1.1" 200 1332
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg/final HTTP/1.1" 200 6072
-"GET /static/css/invitation.css HTTP/1.1" 200 3912
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg/final HTTP/1.1" 200 6072
-"GET /static/css/invitation.css HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg/final HTTP/1.1" 200 6072
-"GET /static/css/invitation.css HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg/final HTTP/1.1" 200 6072
-"GET /static/css/invitation.css HTTP/1.1" 200 3912
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/login.css?v=1 HTTP/1.1" 200 1194
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-Not Found: /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg/qwerty
-"GET /invitation/form/6f041b91f2384dc9a47fbe1bd2d6e5ef/Y2t91T2GXlHkYAn4uy9RoPVu44xnzF0vws0SzhGWZvg/qwerty HTTP/1.1" 404 6764
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 6500
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 371, in get
+    _server.load_extra_text()
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 40, in load_extra_text
+    self.text = self.Text(self.name)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 11, in __init__
+    _ = SERVERS_TEXT[server_name]
+KeyError: 'creative'
+"GET /servers/creative HTTP/1.1" 500 90152
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\meta.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /servers/creative
+Traceback (most recent call last):
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 371, in get
+    _server.load_extra_text()
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 40, in load_extra_text
+    self.text = self.Text(self.name)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 11, in __init__
+    _ = SERVERS_TEXT[server_name]
+KeyError: 'creative'
+"GET /servers/creative HTTP/1.1" 500 90289
+Internal Server Error: /servers/creative
+Traceback (most recent call last):
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\views.py", line 371, in get
+    _server.load_extra_text()
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 40, in load_extra_text
+    self.text = self.Text(self.name)
+  File "C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py", line 11, in __init__
+    _ = SERVERS_TEXT[server_name]
+KeyError: 'creative'
+"GET /servers/creative HTTP/1.1" 500 90289
+"GET /service/get_server_online?server=roleplay&random=0.6139797219219423 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.6929954505875271 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.5773237643562315 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.08354702207745546 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.2565806838814366 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.764213870948401 HTTP/1.1" 200 23
+"GET /service/get_server_online?server=roleplay&random=0.43579136469000646 HTTP/1.1" 200 23
+C:\Users\89663\Documents\GitHub\YouGC\yougc\minecraft\data\server_methods.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /service/get_server_online?server=roleplay&random=0.05234642388908872 HTTP/1.1" 200 23
+"GET /service/get_server_online?server=roleplay&random=0.0024958994959507486 HTTP/1.1" 200 23
+Not Found: /servers/creative
+"GET /servers/creative HTTP/1.1" 404 5586
+Not Found: /servers/creative
+"GET /servers/creative HTTP/1.1" 404 5586
+"GET /service/get_server_online?server=roleplay&random=0.1482450804958515 HTTP/1.1" 200 23
+"GET /servers/roleplay HTTP/1.1" 200 9510
+"GET /service/get_server_online?server=roleplay&random=0.2818813287542128 HTTP/1.1" 200 23
+"GET /service/get_server_online?server=roleplay&random=0.49548838407296736 HTTP/1.1" 200 23
+"GET /service/get_server_online?server=roleplay&random=0.17698849539380745 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.5374383749493452 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.2804853781547083 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.34391684379605447 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.7150171589098469 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.7785015293814403 HTTP/1.1" 200 51
+"GET /servers/roleplay HTTP/1.1" 200 9334
+"GET /service/get_server_online?server=roleplay&random=0.8357415677469198 HTTP/1.1" 200 51
+"GET /service/get_server_online?server=roleplay&random=0.571510719213906 HTTP/1.1" 200 51
+"GET /installer HTTP/1.1" 200 7947
+"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
 "GET /shop HTTP/1.1" 302 0
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4647
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_light.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 0
-"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 892
-"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 0
-"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
-"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4647
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
-"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 892
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 0
-"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_light.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20754
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 14143
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 304 0
+"GET /donate/roleplay HTTP/1.1" 200 11916
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /donate/roleplay HTTP/1.1" 200 11916
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET / HTTP/1.1" 200 14143
 "GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4647
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15036
+"GET /static/css/list_table.css HTTP/1.1" 304 0
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/server_status.css HTTP/1.1" 200 173
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 200 4034
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
+"GET /static/css/notif.css HTTP/1.1" 304 0
+"GET /static/scripts/invitation.js HTTP/1.1" 304 0
+"GET /static/scripts/crop.js HTTP/1.1" 304 0
 "GET /static/scripts/slide_show.js HTTP/1.1" 200 908
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
 "GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 892
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 0
-"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
-"GET /static/img/shop/wings_light.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 0
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4647
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
-"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
 "GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 892
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 0
-"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_light.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 0
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4647
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
-"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 892
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_light.png HTTP/1.1" 200 0
-"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 0
-"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 0
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 6500
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 304 0
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 304 0
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 304 0
+"GET /static/scripts/notif.js HTTP/1.1" 304 0
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 304 0
+"GET /static/scripts/vk.js HTTP/1.1" 304 0
+"GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 304 0
+"GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 304 0
+"GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 304 0
+"GET /static/img/logo.png HTTP/1.1" 304 0
+"GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 304 0
+"GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 304 0
+"GET /static/img/background.png HTTP/1.1" 304 0
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 304 0
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20300
 "GET /static/css/shop.css?v=5 HTTP/1.1" 304 0
-"GET /static/img/shop/wings_light.png HTTP/1.1" 304 0
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 304 0
+"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 304 0
 "GET /static/img/shop/wings_mechanized.png HTTP/1.1" 304 0
 "GET /static/img/shop/wings_angel.png HTTP/1.1" 304 0
+"GET /static/img/shop/wings_demon.png HTTP/1.1" 304 0
+"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 304 0
+"GET /static/img/shop/wings_light.png HTTP/1.1" 304 0
 "GET /static/img/shop/wings_butterfly.png HTTP/1.1" 304 0
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 304 0
 "GET /static/img/shop/wings_fly.png HTTP/1.1" 304 0
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4647
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 892
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 125800
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/shop/wings_light.png HTTP/1.1" 200 211088
-"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 205128
-"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 197752
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 131815
-"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 307615
-"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 182558
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4647
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 892
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/img/slide_show/shop_elytras/1.jpg HTTP/1.1" 200 115500
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/img/shop/wings_demon.png HTTP/1.1" 200 125800
-"GET /static/img/shop/wings_mechanized.png HTTP/1.1" 200 205128
-"GET /static/img/shop/wings_light.png HTTP/1.1" 200 211088
-"GET /static/img/shop/wings_angel.png HTTP/1.1" 200 197752
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 200 131815
-"GET /static/img/shop/wings_butterfly.png HTTP/1.1" 200 307615
-"GET /static/img/shop/wings_fly.png HTTP/1.1" 200 182558
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /shop/roleplay/weapons HTTP/1.1" 200 31383
-"GET /static/img/shop/meumur.png HTTP/1.1" 200 4777
-"GET /static/img/shop/whirlwind_ax.png HTTP/1.1" 200 6640
-"GET /static/img/shop/magic_bow.png HTTP/1.1" 200 21327
-"GET /static/img/shop/blade_1000_souls.png HTTP/1.1" 200 69017
-"GET /static/img/shop/ax_of_god_of_war.png HTTP/1.1" 200 155495
-"GET /static/img/shop/hand_of_flesh.png HTTP/1.1" 200 27461
-"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
-"GET /static/img/shop/zenith.png HTTP/1.1" 200 5107
-"GET /static/img/shop/ax_of_immortal.png HTTP/1.1" 200 158323
-"GET /static/img/shop/star_wrath.png HTTP/1.1" 200 4961
-"GET /static/img/shop/assassins_crossbow.png HTTP/1.1" 200 3049
-"GET /static/img/shop/terra_blade.png HTTP/1.1" 200 5753
-"GET /static/img/shop/cyber_blade.png HTTP/1.1" 200 19923
-"GET /static/img/shop/assassins_blade.png HTTP/1.1" 200 3057
-"GET /shop/roleplay/pickaxes HTTP/1.1" 200 15729
+"GET /static/img/shop/wings_gargoyle.png HTTP/1.1" 304 0
+"GET /donate/roleplay HTTP/1.1" 200 11581
+"GET /static/css/donate.css?v=2 HTTP/1.1" 304 0
+"GET /static/css/server.css HTTP/1.1" 304 0
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 304 0
+"GET /static/img/donate/points.jpg HTTP/1.1" 304 0
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 304 0
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 304 0
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 304 0
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 304 0
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 304 0
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 304 0
+"GET /shop HTTP/1.1" 302 0
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 15181
+"GET /static/img/shop/whirlwind_pick.png HTTP/1.1" 200 3319
 "GET /static/img/shop/solar_flare_pickaxe.png HTTP/1.1" 200 3580
 "GET /static/img/shop/nebula_pickaxe.png HTTP/1.1" 200 7229
-"GET /static/img/shop/whirlwind_pick.png HTTP/1.1" 200 3319
 "GET /static/img/shop/stardust_pickaxe.png HTTP/1.1" 200 3715
 "GET /static/img/slide_show/shop_pickaxes/1.jpg?v=1 HTTP/1.1" 200 323161
-"GET /shop/lobby HTTP/1.1" 302 0
-Not Found: /shop/lobby/elytras
-"GET /shop/lobby/elytras HTTP/1.1" 404 5596
-"GET /static/css/login.css?v=1 HTTP/1.1" 304 0
-"GET /donate/roleplay HTTP/1.1" 200 11300
-"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4358
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /donate/roleplay HTTP/1.1" 200 11300
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4358
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2859
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
-"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
-"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
-"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
-"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
-"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
-"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
-"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
-"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /donate/roleplay HTTP/1.1" 200 11300
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4358
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2859
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
-"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
-"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
-"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
-"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
-"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
-"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
-"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
-"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /donate/roleplay HTTP/1.1" 200 11300
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4358
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2859
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
-"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
-"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
-"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
-"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
-"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
-"GET /service/get_donate_configuration HTTP/1.1" 200 794
-"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
-"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
-"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
-"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /servers/roleplay HTTP/1.1" 200 9630
-"GET /static/scripts/crop.js?v=1 HTTP/1.1" 200 546
-"GET /static/img/slide_show/roleplay/2.jpg HTTP/1.1" 200 526270
-"GET /static/img/slide_show/roleplay/1.jpg HTTP/1.1" 200 439143
-"GET /static/scripts/server.js?v=2 HTTP/1.1" 200 1409
-"GET /service/get_server_online?server=roleplay&random=0.7629203456036742 HTTP/1.1" 200 28
-"GET /servers/roleplay HTTP/1.1" 200 9630
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/list_table.css HTTP/1.1" 200 454
-"GET /static/css/server_status.css HTTP/1.1" 200 173
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
-"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 15181
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4894
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
 "GET /static/scripts/slide_show.js HTTP/1.1" 200 908
 "GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
 "GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 900
 "GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/crop.js?v=1 HTTP/1.1" 200 546
 "GET /static/scripts/notif.js HTTP/1.1" 200 3821
 "GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/scripts/server.js?v=2 HTTP/1.1" 200 1409
+"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
 "GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/slide_show/roleplay/1.jpg HTTP/1.1" 200 439143
-"GET /static/img/slide_show/roleplay/2.jpg HTTP/1.1" 200 526270
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /service/get_server_online?server=roleplay&random=0.16562240423893337 HTTP/1.1" 200 28
-"GET /servers/roleplay HTTP/1.1" 200 9630
-"GET /static/css/list_table.css HTTP/1.1" 200 454
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/server_status.css HTTP/1.1" 200 173
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
+"GET /static/img/slide_show/shop_pickaxes/1.jpg?v=1 HTTP/1.1" 200 323161
+"GET /static/img/shop/nebula_pickaxe.png HTTP/1.1" 200 7229
+"GET /static/img/shop/whirlwind_pick.png HTTP/1.1" 200 3319
+"GET /static/img/shop/solar_flare_pickaxe.png HTTP/1.1" 200 3580
+"GET /static/img/shop/stardust_pickaxe.png HTTP/1.1" 200 3715
 "GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /shop/roleplay/pickaxes HTTP/1.1" 200 15181
+"GET /static/css/shop.css?v=5 HTTP/1.1" 200 4894
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
 "GET /static/scripts/slide_show.js HTTP/1.1" 200 908
 "GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/server.js?v=2 HTTP/1.1" 200 1409
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
 "GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/crop.js?v=1 HTTP/1.1" 200 546
+"GET /static/scripts/shop.js?v=2 HTTP/1.1" 200 900
+"GET /static/css/notif.css HTTP/1.1" 200 1020
 "GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/scripts/shop_mobile.js?v=3 HTTP/1.1" 200 1041
 "GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/shop_pickaxes/1.jpg?v=1 HTTP/1.1" 200 323161
+"GET /static/img/shop/nebula_pickaxe.png HTTP/1.1" 200 7229
+"GET /static/img/shop/whirlwind_pick.png HTTP/1.1" 200 3319
+"GET /static/img/shop/solar_flare_pickaxe.png HTTP/1.1" 200 3580
+"GET /static/img/shop/stardust_pickaxe.png HTTP/1.1" 200 3715
+"GET /static/img/background.png HTTP/1.1" 200 987181
 "GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/slide_show/roleplay/1.jpg HTTP/1.1" 200 439143
-"GET /static/img/slide_show/roleplay/2.jpg HTTP/1.1" 200 526270
 "GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /service/get_server_online?server=roleplay&random=0.7548370610458401 HTTP/1.1" 200 28
-"GET /installer HTTP/1.1" 200 8123
-"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
-"GET /installer HTTP/1.1" 200 8123
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
+"GET /shop/roleplay/weapons HTTP/1.1" 200 30835
+"GET /static/img/slide_show/shop_weapons/1.jpg?v=1 HTTP/1.1" 200 863120
+"GET /static/img/shop/meumur.png HTTP/1.1" 200 4777
+"GET /static/img/shop/blade_1000_souls.png HTTP/1.1" 200 69017
+"GET /static/img/shop/magic_bow.png HTTP/1.1" 200 21327
+"GET /static/img/shop/ax_of_god_of_war.png HTTP/1.1" 200 155495
+"GET /static/img/shop/zenith.png HTTP/1.1" 200 5107
+"GET /static/img/shop/whirlwind_ax.png HTTP/1.1" 200 6640
+"GET /static/img/shop/hand_of_flesh.png HTTP/1.1" 200 27461
+"GET /static/img/shop/assassins_crossbow.png HTTP/1.1" 200 3049
+"GET /static/img/shop/star_wrath.png HTTP/1.1" 200 4961
+"GET /static/img/shop/ax_of_immortal.png HTTP/1.1" 200 158323
+"GET /static/img/shop/cyber_blade.png HTTP/1.1" 200 19923
+"GET /static/img/shop/assassins_blade.png HTTP/1.1" 200 3057
+"GET /static/img/shop/terra_blade.png HTTP/1.1" 200 5753
+"GET / HTTP/1.1" 200 15036
+"GET /donate/roleplay HTTP/1.1" 200 11581
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /donate/roleplay HTTP/1.1" 200 11547
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /donate/roleplay HTTP/1.1" 200 11547
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4582
 "GET /static/css/server.css HTTP/1.1" 200 2663
 "GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/img/background.png HTTP/1.1" 200 987181
 "GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2904
 "GET /static/css/notif.css HTTP/1.1" 200 1020
 "GET /static/scripts/notif.js HTTP/1.1" 200 3821
 "GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
 "GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /installer HTTP/1.1" 200 8123
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server.css HTTP/1.1" 200 2663
 "GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
 "GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /installer HTTP/1.1" 200 8123
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /installer HTTP/1.1" 200 8123
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /installer HTTP/1.1" 200 8123
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /installer HTTP/1.1" 200 8123
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server.css HTTP/1.1" 200 2663
-"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/profile.js HTTP/1.1" 200 265
-"GET /static/css/notif.css HTTP/1.1" 200 1020
-"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
-"GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
-"GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
 "GET /static/img/logo.png HTTP/1.1" 200 120599
 "GET /shop HTTP/1.1" 302 0
-"GET / HTTP/1.1" 200 14323
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 304 0
-"GET /static/scripts/invitation.js HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 14323
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12088
-"GET /static/css/server_status.css HTTP/1.1" 200 173
-"GET /static/css/invitation.css?v=1 HTTP/1.1" 200 3912
-"GET /static/css/list_table.css HTTP/1.1" 200 454
-"GET /static/css/slide_show.css HTTP/1.1" 200 1925
-"GET /static/img/background.png HTTP/1.1" 200 987181
-"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20300
+"GET /donate/roleplay HTTP/1.1" 200 11547
+"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4582
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/server.css HTTP/1.1" 200 2663
 "GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
 "GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2902
 "GET /static/css/notif.css HTTP/1.1" 200 1020
 "GET /static/scripts/notif.js HTTP/1.1" 200 3821
-"GET /static/scripts/crop.js HTTP/1.1" 200 546
-"GET /static/scripts/invitation.js HTTP/1.1" 200 2276
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 11539
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 304 0
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /donate/roleplay HTTP/1.1" 200 11565
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 304 0
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /servers/roleplay HTTP/1.1" 200 8966
+"GET /static/scripts/crop.js?v=1 HTTP/1.1" 304 0
+"GET /static/scripts/server.js?v=2 HTTP/1.1" 304 0
+"GET /static/img/slide_show/roleplay/1.jpg HTTP/1.1" 304 0
+"GET /static/img/slide_show/roleplay/2.jpg HTTP/1.1" 304 0
+"GET /service/get_server_online?server=roleplay&random=0.6106900939993078 HTTP/1.1" 200 2
+"GET /installer HTTP/1.1" 200 7579
+"GET /static/scripts/installer.js?v=1 HTTP/1.1" 200 385
+"GET /service/get_server_online?server=roleplay&random=0.3387813177800849 HTTP/1.1" 200 2
+"GET / HTTP/1.1" 200 15036
+"GET / HTTP/1.1" 200 15036
+"GET / HTTP/1.1" 200 15036
+"GET / HTTP/1.1" 200 15036
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/server_status.css HTTP/1.1" 200 173
+"GET /static/css/list_table.css HTTP/1.1" 200 454
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 200 4034
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/crop.js HTTP/1.1" 200 561
+"GET /static/scripts/invitation.js HTTP/1.1" 200 2356
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
 "GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
 "GET /static/scripts/vk.js HTTP/1.1" 200 201
 "GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 200 326336
+"GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 200 245606
+"GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 200 857392
+"GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 200 545699
+"GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 200 455630
 "GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET / HTTP/1.1" 200 15036
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 200 4034
+"GET /static/css/server_status.css HTTP/1.1" 200 173
+"GET /static/css/list_table.css HTTP/1.1" 200 454
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/crop.js HTTP/1.1" 200 561
+"GET /static/scripts/invitation.js HTTP/1.1" 200 2356
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/scripts/vk.js HTTP/1.1" 200 201
+"GET /static/img/logo.png HTTP/1.1" 200 120599
 "GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 200 245606
 "GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 200 326336
 "GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 200 545699
 "GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 200 455630
 "GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 200 857392
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET / HTTP/1.1" 200 15036
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/server_status.css HTTP/1.1" 200 173
+"GET /static/css/list_table.css HTTP/1.1" 200 454
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 200 4034
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/invitation.js HTTP/1.1" 200 2356
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/scripts/crop.js HTTP/1.1" 200 561
+"GET /static/scripts/vk.js HTTP/1.1" 200 201
 "GET /static/img/logo.png HTTP/1.1" 200 120599
-"GET / HTTP/1.1" 200 14323
-"GET / HTTP/1.1" 200 14323
+"GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 200 245606
+"GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 200 326336
+"GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 200 455630
+"GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 200 545699
+"GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 200 857392
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+Not Found: /catalog/9/
+Not Found: /catalog/9/
+- Broken pipe from ('127.0.0.1', 60117)
+
+"GET /catalog/9/ HTTP/1.1" 404 6497
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6500
+"GET / HTTP/1.1" 200 15036
+"GET /donate/roleplay HTTP/1.1" 200 11565
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 304 0
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /servers/roleplay HTTP/1.1" 200 8966
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/css/list_table.css HTTP/1.1" 200 454
+- Broken pipe from ('127.0.0.1', 61206)
+
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/crop.js?v=1 HTTP/1.1" 200 561
+"GET /static/scripts/server.js?v=2 HTTP/1.1" 200 1462
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /service/get_server_online?server=roleplay&random=0.029705480279583085 HTTP/1.1" 200 2
+"GET / HTTP/1.1" 200 15036
+"GET / HTTP/1.1" 200 15036
 "GET /shop HTTP/1.1" 302 0
-"GET /shop/roleplay/elytras HTTP/1.1" 200 20848
-"GET /static/css/style.css?v=3.1 HTTP/1.1" 304 0
-"GET /static/css/shop.css?v=5 HTTP/1.1" 304 0
+"GET /shop/roleplay/elytras HTTP/1.1" 200 20300
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15036
+"GET /static/css/server_status.css HTTP/1.1" 200 173
+"GET /static/css/list_table.css HTTP/1.1" 200 454
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/invitation.css?v=2 HTTP/1.1" 200 4034
+"GET /static/css/slide_show.css HTTP/1.1" 200 1934
+"GET /static/scripts/slide_show.js HTTP/1.1" 200 908
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/scripts/crop.js HTTP/1.1" 200 561
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/invitation.js HTTP/1.1" 200 2356
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/vk.js HTTP/1.1" 200 201
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/slide_show/main_page/1.jpg HTTP/1.1" 200 326336
+"GET /static/img/slide_show/main_page/2.jpg HTTP/1.1" 200 245606
+"GET /static/img/slide_show/main_page/5.jpg HTTP/1.1" 200 455630
+"GET /static/img/slide_show/main_page/4.jpg HTTP/1.1" 200 545699
+"GET /static/img/slide_show/main_page/3.jpg HTTP/1.1" 200 857392
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /donate/roleplay HTTP/1.1" 200 11565
+"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4582
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2902
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /donate/roleplay HTTP/1.1" 200 11565
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /donate/roleplay HTTP/1.1" 200 11532
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/unban.png HTTP/1.1" 200 54587
+"GET /donate/roleplay HTTP/1.1" 200 11532
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4582
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2902
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
+"GET /static/img/donate/unban.png HTTP/1.1" 200 54587
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 11532
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/unban.png HTTP/1.1" 200 40434
+"GET /donate/roleplay HTTP/1.1" 200 11532
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4582
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2902
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
+"GET /static/img/donate/unban.png HTTP/1.1" 200 40434
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 11532
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4582
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2902
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
+"GET /static/img/donate/unban.png HTTP/1.1" 200 40434
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /donate/roleplay HTTP/1.1" 200 11531
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /donate/roleplay HTTP/1.1" 200 11531
+"GET /static/css/donate.css?v=2 HTTP/1.1" 200 4582
+"GET /static/css/server.css HTTP/1.1" 200 2663
+"GET /static/css/style.css?v=3.1 HTTP/1.1" 200 12563
+"GET /static/scripts/panorama.js?v=2 HTTP/1.1" 200 161
+"GET /static/img/background.png HTTP/1.1" 200 987181
+"GET /static/scripts/profile.js HTTP/1.1" 200 265
+"GET /static/scripts/donate.js?v=2 HTTP/1.1" 200 2902
+"GET /static/scripts/notif.js HTTP/1.1" 200 3821
+"GET /static/css/notif.css HTTP/1.1" 200 1020
+"GET /static/scripts/mobile.js?v=3 HTTP/1.1" 200 411
+"GET /static/img/logo.png HTTP/1.1" 200 120599
+"GET /static/img/donate/color_prefix.png?v=1 HTTP/1.1" 200 126634
+"GET /static/img/donate/color_nick.png?v=1 HTTP/1.1" 200 101360
+"GET /static/img/donate/grad_nick.png?v=1 HTTP/1.1" 200 121517
+"GET /static/img/donate/points.jpg HTTP/1.1" 200 382373
+"GET /static/fonts/BellotaText-Light.ttf HTTP/1.1" 200 177800
+"GET /static/img/donate/skin.png?v=1 HTTP/1.1" 200 5475
+"GET /static/img/donate/unban.png HTTP/1.1" 200 40434
+"GET /static/img/donate/grad_prefix.png?v=1 HTTP/1.1" 200 127194
+"GET /service/get_donate_configuration HTTP/1.1" 200 945
+"GET /static/img/donate/points_coins/40.png HTTP/1.1" 200 204819
+"GET /static/img/donate/points_coins/100.png HTTP/1.1" 200 210433
+"GET /static/img/donate/points_coins/300.png HTTP/1.1" 200 213666
+"GET /static/img/donate/points_coins/1000.png HTTP/1.1" 200 214326
+"GET /static/img/logo.png HTTP/1.1" 200 120599

@@ -17,6 +17,14 @@ from .models import DonateQueue, KactivityCase, SiteApplication, DonateTickets
 logger = logging.getLogger(__name__)
 
 
+def custom_403(request, message='', test='', *args, **kwargs):
+    if not message:
+        message = 'Нет доступа. Возможно вы пытаетесь отправить устаревшую форму (csrf)'
+    response = render(request, 'patterns/404_page.html', {'message': message, 'error_code': 403, 'test': test})
+    response.status_code = 403
+    return response
+
+
 class OnlineGETJSON(TemplateView):
     template_name = 'pages/main/main_page.html'
 
@@ -44,8 +52,12 @@ class Donate(LoginRequiredMixin, TemplateView):
         if 'status' in card.keys() and not card.get('status'):
             return HttpResponse('no longer valid parameters', 403)
 
-        if not DONATE_HANDLERS[_type].perm(user, card):
-            return HttpResponse("Отказано в доступе (возможно вы еще не подали заявку). Напишите администрации.")
+        perm = DONATE_HANDLERS[_type].perm(user, card)
+        if perm is not True:
+            text = "Отказано в доступе (возможно вы еще не подали заявку). Напишите администрации."
+            if perm:
+                text = perm
+            return custom_403(request, text)
 
         line = DonateQueue(
             user=user,

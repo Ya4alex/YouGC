@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/server.css' %}">
 {%endblock%}
 {% block content %}
+<!--
 <div class="main_block server-navbar">
     <div style="display: inline-grid;">
         <ul>
@@ -15,11 +16,9 @@
             {% endfor %}
         </ul>
     </div>
-    <a href="#" class="balance">
-        {{user_balance}}
-    </a>
 </div>
-<div class="center-block main_block">
+-->
+<div class="center-block main_block" style="margin-top: 10px;">
     <div class="nav-img">
         <h1>ROLEPLAY</h1>
         <ul>
@@ -103,6 +102,19 @@
                 </div>
                 <div class="price">150₽</div>
                 <a class="buy" href="/service/donate_pay?type=other&card=4">купить</a>
+            </div>
+            <div class="card-other"
+                 style="background-image: url(/static/img/donate/unban.png); background-size: 105px; background-position-y: 20px;">
+                <button class="other-info" onclick="info('#info-window-unban')">🛈</button>
+
+                <div class="info-window" id="info-window-unban" onclick="info('#info-window-unban')">
+                    Если вас забанили, вы всегда можете растопить сердца админов и исправить недоразумение =)
+                </div>
+
+                <div class="name">
+                </div>
+                <div class="price">250₽</div>
+                <a class="buy" href="/service/donate_pay?type=unban&card=0">купить</a>
             </div>
         </div>
     </div>

@@ -46,11 +46,6 @@
             <li>{% endif %}
                 <a href="/servers/roleplay">Сервер</a>
             </li>
-            {% if request.path == '/1' %}
-            <li class="choice">{% else %}
-            <li>{% endif %}
-                <a href="#">Discord</a>
-            </li>
             {% if request.path == '/installer' %}
             <li class="choice">{% else %}
             <li>{% endif %}
@@ -100,11 +95,6 @@
             <li class="choice">{% else %}
             <li>{% endif %}
                 <a href="/servers/roleplay">Сервер</a>
-            </li>
-            {% if request.path == '/1' %}
-            <li class="choice">{% else %}
-            <li>{% endif %}
-                <a href="#">Discord</a>
             </li>
             {% if request.path == '/installer' %}
             <li class="choice">{% else %}

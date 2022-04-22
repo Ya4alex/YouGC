@@ -364,14 +364,16 @@ class ServerPage(TemplateView):  # server/<str:server>
     template_name = 'pages/server/server_page.html'
 
     def get(self, request, server='', *args, **kwargs):
-        _server = get_server(server)
+        _server = get_server(server, only_published=True)
         if not _server:
             return custom_404(request, 'У вас не получится поиграть на этом сервере, его просто нет :)')
         _server = _server.load_users()
         _server.load_extra_text()
         slide_show = SlideShow().load(server)
-        return render(request, self.template_name,
-                      {'server': _server, 'slide_show': slide_show, 'servers': get_server_list(server)})
+        return render(request, self.template_name, {
+            'server': _server, 'slide_show': slide_show,
+            'servers': get_server_list(server, only_published=True)
+        })
 
 
 # ----------------------------------------------------------------------------------------------------------INSTALLER---
